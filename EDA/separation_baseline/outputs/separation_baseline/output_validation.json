@@ -1,0 +1,11 @@
+{
+  "frame_census": 1821157,
+  "summary_keys_unique": true,
+  "player_counts_reconcile": true,
+  "weighted_player_means_reconcile": true,
+  "untargeted_route_labels_missing": true,
+  "all_input_end_distances_reconcile": true,
+  "time_offsets_reconcile": true,
+  "case_artifacts_exist": true,
+  "geometry_contract": "scripts/verify_separation_baseline.py"
+}

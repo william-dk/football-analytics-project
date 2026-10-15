@@ -1,0 +1,20 @@
+game_id,play_id,frame_id,receiver_id,player_name,player_position,player_role,player_side,x,y,is_targeted,nearest_coverage_id,nearest_coverage_position,separation_coverage_yards,n_coverage_observed,nearest_db_id,nearest_db_position,separation_db_yards,n_db_observed,input_end_frame,seconds_to_input_end,week
+2023091001,1797,1,41238,Odell Beckham,WR,Targeted Receiver,Offense,67.37,41.97,True,54468,CB,11.187515363,4,54468.0,CB,11.187515363,4,19,-1.8,1
+2023091001,1797,2,41238,Odell Beckham,WR,Targeted Receiver,Offense,67.36,41.97,True,54468,CB,11.177522087,4,54468.0,CB,11.177522087,4,19,-1.7,1
+2023091001,1797,3,41238,Odell Beckham,WR,Targeted Receiver,Offense,67.31,41.97,True,54468,CB,11.117562683,4,54468.0,CB,11.117562683,4,19,-1.6,1
+2023091001,1797,4,41238,Odell Beckham,WR,Targeted Receiver,Offense,67.22,42.0,True,54468,CB,11.029184013,4,54468.0,CB,11.029184013,4,19,-1.5,1
+2023091001,1797,5,41238,Odell Beckham,WR,Targeted Receiver,Offense,67.05,42.02,True,54468,CB,10.849755758,4,54468.0,CB,10.849755758,4,19,-1.4,1
+2023091001,1797,6,41238,Odell Beckham,WR,Targeted Receiver,Offense,66.83,42.03,True,54468,CB,10.630395101,4,54468.0,CB,10.630395101,4,19,-1.3,1
+2023091001,1797,7,41238,Odell Beckham,WR,Targeted Receiver,Offense,66.57,42.06,True,54468,CB,10.371581364,4,54468.0,CB,10.371581364,4,19,-1.2,1
+2023091001,1797,8,41238,Odell Beckham,WR,Targeted Receiver,Offense,66.16,42.09,True,54468,CB,9.953592316,4,54468.0,CB,9.953592316,4,19,-1.1,1
+2023091001,1797,9,41238,Odell Beckham,WR,Targeted Receiver,Offense,65.76,42.12,True,54468,CB,9.534741737,4,54468.0,CB,9.534741737,4,19,-1.0,1
+2023091001,1797,10,41238,Odell Beckham,WR,Targeted Receiver,Offense,65.27,42.15,True,54468,CB,9.025574774,4,54468.0,CB,9.025574774,4,19,-0.9,1
+2023091001,1797,11,41238,Odell Beckham,WR,Targeted Receiver,Offense,64.75,42.2,True,54468,CB,8.456624622,4,54468.0,CB,8.456624622,4,19,-0.8,1
+2023091001,1797,12,41238,Odell Beckham,WR,Targeted Receiver,Offense,64.19,42.28,True,54468,CB,7.838622328,4,54468.0,CB,7.838622328,4,19,-0.7,1
+2023091001,1797,13,41238,Odell Beckham,WR,Targeted Receiver,Offense,63.6,42.36,True,54468,CB,7.180334254,4,54468.0,CB,7.180334254,4,19,-0.6,1
+2023091001,1797,14,41238,Odell Beckham,WR,Targeted Receiver,Offense,62.99,42.46,True,54468,CB,6.477808271,4,54468.0,CB,6.477808271,4,19,-0.5,1
+2023091001,1797,15,41238,Odell Beckham,WR,Targeted Receiver,Offense,62.37,42.57,True,54468,CB,5.765318725,4,54468.0,CB,5.765318725,4,19,-0.4,1
+2023091001,1797,16,41238,Odell Beckham,WR,Targeted Receiver,Offense,61.75,42.7,True,54468,CB,5.020856501,4,54468.0,CB,5.020856501,4,19,-0.3,1
+2023091001,1797,17,41238,Odell Beckham,WR,Targeted Receiver,Offense,61.14,42.85,True,54468,CB,4.276189893,4,54468.0,CB,4.276189893,4,19,-0.2,1
+2023091001,1797,18,41238,Odell Beckham,WR,Targeted Receiver,Offense,60.58,43.02,True,54468,CB,3.550690074,4,54468.0,CB,3.550690074,4,19,-0.1,1
+2023091001,1797,19,41238,Odell Beckham,WR,Targeted Receiver,Offense,60.1,43.24,True,54468,CB,2.931705988,4,54468.0,CB,2.931705988,4,19,0.0,1
