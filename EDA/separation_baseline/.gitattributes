@@ -1,0 +1,2 @@
+# Preserve exact bytes so migration_manifest.json verifies on every platform.
+* -text

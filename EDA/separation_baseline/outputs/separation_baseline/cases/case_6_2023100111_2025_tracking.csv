@@ -1,0 +1,638 @@
+game_id,play_id,nfl_id,frame_id,play_direction,absolute_yardline_number,player_name,player_position,player_side,player_role,x,y
+2023100111,2025,42116,1,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,68.08,34.74
+2023100111,2025,42116,2,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,68.04,34.7
+2023100111,2025,42116,3,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,67.98,34.68
+2023100111,2025,42116,4,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,67.91,34.67
+2023100111,2025,42116,5,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,67.82,34.66
+2023100111,2025,42116,6,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,67.69,34.65
+2023100111,2025,42116,7,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,67.55,34.64
+2023100111,2025,42116,8,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,67.37,34.65
+2023100111,2025,42116,9,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,67.17,34.64
+2023100111,2025,42116,10,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,66.91,34.66
+2023100111,2025,42116,11,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,66.62,34.69
+2023100111,2025,42116,12,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,66.3,34.73
+2023100111,2025,42116,13,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,65.95,34.78
+2023100111,2025,42116,14,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,65.54,34.86
+2023100111,2025,42116,15,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,65.11,34.96
+2023100111,2025,42116,16,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,64.65,35.08
+2023100111,2025,42116,17,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,64.16,35.22
+2023100111,2025,42116,18,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,63.65,35.35
+2023100111,2025,42116,19,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,63.13,35.5
+2023100111,2025,42116,20,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,62.59,35.64
+2023100111,2025,42116,21,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,62.05,35.77
+2023100111,2025,42116,22,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,61.52,35.89
+2023100111,2025,42116,23,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,61.0,35.98
+2023100111,2025,42116,24,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,60.48,36.05
+2023100111,2025,42116,25,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,59.98,36.11
+2023100111,2025,42116,26,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,59.49,36.13
+2023100111,2025,42116,27,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,59.01,36.14
+2023100111,2025,42116,28,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,58.54,36.12
+2023100111,2025,42116,29,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,58.08,36.07
+2023100111,2025,42116,30,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,57.62,36.0
+2023100111,2025,42116,31,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,57.17,35.92
+2023100111,2025,42116,32,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,56.71,35.82
+2023100111,2025,42116,33,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,56.26,35.7
+2023100111,2025,42116,34,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,55.81,35.57
+2023100111,2025,42116,35,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,55.35,35.42
+2023100111,2025,42116,36,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,54.89,35.25
+2023100111,2025,42116,37,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,54.42,35.06
+2023100111,2025,42116,38,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,53.96,34.85
+2023100111,2025,42116,39,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,53.49,34.64
+2023100111,2025,42116,40,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,53.01,34.4
+2023100111,2025,42116,41,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,52.55,34.13
+2023100111,2025,42116,42,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,52.08,33.83
+2023100111,2025,42116,43,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,51.61,33.51
+2023100111,2025,42116,44,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,51.16,33.17
+2023100111,2025,42116,45,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,50.71,32.79
+2023100111,2025,42116,46,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,50.25,32.38
+2023100111,2025,42116,47,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,49.81,31.94
+2023100111,2025,42116,48,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,49.36,31.47
+2023100111,2025,42116,49,left,81,Adrian Phillips,FS,Defense,Defensive Coverage,48.91,30.97
+2023100111,2025,46212,1,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,75.95,32.25
+2023100111,2025,46212,2,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,75.95,32.23
+2023100111,2025,46212,3,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,75.95,32.22
+2023100111,2025,46212,4,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,75.93,32.23
+2023100111,2025,46212,5,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,75.9,32.24
+2023100111,2025,46212,6,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,75.85,32.26
+2023100111,2025,46212,7,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,75.77,32.29
+2023100111,2025,46212,8,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,75.67,32.33
+2023100111,2025,46212,9,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,75.54,32.37
+2023100111,2025,46212,10,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,75.38,32.42
+2023100111,2025,46212,11,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,75.19,32.49
+2023100111,2025,46212,12,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,74.97,32.57
+2023100111,2025,46212,13,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,74.73,32.66
+2023100111,2025,46212,14,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,74.46,32.71
+2023100111,2025,46212,15,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,74.17,32.77
+2023100111,2025,46212,16,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,73.87,32.83
+2023100111,2025,46212,17,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,73.56,32.87
+2023100111,2025,46212,18,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,73.25,32.88
+2023100111,2025,46212,19,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,72.95,32.86
+2023100111,2025,46212,20,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,72.67,32.78
+2023100111,2025,46212,21,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,72.42,32.66
+2023100111,2025,46212,22,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,72.2,32.47
+2023100111,2025,46212,23,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,72.0,32.24
+2023100111,2025,46212,24,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,71.83,31.96
+2023100111,2025,46212,25,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,71.7,31.64
+2023100111,2025,46212,26,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,71.59,31.3
+2023100111,2025,46212,27,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,71.5,30.91
+2023100111,2025,46212,28,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,71.44,30.51
+2023100111,2025,46212,29,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,71.38,30.07
+2023100111,2025,46212,30,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,71.36,29.62
+2023100111,2025,46212,31,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,71.36,29.13
+2023100111,2025,46212,32,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,71.38,28.62
+2023100111,2025,46212,33,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,71.41,28.09
+2023100111,2025,46212,34,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,71.46,27.55
+2023100111,2025,46212,35,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,71.52,26.99
+2023100111,2025,46212,36,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,71.6,26.41
+2023100111,2025,46212,37,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,71.69,25.82
+2023100111,2025,46212,38,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,71.78,25.21
+2023100111,2025,46212,39,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,71.87,24.58
+2023100111,2025,46212,40,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,71.96,23.93
+2023100111,2025,46212,41,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,72.04,23.28
+2023100111,2025,46212,42,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,72.13,22.6
+2023100111,2025,46212,43,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,72.2,21.91
+2023100111,2025,46212,44,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,72.28,21.21
+2023100111,2025,46212,45,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,72.36,20.51
+2023100111,2025,46212,46,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,72.44,19.8
+2023100111,2025,46212,47,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,72.52,19.09
+2023100111,2025,46212,48,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,72.6,18.37
+2023100111,2025,46212,49,left,81,Ja'Whaun Bentley,ILB,Defense,Defensive Coverage,72.69,17.64
+2023100111,2025,44837,1,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,63.93,23.92
+2023100111,2025,44837,2,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,63.84,23.88
+2023100111,2025,44837,3,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,63.75,23.82
+2023100111,2025,44837,4,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,63.64,23.75
+2023100111,2025,44837,5,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,63.52,23.66
+2023100111,2025,44837,6,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,63.38,23.56
+2023100111,2025,44837,7,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,63.2,23.43
+2023100111,2025,44837,8,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,63.0,23.27
+2023100111,2025,44837,9,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,62.77,23.09
+2023100111,2025,44837,10,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,62.53,22.89
+2023100111,2025,44837,11,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,62.24,22.67
+2023100111,2025,44837,12,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,61.95,22.42
+2023100111,2025,44837,13,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,61.62,22.16
+2023100111,2025,44837,14,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,61.28,21.86
+2023100111,2025,44837,15,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,60.92,21.55
+2023100111,2025,44837,16,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,60.54,21.22
+2023100111,2025,44837,17,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,60.14,20.89
+2023100111,2025,44837,18,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,59.71,20.55
+2023100111,2025,44837,19,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,59.27,20.23
+2023100111,2025,44837,20,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,58.81,19.92
+2023100111,2025,44837,21,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,58.33,19.64
+2023100111,2025,44837,22,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,57.84,19.38
+2023100111,2025,44837,23,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,57.34,19.15
+2023100111,2025,44837,24,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,56.82,18.95
+2023100111,2025,44837,25,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,56.31,18.75
+2023100111,2025,44837,26,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,55.8,18.56
+2023100111,2025,44837,27,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,55.3,18.38
+2023100111,2025,44837,28,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,54.81,18.17
+2023100111,2025,44837,29,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,54.35,17.95
+2023100111,2025,44837,30,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,53.92,17.7
+2023100111,2025,44837,31,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,53.5,17.43
+2023100111,2025,44837,32,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,53.11,17.13
+2023100111,2025,44837,33,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,52.74,16.8
+2023100111,2025,44837,34,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,52.4,16.42
+2023100111,2025,44837,35,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,52.08,16.01
+2023100111,2025,44837,36,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,51.79,15.55
+2023100111,2025,44837,37,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,51.51,15.07
+2023100111,2025,44837,38,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,51.25,14.56
+2023100111,2025,44837,39,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,50.99,14.04
+2023100111,2025,44837,40,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,50.74,13.5
+2023100111,2025,44837,41,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,50.48,12.95
+2023100111,2025,44837,42,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,50.23,12.39
+2023100111,2025,44837,43,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,49.97,11.84
+2023100111,2025,44837,44,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,49.7,11.31
+2023100111,2025,44837,45,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,49.42,10.79
+2023100111,2025,44837,46,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,49.11,10.29
+2023100111,2025,44837,47,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,48.79,9.79
+2023100111,2025,44837,48,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,48.44,9.32
+2023100111,2025,44837,49,left,81,Jabrill Peppers,SS,Defense,Defensive Coverage,48.09,8.85
+2023100111,2025,43522,1,left,81,Jalen Mills,CB,Defense,Defensive Coverage,78.71,17.64
+2023100111,2025,43522,2,left,81,Jalen Mills,CB,Defense,Defensive Coverage,78.7,17.66
+2023100111,2025,43522,3,left,81,Jalen Mills,CB,Defense,Defensive Coverage,78.68,17.69
+2023100111,2025,43522,4,left,81,Jalen Mills,CB,Defense,Defensive Coverage,78.67,17.73
+2023100111,2025,43522,5,left,81,Jalen Mills,CB,Defense,Defensive Coverage,78.65,17.77
+2023100111,2025,43522,6,left,81,Jalen Mills,CB,Defense,Defensive Coverage,78.61,17.8
+2023100111,2025,43522,7,left,81,Jalen Mills,CB,Defense,Defensive Coverage,78.57,17.81
+2023100111,2025,43522,8,left,81,Jalen Mills,CB,Defense,Defensive Coverage,78.5,17.81
+2023100111,2025,43522,9,left,81,Jalen Mills,CB,Defense,Defensive Coverage,78.41,17.78
+2023100111,2025,43522,10,left,81,Jalen Mills,CB,Defense,Defensive Coverage,78.29,17.73
+2023100111,2025,43522,11,left,81,Jalen Mills,CB,Defense,Defensive Coverage,78.15,17.65
+2023100111,2025,43522,12,left,81,Jalen Mills,CB,Defense,Defensive Coverage,77.96,17.56
+2023100111,2025,43522,13,left,81,Jalen Mills,CB,Defense,Defensive Coverage,77.77,17.44
+2023100111,2025,43522,14,left,81,Jalen Mills,CB,Defense,Defensive Coverage,77.52,17.3
+2023100111,2025,43522,15,left,81,Jalen Mills,CB,Defense,Defensive Coverage,77.26,17.12
+2023100111,2025,43522,16,left,81,Jalen Mills,CB,Defense,Defensive Coverage,76.96,16.92
+2023100111,2025,43522,17,left,81,Jalen Mills,CB,Defense,Defensive Coverage,76.64,16.71
+2023100111,2025,43522,18,left,81,Jalen Mills,CB,Defense,Defensive Coverage,76.3,16.49
+2023100111,2025,43522,19,left,81,Jalen Mills,CB,Defense,Defensive Coverage,75.94,16.27
+2023100111,2025,43522,20,left,81,Jalen Mills,CB,Defense,Defensive Coverage,75.56,16.04
+2023100111,2025,43522,21,left,81,Jalen Mills,CB,Defense,Defensive Coverage,75.15,15.82
+2023100111,2025,43522,22,left,81,Jalen Mills,CB,Defense,Defensive Coverage,74.72,15.61
+2023100111,2025,43522,23,left,81,Jalen Mills,CB,Defense,Defensive Coverage,74.29,15.47
+2023100111,2025,43522,24,left,81,Jalen Mills,CB,Defense,Defensive Coverage,73.86,15.37
+2023100111,2025,43522,25,left,81,Jalen Mills,CB,Defense,Defensive Coverage,73.43,15.33
+2023100111,2025,43522,26,left,81,Jalen Mills,CB,Defense,Defensive Coverage,73.0,15.34
+2023100111,2025,43522,27,left,81,Jalen Mills,CB,Defense,Defensive Coverage,72.58,15.39
+2023100111,2025,43522,28,left,81,Jalen Mills,CB,Defense,Defensive Coverage,72.16,15.48
+2023100111,2025,43522,29,left,81,Jalen Mills,CB,Defense,Defensive Coverage,71.75,15.63
+2023100111,2025,43522,30,left,81,Jalen Mills,CB,Defense,Defensive Coverage,71.35,15.84
+2023100111,2025,43522,31,left,81,Jalen Mills,CB,Defense,Defensive Coverage,70.97,16.1
+2023100111,2025,43522,32,left,81,Jalen Mills,CB,Defense,Defensive Coverage,70.59,16.4
+2023100111,2025,43522,33,left,81,Jalen Mills,CB,Defense,Defensive Coverage,70.23,16.75
+2023100111,2025,43522,34,left,81,Jalen Mills,CB,Defense,Defensive Coverage,69.88,17.13
+2023100111,2025,43522,35,left,81,Jalen Mills,CB,Defense,Defensive Coverage,69.54,17.54
+2023100111,2025,43522,36,left,81,Jalen Mills,CB,Defense,Defensive Coverage,69.21,17.96
+2023100111,2025,43522,37,left,81,Jalen Mills,CB,Defense,Defensive Coverage,68.88,18.4
+2023100111,2025,43522,38,left,81,Jalen Mills,CB,Defense,Defensive Coverage,68.57,18.83
+2023100111,2025,43522,39,left,81,Jalen Mills,CB,Defense,Defensive Coverage,68.27,19.24
+2023100111,2025,43522,40,left,81,Jalen Mills,CB,Defense,Defensive Coverage,67.98,19.6
+2023100111,2025,43522,41,left,81,Jalen Mills,CB,Defense,Defensive Coverage,67.7,19.92
+2023100111,2025,43522,42,left,81,Jalen Mills,CB,Defense,Defensive Coverage,67.43,20.17
+2023100111,2025,43522,43,left,81,Jalen Mills,CB,Defense,Defensive Coverage,67.17,20.35
+2023100111,2025,43522,44,left,81,Jalen Mills,CB,Defense,Defensive Coverage,66.91,20.44
+2023100111,2025,43522,45,left,81,Jalen Mills,CB,Defense,Defensive Coverage,66.67,20.47
+2023100111,2025,43522,46,left,81,Jalen Mills,CB,Defense,Defensive Coverage,66.44,20.42
+2023100111,2025,43522,47,left,81,Jalen Mills,CB,Defense,Defensive Coverage,66.22,20.29
+2023100111,2025,43522,48,left,81,Jalen Mills,CB,Defense,Defensive Coverage,66.01,20.09
+2023100111,2025,43522,49,left,81,Jalen Mills,CB,Defense,Defensive Coverage,65.8,19.83
+2023100111,2025,52445,1,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,75.43,23.41
+2023100111,2025,52445,2,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,75.42,23.43
+2023100111,2025,52445,3,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,75.39,23.46
+2023100111,2025,52445,4,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,75.37,23.5
+2023100111,2025,52445,5,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,75.34,23.54
+2023100111,2025,52445,6,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,75.27,23.6
+2023100111,2025,52445,7,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,75.21,23.67
+2023100111,2025,52445,8,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,75.13,23.75
+2023100111,2025,52445,9,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,75.03,23.84
+2023100111,2025,52445,10,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,74.91,23.93
+2023100111,2025,52445,11,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,74.76,24.02
+2023100111,2025,52445,12,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,74.58,24.12
+2023100111,2025,52445,13,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,74.37,24.22
+2023100111,2025,52445,14,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,74.1,24.33
+2023100111,2025,52445,15,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,73.8,24.42
+2023100111,2025,52445,16,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,73.46,24.51
+2023100111,2025,52445,17,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,73.08,24.58
+2023100111,2025,52445,18,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,72.68,24.64
+2023100111,2025,52445,19,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,72.26,24.69
+2023100111,2025,52445,20,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,71.81,24.71
+2023100111,2025,52445,21,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,71.35,24.7
+2023100111,2025,52445,22,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,70.88,24.66
+2023100111,2025,52445,23,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,70.4,24.6
+2023100111,2025,52445,24,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,69.91,24.51
+2023100111,2025,52445,25,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,69.41,24.37
+2023100111,2025,52445,26,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,68.93,24.17
+2023100111,2025,52445,27,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,68.46,23.92
+2023100111,2025,52445,28,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,68.0,23.63
+2023100111,2025,52445,29,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,67.56,23.3
+2023100111,2025,52445,30,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,67.15,22.94
+2023100111,2025,52445,31,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,66.75,22.53
+2023100111,2025,52445,32,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,66.39,22.08
+2023100111,2025,52445,33,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,66.05,21.59
+2023100111,2025,52445,34,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,65.72,21.07
+2023100111,2025,52445,35,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,65.41,20.51
+2023100111,2025,52445,36,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,65.1,19.92
+2023100111,2025,52445,37,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,64.82,19.31
+2023100111,2025,52445,38,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,64.57,18.67
+2023100111,2025,52445,39,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,64.34,18.01
+2023100111,2025,52445,40,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,64.14,17.34
+2023100111,2025,52445,41,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,63.99,16.65
+2023100111,2025,52445,42,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,63.88,15.95
+2023100111,2025,52445,43,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,63.82,15.23
+2023100111,2025,52445,44,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,63.8,14.5
+2023100111,2025,52445,45,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,63.83,13.76
+2023100111,2025,52445,46,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,63.9,13.01
+2023100111,2025,52445,47,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,64.03,12.23
+2023100111,2025,52445,48,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,64.2,11.46
+2023100111,2025,52445,49,left,81,Kyle Dugger,SS,Defense,Defensive Coverage,64.4,10.67
+2023100111,2025,52991,1,left,81,Myles Bryant,S,Defense,Defensive Coverage,79.29,44.82
+2023100111,2025,52991,2,left,81,Myles Bryant,S,Defense,Defensive Coverage,79.31,44.81
+2023100111,2025,52991,3,left,81,Myles Bryant,S,Defense,Defensive Coverage,79.33,44.76
+2023100111,2025,52991,4,left,81,Myles Bryant,S,Defense,Defensive Coverage,79.33,44.72
+2023100111,2025,52991,5,left,81,Myles Bryant,S,Defense,Defensive Coverage,79.35,44.68
+2023100111,2025,52991,6,left,81,Myles Bryant,S,Defense,Defensive Coverage,79.34,44.67
+2023100111,2025,52991,7,left,81,Myles Bryant,S,Defense,Defensive Coverage,79.29,44.72
+2023100111,2025,52991,8,left,81,Myles Bryant,S,Defense,Defensive Coverage,79.24,44.76
+2023100111,2025,52991,9,left,81,Myles Bryant,S,Defense,Defensive Coverage,79.17,44.79
+2023100111,2025,52991,10,left,81,Myles Bryant,S,Defense,Defensive Coverage,79.08,44.81
+2023100111,2025,52991,11,left,81,Myles Bryant,S,Defense,Defensive Coverage,78.97,44.82
+2023100111,2025,52991,12,left,81,Myles Bryant,S,Defense,Defensive Coverage,78.84,44.83
+2023100111,2025,52991,13,left,81,Myles Bryant,S,Defense,Defensive Coverage,78.7,44.81
+2023100111,2025,52991,14,left,81,Myles Bryant,S,Defense,Defensive Coverage,78.55,44.76
+2023100111,2025,52991,15,left,81,Myles Bryant,S,Defense,Defensive Coverage,78.37,44.68
+2023100111,2025,52991,16,left,81,Myles Bryant,S,Defense,Defensive Coverage,78.14,44.56
+2023100111,2025,52991,17,left,81,Myles Bryant,S,Defense,Defensive Coverage,77.87,44.41
+2023100111,2025,52991,18,left,81,Myles Bryant,S,Defense,Defensive Coverage,77.57,44.24
+2023100111,2025,52991,19,left,81,Myles Bryant,S,Defense,Defensive Coverage,77.25,44.05
+2023100111,2025,52991,20,left,81,Myles Bryant,S,Defense,Defensive Coverage,76.9,43.86
+2023100111,2025,52991,21,left,81,Myles Bryant,S,Defense,Defensive Coverage,76.52,43.66
+2023100111,2025,52991,22,left,81,Myles Bryant,S,Defense,Defensive Coverage,76.11,43.48
+2023100111,2025,52991,23,left,81,Myles Bryant,S,Defense,Defensive Coverage,75.67,43.31
+2023100111,2025,52991,24,left,81,Myles Bryant,S,Defense,Defensive Coverage,75.21,43.15
+2023100111,2025,52991,25,left,81,Myles Bryant,S,Defense,Defensive Coverage,74.73,43.01
+2023100111,2025,52991,26,left,81,Myles Bryant,S,Defense,Defensive Coverage,74.21,42.89
+2023100111,2025,52991,27,left,81,Myles Bryant,S,Defense,Defensive Coverage,73.68,42.8
+2023100111,2025,52991,28,left,81,Myles Bryant,S,Defense,Defensive Coverage,73.12,42.72
+2023100111,2025,52991,29,left,81,Myles Bryant,S,Defense,Defensive Coverage,72.55,42.66
+2023100111,2025,52991,30,left,81,Myles Bryant,S,Defense,Defensive Coverage,71.97,42.62
+2023100111,2025,52991,31,left,81,Myles Bryant,S,Defense,Defensive Coverage,71.37,42.6
+2023100111,2025,52991,32,left,81,Myles Bryant,S,Defense,Defensive Coverage,70.76,42.6
+2023100111,2025,52991,33,left,81,Myles Bryant,S,Defense,Defensive Coverage,70.15,42.6
+2023100111,2025,52991,34,left,81,Myles Bryant,S,Defense,Defensive Coverage,69.52,42.61
+2023100111,2025,52991,35,left,81,Myles Bryant,S,Defense,Defensive Coverage,68.89,42.63
+2023100111,2025,52991,36,left,81,Myles Bryant,S,Defense,Defensive Coverage,68.25,42.64
+2023100111,2025,52991,37,left,81,Myles Bryant,S,Defense,Defensive Coverage,67.61,42.64
+2023100111,2025,52991,38,left,81,Myles Bryant,S,Defense,Defensive Coverage,66.97,42.61
+2023100111,2025,52991,39,left,81,Myles Bryant,S,Defense,Defensive Coverage,66.34,42.57
+2023100111,2025,52991,40,left,81,Myles Bryant,S,Defense,Defensive Coverage,65.71,42.48
+2023100111,2025,52991,41,left,81,Myles Bryant,S,Defense,Defensive Coverage,65.07,42.36
+2023100111,2025,52991,42,left,81,Myles Bryant,S,Defense,Defensive Coverage,64.43,42.18
+2023100111,2025,52991,43,left,81,Myles Bryant,S,Defense,Defensive Coverage,63.83,41.97
+2023100111,2025,52991,44,left,81,Myles Bryant,S,Defense,Defensive Coverage,63.23,41.73
+2023100111,2025,52991,45,left,81,Myles Bryant,S,Defense,Defensive Coverage,62.63,41.46
+2023100111,2025,52991,46,left,81,Myles Bryant,S,Defense,Defensive Coverage,62.04,41.17
+2023100111,2025,52991,47,left,81,Myles Bryant,S,Defense,Defensive Coverage,61.46,40.84
+2023100111,2025,52991,48,left,81,Myles Bryant,S,Defense,Defensive Coverage,60.89,40.5
+2023100111,2025,52991,49,left,81,Myles Bryant,S,Defense,Defensive Coverage,60.32,40.14
+2023100111,2025,53589,1,left,81,Shaun Wade,CB,Defense,Defensive Coverage,79.15,9.8
+2023100111,2025,53589,2,left,81,Shaun Wade,CB,Defense,Defensive Coverage,79.14,9.83
+2023100111,2025,53589,3,left,81,Shaun Wade,CB,Defense,Defensive Coverage,79.13,9.84
+2023100111,2025,53589,4,left,81,Shaun Wade,CB,Defense,Defensive Coverage,79.11,9.85
+2023100111,2025,53589,5,left,81,Shaun Wade,CB,Defense,Defensive Coverage,79.1,9.85
+2023100111,2025,53589,6,left,81,Shaun Wade,CB,Defense,Defensive Coverage,79.08,9.84
+2023100111,2025,53589,7,left,81,Shaun Wade,CB,Defense,Defensive Coverage,79.08,9.86
+2023100111,2025,53589,8,left,81,Shaun Wade,CB,Defense,Defensive Coverage,79.07,9.87
+2023100111,2025,53589,9,left,81,Shaun Wade,CB,Defense,Defensive Coverage,79.04,9.9
+2023100111,2025,53589,10,left,81,Shaun Wade,CB,Defense,Defensive Coverage,79.0,9.95
+2023100111,2025,53589,11,left,81,Shaun Wade,CB,Defense,Defensive Coverage,78.97,9.98
+2023100111,2025,53589,12,left,81,Shaun Wade,CB,Defense,Defensive Coverage,78.91,10.03
+2023100111,2025,53589,13,left,81,Shaun Wade,CB,Defense,Defensive Coverage,78.83,10.12
+2023100111,2025,53589,14,left,81,Shaun Wade,CB,Defense,Defensive Coverage,78.69,10.26
+2023100111,2025,53589,15,left,81,Shaun Wade,CB,Defense,Defensive Coverage,78.51,10.43
+2023100111,2025,53589,16,left,81,Shaun Wade,CB,Defense,Defensive Coverage,78.28,10.6
+2023100111,2025,53589,17,left,81,Shaun Wade,CB,Defense,Defensive Coverage,77.99,10.79
+2023100111,2025,53589,18,left,81,Shaun Wade,CB,Defense,Defensive Coverage,77.66,10.95
+2023100111,2025,53589,19,left,81,Shaun Wade,CB,Defense,Defensive Coverage,77.28,11.09
+2023100111,2025,53589,20,left,81,Shaun Wade,CB,Defense,Defensive Coverage,76.87,11.2
+2023100111,2025,53589,21,left,81,Shaun Wade,CB,Defense,Defensive Coverage,76.42,11.26
+2023100111,2025,53589,22,left,81,Shaun Wade,CB,Defense,Defensive Coverage,75.94,11.27
+2023100111,2025,53589,23,left,81,Shaun Wade,CB,Defense,Defensive Coverage,75.43,11.25
+2023100111,2025,53589,24,left,81,Shaun Wade,CB,Defense,Defensive Coverage,74.9,11.17
+2023100111,2025,53589,25,left,81,Shaun Wade,CB,Defense,Defensive Coverage,74.36,11.06
+2023100111,2025,53589,26,left,81,Shaun Wade,CB,Defense,Defensive Coverage,73.79,10.89
+2023100111,2025,53589,27,left,81,Shaun Wade,CB,Defense,Defensive Coverage,73.22,10.7
+2023100111,2025,53589,28,left,81,Shaun Wade,CB,Defense,Defensive Coverage,72.63,10.47
+2023100111,2025,53589,29,left,81,Shaun Wade,CB,Defense,Defensive Coverage,72.03,10.22
+2023100111,2025,53589,30,left,81,Shaun Wade,CB,Defense,Defensive Coverage,71.42,9.95
+2023100111,2025,53589,31,left,81,Shaun Wade,CB,Defense,Defensive Coverage,70.8,9.65
+2023100111,2025,53589,32,left,81,Shaun Wade,CB,Defense,Defensive Coverage,70.18,9.34
+2023100111,2025,53589,33,left,81,Shaun Wade,CB,Defense,Defensive Coverage,69.57,9.03
+2023100111,2025,53589,34,left,81,Shaun Wade,CB,Defense,Defensive Coverage,68.96,8.7
+2023100111,2025,53589,35,left,81,Shaun Wade,CB,Defense,Defensive Coverage,68.36,8.37
+2023100111,2025,53589,36,left,81,Shaun Wade,CB,Defense,Defensive Coverage,67.77,8.04
+2023100111,2025,53589,37,left,81,Shaun Wade,CB,Defense,Defensive Coverage,67.21,7.7
+2023100111,2025,53589,38,left,81,Shaun Wade,CB,Defense,Defensive Coverage,66.66,7.35
+2023100111,2025,53589,39,left,81,Shaun Wade,CB,Defense,Defensive Coverage,66.13,6.98
+2023100111,2025,53589,40,left,81,Shaun Wade,CB,Defense,Defensive Coverage,65.63,6.62
+2023100111,2025,53589,41,left,81,Shaun Wade,CB,Defense,Defensive Coverage,65.15,6.24
+2023100111,2025,53589,42,left,81,Shaun Wade,CB,Defense,Defensive Coverage,64.68,5.87
+2023100111,2025,53589,43,left,81,Shaun Wade,CB,Defense,Defensive Coverage,64.24,5.5
+2023100111,2025,53589,44,left,81,Shaun Wade,CB,Defense,Defensive Coverage,63.81,5.13
+2023100111,2025,53589,45,left,81,Shaun Wade,CB,Defense,Defensive Coverage,63.39,4.77
+2023100111,2025,53589,46,left,81,Shaun Wade,CB,Defense,Defensive Coverage,62.98,4.42
+2023100111,2025,53589,47,left,81,Shaun Wade,CB,Defense,Defensive Coverage,62.59,4.07
+2023100111,2025,53589,48,left,81,Shaun Wade,CB,Defense,Defensive Coverage,62.2,3.74
+2023100111,2025,53589,49,left,81,Shaun Wade,CB,Defense,Defensive Coverage,61.82,3.41
+2023100111,2025,41246,1,left,81,Brandin Cooks,WR,Offense,Other Route Runner,83.05,9.73
+2023100111,2025,41246,2,left,81,Brandin Cooks,WR,Offense,Other Route Runner,83.03,9.75
+2023100111,2025,41246,3,left,81,Brandin Cooks,WR,Offense,Other Route Runner,82.95,9.76
+2023100111,2025,41246,4,left,81,Brandin Cooks,WR,Offense,Other Route Runner,82.87,9.8
+2023100111,2025,41246,5,left,81,Brandin Cooks,WR,Offense,Other Route Runner,82.85,9.81
+2023100111,2025,41246,6,left,81,Brandin Cooks,WR,Offense,Other Route Runner,82.8,9.82
+2023100111,2025,41246,7,left,81,Brandin Cooks,WR,Offense,Other Route Runner,82.7,9.85
+2023100111,2025,41246,8,left,81,Brandin Cooks,WR,Offense,Other Route Runner,82.55,9.89
+2023100111,2025,41246,9,left,81,Brandin Cooks,WR,Offense,Other Route Runner,82.34,9.96
+2023100111,2025,41246,10,left,81,Brandin Cooks,WR,Offense,Other Route Runner,82.06,10.05
+2023100111,2025,41246,11,left,81,Brandin Cooks,WR,Offense,Other Route Runner,81.73,10.15
+2023100111,2025,41246,12,left,81,Brandin Cooks,WR,Offense,Other Route Runner,81.35,10.29
+2023100111,2025,41246,13,left,81,Brandin Cooks,WR,Offense,Other Route Runner,80.93,10.44
+2023100111,2025,41246,14,left,81,Brandin Cooks,WR,Offense,Other Route Runner,80.48,10.64
+2023100111,2025,41246,15,left,81,Brandin Cooks,WR,Offense,Other Route Runner,79.97,10.89
+2023100111,2025,41246,16,left,81,Brandin Cooks,WR,Offense,Other Route Runner,79.45,11.14
+2023100111,2025,41246,17,left,81,Brandin Cooks,WR,Offense,Other Route Runner,78.91,11.44
+2023100111,2025,41246,18,left,81,Brandin Cooks,WR,Offense,Other Route Runner,78.36,11.74
+2023100111,2025,41246,19,left,81,Brandin Cooks,WR,Offense,Other Route Runner,77.8,12.07
+2023100111,2025,41246,20,left,81,Brandin Cooks,WR,Offense,Other Route Runner,77.23,12.41
+2023100111,2025,41246,21,left,81,Brandin Cooks,WR,Offense,Other Route Runner,76.68,12.77
+2023100111,2025,41246,22,left,81,Brandin Cooks,WR,Offense,Other Route Runner,76.14,13.17
+2023100111,2025,41246,23,left,81,Brandin Cooks,WR,Offense,Other Route Runner,75.59,13.56
+2023100111,2025,41246,24,left,81,Brandin Cooks,WR,Offense,Other Route Runner,75.04,13.96
+2023100111,2025,41246,25,left,81,Brandin Cooks,WR,Offense,Other Route Runner,74.5,14.35
+2023100111,2025,41246,26,left,81,Brandin Cooks,WR,Offense,Other Route Runner,73.98,14.74
+2023100111,2025,41246,27,left,81,Brandin Cooks,WR,Offense,Other Route Runner,73.46,15.12
+2023100111,2025,41246,28,left,81,Brandin Cooks,WR,Offense,Other Route Runner,72.91,15.5
+2023100111,2025,41246,29,left,81,Brandin Cooks,WR,Offense,Other Route Runner,72.34,15.86
+2023100111,2025,41246,30,left,81,Brandin Cooks,WR,Offense,Other Route Runner,71.74,16.2
+2023100111,2025,41246,31,left,81,Brandin Cooks,WR,Offense,Other Route Runner,71.12,16.53
+2023100111,2025,41246,32,left,81,Brandin Cooks,WR,Offense,Other Route Runner,70.47,16.85
+2023100111,2025,41246,33,left,81,Brandin Cooks,WR,Offense,Other Route Runner,69.78,17.15
+2023100111,2025,41246,34,left,81,Brandin Cooks,WR,Offense,Other Route Runner,69.07,17.43
+2023100111,2025,41246,35,left,81,Brandin Cooks,WR,Offense,Other Route Runner,68.34,17.69
+2023100111,2025,41246,36,left,81,Brandin Cooks,WR,Offense,Other Route Runner,67.59,17.95
+2023100111,2025,41246,37,left,81,Brandin Cooks,WR,Offense,Other Route Runner,66.83,18.2
+2023100111,2025,41246,38,left,81,Brandin Cooks,WR,Offense,Other Route Runner,66.06,18.43
+2023100111,2025,41246,39,left,81,Brandin Cooks,WR,Offense,Other Route Runner,65.26,18.64
+2023100111,2025,41246,40,left,81,Brandin Cooks,WR,Offense,Other Route Runner,64.48,18.84
+2023100111,2025,41246,41,left,81,Brandin Cooks,WR,Offense,Other Route Runner,63.66,19.03
+2023100111,2025,41246,42,left,81,Brandin Cooks,WR,Offense,Other Route Runner,62.81,19.17
+2023100111,2025,41246,43,left,81,Brandin Cooks,WR,Offense,Other Route Runner,61.98,19.35
+2023100111,2025,41246,44,left,81,Brandin Cooks,WR,Offense,Other Route Runner,61.15,19.49
+2023100111,2025,41246,45,left,81,Brandin Cooks,WR,Offense,Other Route Runner,60.31,19.63
+2023100111,2025,41246,46,left,81,Brandin Cooks,WR,Offense,Other Route Runner,59.47,19.78
+2023100111,2025,41246,47,left,81,Brandin Cooks,WR,Offense,Other Route Runner,58.64,19.88
+2023100111,2025,41246,48,left,81,Brandin Cooks,WR,Offense,Other Route Runner,57.82,19.95
+2023100111,2025,41246,49,left,81,Brandin Cooks,WR,Offense,Other Route Runner,57.02,20.02
+2023100111,2025,52425,1,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,82.73,16.92
+2023100111,2025,52425,2,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,82.7,16.92
+2023100111,2025,52425,3,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,82.67,16.92
+2023100111,2025,52425,4,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,82.63,16.92
+2023100111,2025,52425,5,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,82.6,16.92
+2023100111,2025,52425,6,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,82.54,16.91
+2023100111,2025,52425,7,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,82.42,16.88
+2023100111,2025,52425,8,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,82.25,16.84
+2023100111,2025,52425,9,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,82.01,16.78
+2023100111,2025,52425,10,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,81.71,16.71
+2023100111,2025,52425,11,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,81.35,16.6
+2023100111,2025,52425,12,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,80.94,16.49
+2023100111,2025,52425,13,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,80.49,16.36
+2023100111,2025,52425,14,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,80.0,16.21
+2023100111,2025,52425,15,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,79.46,16.06
+2023100111,2025,52425,16,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,78.9,15.89
+2023100111,2025,52425,17,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,78.32,15.7
+2023100111,2025,52425,18,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,77.71,15.51
+2023100111,2025,52425,19,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,77.08,15.29
+2023100111,2025,52425,20,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,76.43,15.07
+2023100111,2025,52425,21,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,75.77,14.83
+2023100111,2025,52425,22,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,75.09,14.58
+2023100111,2025,52425,23,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,74.41,14.31
+2023100111,2025,52425,24,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,73.72,14.03
+2023100111,2025,52425,25,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,73.02,13.74
+2023100111,2025,52425,26,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,72.3,13.45
+2023100111,2025,52425,27,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,71.57,13.14
+2023100111,2025,52425,28,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,70.83,12.83
+2023100111,2025,52425,29,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,70.09,12.51
+2023100111,2025,52425,30,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,69.34,12.19
+2023100111,2025,52425,31,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,68.59,11.85
+2023100111,2025,52425,32,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,67.85,11.5
+2023100111,2025,52425,33,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,67.09,11.14
+2023100111,2025,52425,34,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,66.34,10.76
+2023100111,2025,52425,35,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,65.6,10.38
+2023100111,2025,52425,36,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,64.86,9.99
+2023100111,2025,52425,37,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,64.13,9.59
+2023100111,2025,52425,38,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,63.39,9.2
+2023100111,2025,52425,39,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,62.67,8.8
+2023100111,2025,52425,40,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,61.94,8.41
+2023100111,2025,52425,41,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,61.21,8.02
+2023100111,2025,52425,42,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,60.47,7.64
+2023100111,2025,52425,43,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,59.73,7.25
+2023100111,2025,52425,44,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,58.98,6.89
+2023100111,2025,52425,45,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,58.23,6.54
+2023100111,2025,52425,46,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,57.49,6.21
+2023100111,2025,52425,47,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,56.75,5.89
+2023100111,2025,52425,48,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,56.02,5.59
+2023100111,2025,52425,49,left,81,CeeDee Lamb,WR,Offense,Other Route Runner,55.31,5.31
+2023100111,2025,46150,1,left,81,Michael Gallup,WR,Offense,Other Route Runner,81.85,44.4
+2023100111,2025,46150,2,left,81,Michael Gallup,WR,Offense,Other Route Runner,81.84,44.4
+2023100111,2025,46150,3,left,81,Michael Gallup,WR,Offense,Other Route Runner,81.84,44.4
+2023100111,2025,46150,4,left,81,Michael Gallup,WR,Offense,Other Route Runner,81.78,44.41
+2023100111,2025,46150,5,left,81,Michael Gallup,WR,Offense,Other Route Runner,81.76,44.42
+2023100111,2025,46150,6,left,81,Michael Gallup,WR,Offense,Other Route Runner,81.73,44.43
+2023100111,2025,46150,7,left,81,Michael Gallup,WR,Offense,Other Route Runner,81.68,44.45
+2023100111,2025,46150,8,left,81,Michael Gallup,WR,Offense,Other Route Runner,81.59,44.46
+2023100111,2025,46150,9,left,81,Michael Gallup,WR,Offense,Other Route Runner,81.46,44.46
+2023100111,2025,46150,10,left,81,Michael Gallup,WR,Offense,Other Route Runner,81.28,44.44
+2023100111,2025,46150,11,left,81,Michael Gallup,WR,Offense,Other Route Runner,81.05,44.4
+2023100111,2025,46150,12,left,81,Michael Gallup,WR,Offense,Other Route Runner,80.77,44.34
+2023100111,2025,46150,13,left,81,Michael Gallup,WR,Offense,Other Route Runner,80.44,44.26
+2023100111,2025,46150,14,left,81,Michael Gallup,WR,Offense,Other Route Runner,80.08,44.15
+2023100111,2025,46150,15,left,81,Michael Gallup,WR,Offense,Other Route Runner,79.68,44.01
+2023100111,2025,46150,16,left,81,Michael Gallup,WR,Offense,Other Route Runner,79.24,43.86
+2023100111,2025,46150,17,left,81,Michael Gallup,WR,Offense,Other Route Runner,78.77,43.69
+2023100111,2025,46150,18,left,81,Michael Gallup,WR,Offense,Other Route Runner,78.26,43.49
+2023100111,2025,46150,19,left,81,Michael Gallup,WR,Offense,Other Route Runner,77.72,43.28
+2023100111,2025,46150,20,left,81,Michael Gallup,WR,Offense,Other Route Runner,77.16,43.06
+2023100111,2025,46150,21,left,81,Michael Gallup,WR,Offense,Other Route Runner,76.58,42.84
+2023100111,2025,46150,22,left,81,Michael Gallup,WR,Offense,Other Route Runner,75.97,42.6
+2023100111,2025,46150,23,left,81,Michael Gallup,WR,Offense,Other Route Runner,75.34,42.36
+2023100111,2025,46150,24,left,81,Michael Gallup,WR,Offense,Other Route Runner,74.69,42.14
+2023100111,2025,46150,25,left,81,Michael Gallup,WR,Offense,Other Route Runner,74.03,41.92
+2023100111,2025,46150,26,left,81,Michael Gallup,WR,Offense,Other Route Runner,73.35,41.74
+2023100111,2025,46150,27,left,81,Michael Gallup,WR,Offense,Other Route Runner,72.65,41.56
+2023100111,2025,46150,28,left,81,Michael Gallup,WR,Offense,Other Route Runner,71.96,41.39
+2023100111,2025,46150,29,left,81,Michael Gallup,WR,Offense,Other Route Runner,71.26,41.23
+2023100111,2025,46150,30,left,81,Michael Gallup,WR,Offense,Other Route Runner,70.56,41.07
+2023100111,2025,46150,31,left,81,Michael Gallup,WR,Offense,Other Route Runner,69.86,40.91
+2023100111,2025,46150,32,left,81,Michael Gallup,WR,Offense,Other Route Runner,69.17,40.74
+2023100111,2025,46150,33,left,81,Michael Gallup,WR,Offense,Other Route Runner,68.51,40.55
+2023100111,2025,46150,34,left,81,Michael Gallup,WR,Offense,Other Route Runner,67.85,40.33
+2023100111,2025,46150,35,left,81,Michael Gallup,WR,Offense,Other Route Runner,67.23,40.09
+2023100111,2025,46150,36,left,81,Michael Gallup,WR,Offense,Other Route Runner,66.64,39.81
+2023100111,2025,46150,37,left,81,Michael Gallup,WR,Offense,Other Route Runner,66.1,39.48
+2023100111,2025,46150,38,left,81,Michael Gallup,WR,Offense,Other Route Runner,65.59,39.11
+2023100111,2025,46150,39,left,81,Michael Gallup,WR,Offense,Other Route Runner,65.11,38.7
+2023100111,2025,46150,40,left,81,Michael Gallup,WR,Offense,Other Route Runner,64.68,38.26
+2023100111,2025,46150,41,left,81,Michael Gallup,WR,Offense,Other Route Runner,64.29,37.76
+2023100111,2025,46150,42,left,81,Michael Gallup,WR,Offense,Other Route Runner,63.94,37.24
+2023100111,2025,46150,43,left,81,Michael Gallup,WR,Offense,Other Route Runner,63.62,36.67
+2023100111,2025,46150,44,left,81,Michael Gallup,WR,Offense,Other Route Runner,63.34,36.08
+2023100111,2025,46150,45,left,81,Michael Gallup,WR,Offense,Other Route Runner,63.09,35.46
+2023100111,2025,46150,46,left,81,Michael Gallup,WR,Offense,Other Route Runner,62.88,34.82
+2023100111,2025,46150,47,left,81,Michael Gallup,WR,Offense,Other Route Runner,62.7,34.18
+2023100111,2025,46150,48,left,81,Michael Gallup,WR,Offense,Other Route Runner,62.54,33.53
+2023100111,2025,46150,49,left,81,Michael Gallup,WR,Offense,Other Route Runner,62.39,32.88
+2023100111,2025,47911,1,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.2,32.84
+2023100111,2025,47911,2,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.2,32.83
+2023100111,2025,47911,3,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.21,32.81
+2023100111,2025,47911,4,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.2,32.78
+2023100111,2025,47911,5,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.2,32.77
+2023100111,2025,47911,6,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.2,32.75
+2023100111,2025,47911,7,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.2,32.7
+2023100111,2025,47911,8,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.19,32.63
+2023100111,2025,47911,9,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.18,32.52
+2023100111,2025,47911,10,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.16,32.37
+2023100111,2025,47911,11,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.14,32.18
+2023100111,2025,47911,12,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.12,31.98
+2023100111,2025,47911,13,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.1,31.75
+2023100111,2025,47911,14,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.08,31.5
+2023100111,2025,47911,15,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.06,31.25
+2023100111,2025,47911,16,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.04,30.98
+2023100111,2025,47911,17,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.02,30.7
+2023100111,2025,47911,18,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.0,30.41
+2023100111,2025,47911,19,left,81,Tony Pollard,RB,Offense,Other Route Runner,85.98,30.11
+2023100111,2025,47911,20,left,81,Tony Pollard,RB,Offense,Other Route Runner,85.95,29.81
+2023100111,2025,47911,21,left,81,Tony Pollard,RB,Offense,Other Route Runner,85.93,29.51
+2023100111,2025,47911,22,left,81,Tony Pollard,RB,Offense,Other Route Runner,85.94,29.23
+2023100111,2025,47911,23,left,81,Tony Pollard,RB,Offense,Other Route Runner,85.96,28.96
+2023100111,2025,47911,24,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.0,28.73
+2023100111,2025,47911,25,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.06,28.54
+2023100111,2025,47911,26,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.14,28.37
+2023100111,2025,47911,27,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.23,28.23
+2023100111,2025,47911,28,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.34,28.14
+2023100111,2025,47911,29,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.47,28.06
+2023100111,2025,47911,30,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.61,28.01
+2023100111,2025,47911,31,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.77,27.96
+2023100111,2025,47911,32,left,81,Tony Pollard,RB,Offense,Other Route Runner,86.94,27.91
+2023100111,2025,47911,33,left,81,Tony Pollard,RB,Offense,Other Route Runner,87.11,27.87
+2023100111,2025,47911,34,left,81,Tony Pollard,RB,Offense,Other Route Runner,87.29,27.81
+2023100111,2025,47911,35,left,81,Tony Pollard,RB,Offense,Other Route Runner,87.46,27.73
+2023100111,2025,47911,36,left,81,Tony Pollard,RB,Offense,Other Route Runner,87.64,27.62
+2023100111,2025,47911,37,left,81,Tony Pollard,RB,Offense,Other Route Runner,87.8,27.49
+2023100111,2025,47911,38,left,81,Tony Pollard,RB,Offense,Other Route Runner,87.95,27.33
+2023100111,2025,47911,39,left,81,Tony Pollard,RB,Offense,Other Route Runner,88.08,27.14
+2023100111,2025,47911,40,left,81,Tony Pollard,RB,Offense,Other Route Runner,88.2,26.92
+2023100111,2025,47911,41,left,81,Tony Pollard,RB,Offense,Other Route Runner,88.3,26.68
+2023100111,2025,47911,42,left,81,Tony Pollard,RB,Offense,Other Route Runner,88.38,26.41
+2023100111,2025,47911,43,left,81,Tony Pollard,RB,Offense,Other Route Runner,88.45,26.11
+2023100111,2025,47911,44,left,81,Tony Pollard,RB,Offense,Other Route Runner,88.5,25.79
+2023100111,2025,47911,45,left,81,Tony Pollard,RB,Offense,Other Route Runner,88.53,25.46
+2023100111,2025,47911,46,left,81,Tony Pollard,RB,Offense,Other Route Runner,88.56,25.11
+2023100111,2025,47911,47,left,81,Tony Pollard,RB,Offense,Other Route Runner,88.57,24.76
+2023100111,2025,47911,48,left,81,Tony Pollard,RB,Offense,Other Route Runner,88.58,24.4
+2023100111,2025,47911,49,left,81,Tony Pollard,RB,Offense,Other Route Runner,88.57,24.04
+2023100111,2025,43424,1,left,81,Dak Prescott,QB,Offense,Passer,85.62,29.95
+2023100111,2025,43424,2,left,81,Dak Prescott,QB,Offense,Passer,85.63,29.95
+2023100111,2025,43424,3,left,81,Dak Prescott,QB,Offense,Passer,85.65,29.95
+2023100111,2025,43424,4,left,81,Dak Prescott,QB,Offense,Passer,85.67,29.95
+2023100111,2025,43424,5,left,81,Dak Prescott,QB,Offense,Passer,85.68,29.95
+2023100111,2025,43424,6,left,81,Dak Prescott,QB,Offense,Passer,85.73,29.94
+2023100111,2025,43424,7,left,81,Dak Prescott,QB,Offense,Passer,85.81,29.93
+2023100111,2025,43424,8,left,81,Dak Prescott,QB,Offense,Passer,85.94,29.92
+2023100111,2025,43424,9,left,81,Dak Prescott,QB,Offense,Passer,86.11,29.9
+2023100111,2025,43424,10,left,81,Dak Prescott,QB,Offense,Passer,86.33,29.88
+2023100111,2025,43424,11,left,81,Dak Prescott,QB,Offense,Passer,86.59,29.86
+2023100111,2025,43424,12,left,81,Dak Prescott,QB,Offense,Passer,86.86,29.84
+2023100111,2025,43424,13,left,81,Dak Prescott,QB,Offense,Passer,87.16,29.82
+2023100111,2025,43424,14,left,81,Dak Prescott,QB,Offense,Passer,87.48,29.79
+2023100111,2025,43424,15,left,81,Dak Prescott,QB,Offense,Passer,87.8,29.77
+2023100111,2025,43424,16,left,81,Dak Prescott,QB,Offense,Passer,88.13,29.74
+2023100111,2025,43424,17,left,81,Dak Prescott,QB,Offense,Passer,88.45,29.69
+2023100111,2025,43424,18,left,81,Dak Prescott,QB,Offense,Passer,88.77,29.6
+2023100111,2025,43424,19,left,81,Dak Prescott,QB,Offense,Passer,89.07,29.48
+2023100111,2025,43424,20,left,81,Dak Prescott,QB,Offense,Passer,89.35,29.31
+2023100111,2025,43424,21,left,81,Dak Prescott,QB,Offense,Passer,89.62,29.09
+2023100111,2025,43424,22,left,81,Dak Prescott,QB,Offense,Passer,89.88,28.84
+2023100111,2025,43424,23,left,81,Dak Prescott,QB,Offense,Passer,90.13,28.55
+2023100111,2025,43424,24,left,81,Dak Prescott,QB,Offense,Passer,90.36,28.21
+2023100111,2025,43424,25,left,81,Dak Prescott,QB,Offense,Passer,90.56,27.83
+2023100111,2025,43424,26,left,81,Dak Prescott,QB,Offense,Passer,90.74,27.41
+2023100111,2025,43424,27,left,81,Dak Prescott,QB,Offense,Passer,90.91,26.96
+2023100111,2025,43424,28,left,81,Dak Prescott,QB,Offense,Passer,91.04,26.46
+2023100111,2025,43424,29,left,81,Dak Prescott,QB,Offense,Passer,91.15,25.93
+2023100111,2025,43424,30,left,81,Dak Prescott,QB,Offense,Passer,91.21,25.35
+2023100111,2025,43424,31,left,81,Dak Prescott,QB,Offense,Passer,91.25,24.76
+2023100111,2025,43424,32,left,81,Dak Prescott,QB,Offense,Passer,91.25,24.13
+2023100111,2025,43424,33,left,81,Dak Prescott,QB,Offense,Passer,91.22,23.5
+2023100111,2025,43424,34,left,81,Dak Prescott,QB,Offense,Passer,91.16,22.86
+2023100111,2025,43424,35,left,81,Dak Prescott,QB,Offense,Passer,91.07,22.21
+2023100111,2025,43424,36,left,81,Dak Prescott,QB,Offense,Passer,90.95,21.55
+2023100111,2025,43424,37,left,81,Dak Prescott,QB,Offense,Passer,90.8,20.88
+2023100111,2025,43424,38,left,81,Dak Prescott,QB,Offense,Passer,90.63,20.21
+2023100111,2025,43424,39,left,81,Dak Prescott,QB,Offense,Passer,90.41,19.54
+2023100111,2025,43424,40,left,81,Dak Prescott,QB,Offense,Passer,90.17,18.87
+2023100111,2025,43424,41,left,81,Dak Prescott,QB,Offense,Passer,89.9,18.22
+2023100111,2025,43424,42,left,81,Dak Prescott,QB,Offense,Passer,89.61,17.57
+2023100111,2025,43424,43,left,81,Dak Prescott,QB,Offense,Passer,89.29,16.94
+2023100111,2025,43424,44,left,81,Dak Prescott,QB,Offense,Passer,88.96,16.32
+2023100111,2025,43424,45,left,81,Dak Prescott,QB,Offense,Passer,88.6,15.71
+2023100111,2025,43424,46,left,81,Dak Prescott,QB,Offense,Passer,88.22,15.12
+2023100111,2025,43424,47,left,81,Dak Prescott,QB,Offense,Passer,87.84,14.53
+2023100111,2025,43424,48,left,81,Dak Prescott,QB,Offense,Passer,87.45,13.96
+2023100111,2025,43424,49,left,81,Dak Prescott,QB,Offense,Passer,87.05,13.39
+2023100111,2025,54594,1,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,82.12,22.31
+2023100111,2025,54594,2,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,82.1,22.31
+2023100111,2025,54594,3,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,82.09,22.31
+2023100111,2025,54594,4,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,82.06,22.3
+2023100111,2025,54594,5,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,82.01,22.29
+2023100111,2025,54594,6,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,81.91,22.28
+2023100111,2025,54594,7,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,81.76,22.26
+2023100111,2025,54594,8,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,81.54,22.23
+2023100111,2025,54594,9,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,81.26,22.18
+2023100111,2025,54594,10,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,80.92,22.13
+2023100111,2025,54594,11,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,80.54,22.06
+2023100111,2025,54594,12,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,80.12,21.99
+2023100111,2025,54594,13,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,79.66,21.91
+2023100111,2025,54594,14,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,79.16,21.82
+2023100111,2025,54594,15,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,78.63,21.73
+2023100111,2025,54594,16,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,78.07,21.63
+2023100111,2025,54594,17,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,77.49,21.52
+2023100111,2025,54594,18,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,76.89,21.41
+2023100111,2025,54594,19,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,76.27,21.3
+2023100111,2025,54594,20,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,75.65,21.19
+2023100111,2025,54594,21,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,75.02,21.06
+2023100111,2025,54594,22,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,74.39,20.91
+2023100111,2025,54594,23,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,73.76,20.74
+2023100111,2025,54594,24,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,73.15,20.54
+2023100111,2025,54594,25,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,72.55,20.31
+2023100111,2025,54594,26,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,71.97,20.03
+2023100111,2025,54594,27,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,71.43,19.71
+2023100111,2025,54594,28,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,70.91,19.35
+2023100111,2025,54594,29,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,70.43,18.94
+2023100111,2025,54594,30,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,69.98,18.5
+2023100111,2025,54594,31,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,69.57,18.01
+2023100111,2025,54594,32,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,69.2,17.48
+2023100111,2025,54594,33,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,68.86,16.92
+2023100111,2025,54594,34,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,68.56,16.33
+2023100111,2025,54594,35,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,68.3,15.72
+2023100111,2025,54594,36,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,68.07,15.08
+2023100111,2025,54594,37,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,67.88,14.43
+2023100111,2025,54594,38,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,67.71,13.76
+2023100111,2025,54594,39,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,67.59,13.08
+2023100111,2025,54594,40,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,67.48,12.41
+2023100111,2025,54594,41,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,67.41,11.72
+2023100111,2025,54594,42,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,67.36,11.04
+2023100111,2025,54594,43,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,67.34,10.36
+2023100111,2025,54594,44,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,67.33,9.7
+2023100111,2025,54594,45,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,67.33,9.04
+2023100111,2025,54594,46,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,67.35,8.41
+2023100111,2025,54594,47,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,67.38,7.79
+2023100111,2025,54594,48,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,67.43,7.19
+2023100111,2025,54594,49,left,81,Jake Ferguson,TE,Offense,Targeted Receiver,67.47,6.6
