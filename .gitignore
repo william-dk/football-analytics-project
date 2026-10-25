@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Large generated datasets live in the shared Google Drive, not in Git
+EDA/Step 2.0 Route Dataset/data/*.csv
+EDA/Step 2.0 Route Dataset/data/*.csv.gz
+EDA/Step 2.0 Route Dataset/data/*.parquet
+!EDA/Step 2.0 Route Dataset/data/weekly_audit.csv
+!EDA/Step 2.0 Route Dataset/data/target_count_exceptions.csv
+!EDA/Step 2.0 Route Dataset/data/target_label_missing.csv

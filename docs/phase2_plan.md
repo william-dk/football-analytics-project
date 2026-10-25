@@ -8,12 +8,12 @@ Emory AI.DataLab Sports Analytics Project — William Kong, Jeffery Dou, Jimmy N
 
 The topic is aligned with what this dataset records best. The tracking was cut for the Big Data Bowl 2026 Prediction task: every route runner and about 7 coverage defenders up to the throw, then only the targeted receiver and the nearby defenders until the ball arrives. The throw and the ball flight that follows are therefore fully observed, while untargeted routes stop at the throw. Rather than reconstruct the missing parts, the study centers on the complete ones.
 
-Step 2 (route classification) supplies the conditioning variable for Step 3 (separation evaluation). The route model is therefore designed around what Step 3 needs.
+Route types come directly from the supplementary labels, which cover every targeted route, so no route classifier is needed for the main analysis. Step 2 builds the merged route-level dataset that gives each labeled route its context, and checks for subtypes within the 12 labels; Step 3 evaluates separation within those route types.
 
 Current status:
 
 - **Step 1 (largely done):** route-type intuition from the supplementary labels: 12 spaghetti plots, confusable-route comparisons, context splits, descriptive statistics, quality checks, separation box plots, and GO animations (`EDA/Supplementary Data Analysis/`).
-- **Step 2 (next):** classify route types, starting from targeted routes, including a BERT-style embedding approach.
+- **Step 2 (next):** merge tracking with the supplementary labels and context, then look for subtypes within labels. A BERT-style embedding is an optional extension.
 - **Step 3:** within each route type, quantify separation at the throw and at the catch point, and make it player-specific. The core question is what good separation looks like for each route type.
 
 ### What the dataset supports
@@ -28,7 +28,7 @@ Current status:
 ## 1. Data facts that shape the plan (verified)
 
 - **Raw separation is driven mainly by route type.** Median distance from the targeted receiver to the nearest DB at the last pre-throw frame: GO 1.7 yd, SLANT 3.2, OUT 4.2, HITCH 5.0, FLAT 9.8, ANGLE 11.8. Route mix also differs sharply by player: 49 of Davante Adams's 155 targets are HITCH routes, and 38 of Tyreek Hill's 133 are POST routes. Comparing players by raw average separation therefore mostly compares route mix, which is why separation must be route-specific.
-- **Only targeted receivers have route labels.** 14,105 targeted routes are labeled across 12 classes (WHEEL has only 76). The other 50,644 route runners are unlabeled. A small labeled set plus a large unlabeled set is exactly the setting where BERT-style self-supervised pretraining helps.
+- **Only targeted receivers have route labels.** 14,105 targeted routes are labeled across 12 classes (WHEEL has only 76). The other 50,644 route runners are unlabeled. Because the study centers on targeted plays, the labels cover every route in the main analysis; unlabeled routes matter only for an extension to untargeted receivers.
 - **Frame 1 is effectively the snap.** In the five-game sample, route runners' median speed at frame 1 is 0.01 yd/s, and 95.5% are below 1 yd/s (most of the rest are in motion). Route shapes can therefore be aligned from frame 1, matching the idea of comparing "what they do from beginning to end".
 - **Trajectories are truncated at the throw, and many breaks come after it.** The input window has a median of 2.5 s (IQR 2.1–3.1 s). Timing routes are thrown at or before the break: a turn detector requiring at least 35 degrees fires on only 253 of 14,105 targeted routes before the throw (57 of 2,214 OUTs), and in the five-game sample the median maximum pre-throw turn for OUT is about 10 degrees. Only 25% of CORNERs point outside at the throw, versus 88% at the catch point. The full break is visible only for targeted receivers, by joining input and output frames.
 - **The 3,901 supplementary plays without tracking are the 2024 season** (Weeks 14–18, 77 games), not filtered 2023 plays. All 14,108 plays from 2023 match. Filter supplementary data to `season == 2023`.
@@ -37,7 +37,7 @@ Current status:
 - **The coordinate convention is mixed** (consistent with the data methods doc). On left-moving plays, x has already been flipped, but `absolute_yardline_number` is still in the original system. Once aligned to the same convention, the QB sits about 5 yd behind the line of scrimmage on both directions. Distances are unaffected, so existing separation values remain usable, but a unified offense-right coordinate layer is required before building route-shape features.
 - **Justin Jefferson's sample is small.** In 2023 he played 10 games (Weeks 1–5 and 14–18): 277 routes and 88 targets, which leaves only 2–15 targets per route type. Partial pooling is required, and all routes should be used, not only targets. JJ McCarthy is not in the 2023 data.
 
-## 2. Step 2: Route classification (about 3 weeks)
+## 2. Step 2: Route-level dataset and subtypes (about 2 weeks)
 
 ### 2.0 Route-level data layer (Week 1, prerequisite)
 
@@ -48,7 +48,7 @@ A first version is on the `claude/exciting-fermi-worf7f` branch (`EDA/separation
 - **Absolute time.** Frame 1 is a reliable snap proxy, so align median paths by seconds since the snap rather than by fraction of each route's observed duration.
 - **Breaks are not a core feature.** Use positions, headings, and speed at fixed times after the snap (0.5, 1.0, 1.5, 2.0 s), plus heading and speed change in the last 0.3 s before the throw. Record whether a break completed before the throw.
 - **Full paths for targeted receivers.** Store input plus output frames for each targeted receiver to show complete route shapes, validate labels, and measure breaks. Model inputs for classification still use pre-throw frames only, because untargeted receivers have nothing after the throw.
-- **All route runners, not only targets.** Alignment (outside, slot, inline) needs the positions of every route runner on the play, ranked within each side; the table also feeds unlabeled pretraining.
+- **Targeted routes first.** The main analysis uses the 14,105 targeted routes, so the route summary table and the targeted full-path table are the priority. All route runners are still read, because alignment (outside, slot, inline) needs every route runner's position on the play, ranked within each side. A pre-throw frame table for all routes is kept as a lower-priority output for the optional extension.
 
 - One row per route runner per play; the sequence runs from frame 1 to the throw. Output frames for targeted receivers are stored separately and used only in Step 3.
 - Normalization ("less about absolute position on the field, more about what they do from beginning to end"):
@@ -59,35 +59,24 @@ A first version is on the `claude/exciting-fermi-worf7f` branch (`EDA/separation
 - Per-frame derived features are computed from x/y differences: velocity vector, acceleration, heading sin/cos, and turn rate. `dir` is not used because its convention is mixed.
 - **Visualization deliverable (Jeff):** redraw the spaghetti plots from targeted receivers' full paths (input plus output), aligned by seconds since the snap.
 
-### 2.A Baseline: route similarity (Week 2)
+### 2.A Subtypes within labels (Week 2)
 
-The "play the game of route similarity" option comes first and is the baseline the BERT model must beat.
+The 12 labels merge related routes (for example, COMEBACK and CURL likely sit inside HITCH or OUT, and DIG inside IN). Subtypes matter for Step 3 if they differ in separation.
 
-- **Handcrafted features + gradient boosting:** positions and headings at fixed times after the snap, lateral displacement, maximum speed, final heading, and late heading and speed change; break features only where a break completed before the throw.
-- **Trajectory distance:** resample by time, compute DTW or Fréchet distances, and classify with kNN. The same distance matrix supports k-medoids or hierarchical clustering.
-- **Evaluation:** game-grouped cross-validation (consistent with the methods doc), macro-F1, and a confusion matrix. Expected difficult pairs: SLANT vs IN, HITCH vs OUT, GO/POST/CORNER routes thrown before the break, and RB FLAT/ANGLE/WHEEL routes.
+- **Data:** targeted receivers' full paths (input plus output), aligned by seconds since the snap, so each break is visible.
+- **Method:** within each label, cluster fixed-time positions and headings with k-means or a GMM, or cluster DTW distances hierarchically ("play the game of route similarity"). Choose the number of clusters by silhouette or BIC, with one cluster allowed.
+- **Review:** a "cluster card" for each subtype with Jeff's animator (medoid plus random samples), named by manual review. Step 1 found no clear multi-modal depth distributions using maximum observed displacement before the throw; full paths and fixed-time features may change that.
+- **Use in Step 3:** a subtype becomes a finer route category only if it is large enough and its separation differs from the rest of its label.
 
-### 2.B BERT-style masked trajectory model (Weeks 2–3)
+### 2.B Optional extension: BERT-style masked trajectory model
 
-Interpretation of the professor's suggestion: randomly mask out frames ("random knockout"), let an encoder compress the sequence into a middle embedding, reconstruct the masked frames ("build back out"), and cluster on the latent embedding.
+Not required for the main analysis, because the supplementary labels already cover every targeted route. It becomes useful if the study extends to untargeted receivers (about 50,000 unlabeled routes) or needs a learned route-similarity measure. The professor suggested it, so confirm the change with him.
 
-- **Architecture:** one token per frame (the normalized features above plus a time encoding) and a [CLS] token. A small Transformer encoder with 2–4 layers, d_model 64–128, and a padding mask for variable-length sequences.
-- **Pretraining objectives, three kinds of masking:**
-  - random masking of 15–30% of frames;
-  - contiguous span masking, which forces the model to learn shape rather than interpolate;
-  - tail masking, which teaches how routes continue and addresses truncation.
-
-  Reconstruct positions and velocities with an MSE or Huber loss.
-- **Pretraining data:** all 64,752 routes. The 50,000 unlabeled routes provide their value here, but classification and clustering are evaluated first on the 14,105 labeled targeted routes, where the signal is clearest.
-- **Input is the receiver's own trajectory only, with no defender information.** Step 3 evaluates separation conditional on route type. If the route embedding contained defender positions, separation information would leak into the conditioning variable and the conclusions would become circular.
-- **Evaluation (each compared against 2.A):**
-  1. linear probe and kNN on targeted-route labels, reported as macro-F1;
-  2. label efficiency: probe performance using 10%, 25%, and 100% of labels, which quantifies the value of unlabeled pretraining;
-  3. UMAP visualization of the embeddings, HDBSCAN or GMM clustering, and NMI/ARI against the labels;
-  4. a "cluster card" for each cluster built with Jeff's animator (medoid plus random samples), named by manual review.
-- **Possible bonus:** clustering may split the 12 NFL classes into finer sub-types, such as quick out vs deep out/comeback, shallow cross vs deep cross, or a 5-yard hitch vs a 12-yard curl. The existing 12 labels serve as the first level and the finer clusters as the second.
-- **Final output:** a fine-tuned classifier that assigns every route runner a route type with calibrated confidence (temperature scaling). Low-confidence routes are labeled UNCLEAR/TRUNCATED rather than forced into a class.
-- **Go/no-go:** if BERT does not clearly beat 2.A on the probe, the simpler model does the labeling and the BERT embedding is used only for similarity and clustering. Either result is worth reporting.
+- **Idea:** randomly mask out frames ("random knockout"), let an encoder compress the sequence into a middle embedding, reconstruct the masked frames ("build back out"), and cluster on the latent embedding.
+- **Architecture:** a small Transformer encoder (2–4 layers, d_model 64–128) over per-frame tokens, with random, span, and tail masking and an MSE or Huber reconstruction loss.
+- **Input is the receiver's own trajectory only, with no defender information,** so that separation does not leak into the route representation.
+- **Limitation:** untargeted routes stop at the throw, often before the break, which limits what any model can learn from them.
+- **Simpler alternative for untargeted labels:** a gradient-boosting classifier on fixed-time features, trained on targeted routes and evaluated with game-grouped cross-validation.
 
 ## 3. Step 3: Route-conditioned separation (Weeks 4–6; define now)
 
@@ -105,7 +94,7 @@ Interpretation of the professor's suggestion: randomly mask out frames ("random 
 ### 3.2 Defining good separation with two anchors
 
 1. **Separation Over Expected (SOE).** Fit an expected-separation model per route with these inputs:
-   - route type (from Step 2), man/zone, and coverage type;
+   - route type (supplementary label, or a 2.A subtype), man/zone, and coverage type;
    - time to throw, alignment, distance to the sideline, red zone, down and distance, motion, and number of visible defenders.
 
    Use a GBM or GAM with game-grouped cross-validation. Observed minus expected separation is the SOE, and "good" is defined as a percentile within the route type.
@@ -116,7 +105,7 @@ Interpretation of the professor's suggestion: randomly mask out frames ("random 
 ### 3.3 Player-specific analysis (Justin Jefferson case study)
 
 - **Hierarchical model:** `SOE ~ fixed effects + (1|receiver) + (1|receiver:route_type) [+ (1|defender)]`, fit with statsmodels MixedLM or bambi/PyMC. Jefferson has only 2 SLANT targets; partial pooling shrinks that cell toward the league mean with a wide interval instead of producing a noise-driven ranking.
-- **Sample:** targeted plays first (88 for Jefferson), where throw, ball-flight, and arrival separation are all observed; at-throw separation can extend to all 277 of his routes labeled in Step 2, weighted by route-type confidence.
+- **Sample:** targeted plays first (88 for Jefferson), where throw, ball-flight, and arrival separation are all observed; his other routes (277 in total) enter only if the untargeted extension is built.
 - **Separation profile:** SOE with intervals for each route type, route mix, the mix of separation types, and speed retention through breaks. Comparison players are CeeDee Lamb, Tyreek Hill, Amon-Ra St. Brown, Puka Nacua, and Davante Adams, who each have 339–470 routes.
 - **Required stability check:** compute the metric separately on odd and even weeks and report the split-half correlation. If a player's SOE is not stable between halves of the season, it reflects noise rather than skill. Report the stability of raw separation alongside it for comparison.
 - **DB perspective:** add a defender random effect to the same model to see which cornerbacks suppress separation on which route types. The assigned defender in man coverage gives the cleanest version.
@@ -133,24 +122,24 @@ Interpretation of the professor's suggestion: randomly mask out frames ("random 
 | Week | Work | Deliverables |
 | :- | :- | :- |
 | 1 (Oct 26 – Nov 1) | 2.0 data layer and coordinate validation; Step 1 finished | Route-level table; full-path spaghetti plots |
-| 2 (Nov 2 – Nov 8) | 2.A baseline; first BERT pretraining run | Baseline F1 and confusion matrix |
-| 3 (Nov 9 – Nov 15) | BERT evaluation, clustering, cluster cards; check-in with the professor | Probe and clustering comparison; go/no-go decision |
-| 4 (Nov 16 – Nov 22) | Label all routes; compute the 3.1 separation types (including arrival) | Decomposed frame-level separation table |
-| 5 (Nov 23 – Nov 29) | 3.2 SOE and completion curves | "Good separation" definition per route type |
+| 2 (Nov 2 – Nov 8) | 2.A subtype clustering on full targeted paths | Subtype cluster cards |
+| 3 (Nov 9 – Nov 15) | 3.1 separation types (throw, ball flight, arrival); check-in with the professor | Decomposed separation table |
+| 4 (Nov 16 – Nov 22) | 3.2 SOE model | Expected-separation model by route type |
+| 5 (Nov 23 – Nov 29) | 3.2 completion curves; optional 2.B extension | "Good separation" definition per route type |
 | 6–7 (Nov 30 – Dec 13) | 3.3 player and DB analysis, stability checks, report | Jefferson case study and final report |
 
-Suggested roles: Jeff continues visualization (spaghetti plots, then cluster cards, then separation timeline animations); one person owns the data layer and the BERT model; another owns the 2.A baseline and the 3.1 separation definitions.
+Suggested roles: Jeff continues visualization (spaghetti plots, then cluster cards, then separation timeline animations); one person owns the data layer and the subtype clustering; another owns the 3.1 separation definitions and the SOE model.
 
 ## 5. Actions to start this week
 
 1. Switch the route layer to the official weekly files, add alignment ranking and fixed-time features, and output targeted receivers' full paths; reuse the existing `frames/*.csv.gz` separation tables and `nearest_defenders()`.
 2. Check more left- and right-moving plays and document the coordinate convention of every field in the data documentation.
 3. Jeff redraws the spaghetti plots from full targeted paths and corrects the Step 1 summary: unmatched supplementary plays are the 2024 season, and frame 1 can serve as the snap.
-4. Run the 2.A handcrafted-feature baseline first; within a week it shows how separable the 12 labels are.
+4. Start 2.A subtype clustering on the targeted full paths as soon as the table exists.
 
 ## 6. Questions for the professor
 
-- Does our interpretation of the BERT approach (masked frame reconstruction, then clustering on the latent embedding) match what he had in mind? In the notes, we read "2027" as "the NFL route definitions already in the data" and "From DB perspective" as "the defensive back's point of view".
+- Since the supplementary labels cover every targeted route, is he comfortable moving the BERT model to an optional extension? Did he suggest it to fill in missing labels, or for route similarity and subtypes? Our reading of it is masked frame reconstruction, then clustering on the latent embedding. In the notes, we read "2027" as "the NFL route definitions already in the data" and "From DB perspective" as "the defensive back's point of view".
 - Does he agree with centering the study on targeted plays, at the throw and during ball flight, given how the tracking was cut?
 - Should good separation be anchored to completion/EPA, or only to percentiles within each route type?
 - Should we bring in the Big Data Bowl 2025 data (2022 season, Weeks 1–9)? As far as we know, its `player_play.csv` labels `routeRan` for **every** route runner and includes PFF coverage matchups (who covered whom). That would remove two bottlenecks: labels existing only for targeted receivers, and no way to validate the assigned defender. These field names are from memory and need to be checked after download.
