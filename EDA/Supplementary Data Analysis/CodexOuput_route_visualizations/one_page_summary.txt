@@ -1,0 +1,15 @@
+Route EDA — 2023 observed targeted-receiver routes
+
+Coverage: 14,105 matched targets from 18,005 labeled supplementary plays; all 18 weekly input files. Matched tracking counts reproduce the supplied list exactly; the source CSV includes additional plays. Unmatched labels remain in route_counts.csv. Labels are joined only to Targeted Receiver, never to teammates. Nullified plays remain included and identified in route_features.csv.
+
+Shapes and separability: SLANT vs IN: median observed maximum depth 4.9 vs 10.2 yd helps, while median lateral endpoints are similar. HITCH vs OUT: depths 6.4 vs 6.8 yd overlap; outward displacement adds information. GO vs HITCH is not cleanly separated by observed depth alone (10.1 vs 6.4 yd). POST/CORNER/GO require direction and curvature as well as depth; early-ending tracks can hide the distinction. FLAT/ANGLE/WHEEL have depth and lateral variation that suggests multi-feature classification. These are descriptive clues, not held-out classification results. A median can smooth away a real break. Full-window features require an earlier fixed cutoff for predictive modeling.
+
+Subtypes: Depth bands are descriptive, not validated clusters. 45.1% of CROSS targets remain below 5 yd of maximum displacement from their first observed position. The chosen density-peak settings detect no class with multiple prominent depth modes, so these data do not establish distinct quick/deep subtypes. KDE peaks depend on bandwidth and window length. A longer route cut short by the pass can occupy a shallow band.
+
+Context: Position and charted man/zone medians are provided with sample sizes. receiver_alignment is a play-level formation (e.g. 3x1), not the receiver's slot designation. Initial width >=10 yd from field center is an explicitly labeled outside proxy; interior includes backfield players. Do not interpret it as charted slot alignment.
+
+Quality: 265 windows are shorter than 1.5s; 13,852 routes lack an observed turn meeting the heuristic; 77 detected turns occur in the final 0.5s. 2 GO tracks retreat >2 yd after their maximum depth: review candidates, not proven mislabels. Duplicate frames: 0; frame gaps: 0; out-of-field tracks: 0; >2yd steps: 0. Left/right normalized median overlays and orientation_audit.csv support direction checks; distribution differences alone do not prove normalization errors.
+
+Separation: Final-input nearest supplied defender median = 1.59 yd for GO versus 7.68 yd for FLAT. These are selected target-only descriptive comparisons, confounded by depth, timing, coverage, and target selection; not causal route effects or player rankings. Six GO animations hold route class constant and illustrate low/high final separation; extremes are examples, not typical plays. Defensive-back-only distances are shown separately.
+
+Timing limitation: No snap/pass event labels exist in these input files. Frame 1 is observed-window start; last input frame is an unverified throw-time proxy. Verified time to throw and snap-relative break time are unavailable. observed_span_s is NOT time to throw.

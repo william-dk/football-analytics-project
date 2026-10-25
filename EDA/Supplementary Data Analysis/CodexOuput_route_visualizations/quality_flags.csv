@@ -1,0 +1,13 @@
+route,short_window,turn_detected,late_turn,returns_toward_qb,duplicate_frames,frame_gap,out_of_bounds,implausible_step,n
+HITCH,43,60,24,18,0,0,0,0,2660
+OUT,10,57,20,3,0,0,0,0,2214
+FLAT,63,23,2,65,0,0,0,0,1983
+CROSS,1,9,0,28,0,0,0,0,1496
+GO,20,6,2,2,0,0,0,0,1397
+IN,1,38,13,12,0,0,0,0,1107
+SLANT,58,20,7,0,0,0,0,0,1049
+POST,1,6,1,1,0,0,0,0,769
+ANGLE,1,19,6,0,0,0,0,0,544
+CORNER,0,3,0,1,0,0,0,0,509
+SCREEN,67,12,2,40,0,0,0,0,301
+WHEEL,0,0,0,0,0,0,0,0,76

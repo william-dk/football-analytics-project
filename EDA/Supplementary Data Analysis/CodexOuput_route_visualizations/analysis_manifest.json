@@ -1,0 +1,84 @@
+{
+  "matched_routes": 14105,
+  "source_labeled_routes": 18005,
+  "class_counts": [
+    {
+      "route": "HITCH",
+      "supplementary_count": 3383,
+      "matched_tracking_count": 2660,
+      "unmatched_count": 723
+    },
+    {
+      "route": "OUT",
+      "supplementary_count": 2886,
+      "matched_tracking_count": 2214,
+      "unmatched_count": 672
+    },
+    {
+      "route": "FLAT",
+      "supplementary_count": 2490,
+      "matched_tracking_count": 1983,
+      "unmatched_count": 507
+    },
+    {
+      "route": "CROSS",
+      "supplementary_count": 1957,
+      "matched_tracking_count": 1496,
+      "unmatched_count": 461
+    },
+    {
+      "route": "GO",
+      "supplementary_count": 1776,
+      "matched_tracking_count": 1397,
+      "unmatched_count": 379
+    },
+    {
+      "route": "IN",
+      "supplementary_count": 1408,
+      "matched_tracking_count": 1107,
+      "unmatched_count": 301
+    },
+    {
+      "route": "SLANT",
+      "supplementary_count": 1316,
+      "matched_tracking_count": 1049,
+      "unmatched_count": 267
+    },
+    {
+      "route": "POST",
+      "supplementary_count": 978,
+      "matched_tracking_count": 769,
+      "unmatched_count": 209
+    },
+    {
+      "route": "ANGLE",
+      "supplementary_count": 704,
+      "matched_tracking_count": 544,
+      "unmatched_count": 160
+    },
+    {
+      "route": "CORNER",
+      "supplementary_count": 642,
+      "matched_tracking_count": 509,
+      "unmatched_count": 133
+    },
+    {
+      "route": "SCREEN",
+      "supplementary_count": 369,
+      "matched_tracking_count": 301,
+      "unmatched_count": 68
+    },
+    {
+      "route": "WHEEL",
+      "supplementary_count": 96,
+      "matched_tracking_count": 76,
+      "unmatched_count": 20
+    }
+  ],
+  "tracking_source": "C:\\Local\\Projects\\Datalab Football Project\\data\\nfl-big-data-bowl-2026-analytics\\114239_nfl_competition_files_published_analytics_final\\train",
+  "supplementary_source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\supplementary_data.csv",
+  "seed": 20261025,
+  "plots_per_class": 12,
+  "animations": 6,
+  "snap_to_throw_available": false
+}
