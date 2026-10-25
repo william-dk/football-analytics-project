@@ -1,78 +1,79 @@
 {
+  "season": 2023,
   "matched_routes": 14105,
-  "source_labeled_routes": 18005,
+  "source_labeled_routes": 14105,
   "class_counts": [
     {
       "route": "HITCH",
-      "supplementary_count": 3383,
+      "supplementary_count": 2660,
       "matched_tracking_count": 2660,
-      "unmatched_count": 723
+      "unmatched_count": 0
     },
     {
       "route": "OUT",
-      "supplementary_count": 2886,
+      "supplementary_count": 2214,
       "matched_tracking_count": 2214,
-      "unmatched_count": 672
+      "unmatched_count": 0
     },
     {
       "route": "FLAT",
-      "supplementary_count": 2490,
+      "supplementary_count": 1983,
       "matched_tracking_count": 1983,
-      "unmatched_count": 507
+      "unmatched_count": 0
     },
     {
       "route": "CROSS",
-      "supplementary_count": 1957,
+      "supplementary_count": 1496,
       "matched_tracking_count": 1496,
-      "unmatched_count": 461
+      "unmatched_count": 0
     },
     {
       "route": "GO",
-      "supplementary_count": 1776,
+      "supplementary_count": 1397,
       "matched_tracking_count": 1397,
-      "unmatched_count": 379
+      "unmatched_count": 0
     },
     {
       "route": "IN",
-      "supplementary_count": 1408,
+      "supplementary_count": 1107,
       "matched_tracking_count": 1107,
-      "unmatched_count": 301
+      "unmatched_count": 0
     },
     {
       "route": "SLANT",
-      "supplementary_count": 1316,
+      "supplementary_count": 1049,
       "matched_tracking_count": 1049,
-      "unmatched_count": 267
+      "unmatched_count": 0
     },
     {
       "route": "POST",
-      "supplementary_count": 978,
+      "supplementary_count": 769,
       "matched_tracking_count": 769,
-      "unmatched_count": 209
+      "unmatched_count": 0
     },
     {
       "route": "ANGLE",
-      "supplementary_count": 704,
+      "supplementary_count": 544,
       "matched_tracking_count": 544,
-      "unmatched_count": 160
+      "unmatched_count": 0
     },
     {
       "route": "CORNER",
-      "supplementary_count": 642,
+      "supplementary_count": 509,
       "matched_tracking_count": 509,
-      "unmatched_count": 133
+      "unmatched_count": 0
     },
     {
       "route": "SCREEN",
-      "supplementary_count": 369,
+      "supplementary_count": 301,
       "matched_tracking_count": 301,
-      "unmatched_count": 68
+      "unmatched_count": 0
     },
     {
       "route": "WHEEL",
-      "supplementary_count": 96,
+      "supplementary_count": 76,
       "matched_tracking_count": 76,
-      "unmatched_count": 20
+      "unmatched_count": 0
     }
   ],
   "tracking_source": "C:\\Local\\Projects\\Datalab Football Project\\data\\nfl-big-data-bowl-2026-analytics\\114239_nfl_competition_files_published_analytics_final\\train",
@@ -80,5 +81,23 @@
   "seed": 20261025,
   "plots_per_class": 12,
   "animations": 6,
-  "snap_to_throw_available": false
+  "snap_to_throw_proxy_available": true,
+  "event_verified_snap_to_throw_available": false,
+  "median_alignment": "same elapsed seconds since frame-1 snap proxy; 0.1s grid; no extrapolation",
+  "median_minimum_support": "max(5, ceil(25% of group))",
+  "snap_proxy_validation": {
+    "season": 2023,
+    "supplementary_plays": 14108,
+    "plays_matched": 14108,
+    "unlabeled_2023_plays": 3,
+    "excluded_2024_plays": 3901,
+    "excluded_2024_labeled_routes": 3900,
+    "route_runner_frame1_rows": 64752,
+    "runner_speed_median_yd_s": 0.01,
+    "runner_speed_below_1_share": 0.9468433407462318,
+    "qb_frame1_rows": 14105,
+    "qb_behind_los_median_yd": 4.949999999999999,
+    "target_tracks_start_at_frame1": true,
+    "interpretation": "Frame 1 is a supported snap proxy; final input frame remains a pass-release proxy, without event timestamps."
+  }
 }
