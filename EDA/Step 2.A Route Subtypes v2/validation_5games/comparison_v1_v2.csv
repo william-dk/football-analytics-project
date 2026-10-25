@@ -1,0 +1,12 @@
+label,v1_k,v1_decision,v2_k,v2_decision,assignment_ari
+ANGLE,1,keep label,1,keep label,
+CORNER,1,keep label,1,keep label,
+CROSS,1,keep label,1,keep label,
+FLAT,1,keep label,1,keep label,
+GO,1,keep label,1,keep label,
+HITCH,3,split,1,keep label,
+IN,2,keep label,1,keep label,
+OUT,1,keep label,1,keep label,
+POST,2,keep label,1,keep label,
+SCREEN,1,keep label,1,keep label,
+SLANT,1,keep label,1,keep label,

@@ -1,0 +1,1 @@
+label,subtype_a,subtype_b,metric,difference_b_minus_a_yd,ci_low_yd,ci_high_yd,valid_bootstraps,bootstrap_resamples,meets_separation_rule

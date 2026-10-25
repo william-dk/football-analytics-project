@@ -1,0 +1,4 @@
+# Keep archived Step 2.0 feature tables outside Git, as before the move.
+Step 2.0 Route Dataset/**/*.csv
+Step 2.0 Route Dataset/**/*.csv.gz
+Step 2.0 Route Dataset/**/*.parquet

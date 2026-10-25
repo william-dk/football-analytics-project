@@ -1,0 +1,305 @@
+{
+  "status": "passed",
+  "failures": [],
+  "seed": 20261025,
+  "scope": "week1_first5games",
+  "game_ids": [
+    2023090700,
+    2023091000,
+    2023091001,
+    2023091002,
+    2023091003
+  ],
+  "targeted_routes": 242,
+  "labeled_targeted_routes": 242,
+  "every_target_exactly_once": true,
+  "medians_by_label": {
+    "ANGLE": {
+      "total_turn_deg": -60.950533524006886,
+      "break_depth_yd": 1.5199999999999996
+    },
+    "CORNER": {
+      "total_turn_deg": 73.24600026467773,
+      "break_depth_yd": 13.810000000000002
+    },
+    "CROSS": {
+      "total_turn_deg": -26.245623523261543,
+      "break_depth_yd": 6.430000000000007
+    },
+    "FLAT": {
+      "total_turn_deg": 4.432163416175172,
+      "break_depth_yd": -0.0400000000000027
+    },
+    "GO": {
+      "total_turn_deg": 6.389095001439671,
+      "break_depth_yd": 2.715
+    },
+    "HITCH": {
+      "total_turn_deg": 51.61226820438365,
+      "break_depth_yd": 6.52
+    },
+    "IN": {
+      "total_turn_deg": -81.25538606068915,
+      "break_depth_yd": 9.740000000000002
+    },
+    "OUT": {
+      "total_turn_deg": 65.45042322031486,
+      "break_depth_yd": 8.25
+    },
+    "POST": {
+      "total_turn_deg": -59.35431560293543,
+      "break_depth_yd": 12.090000000000003
+    },
+    "SCREEN": {
+      "total_turn_deg": -43.57753693028255,
+      "break_depth_yd": 0.1800000000000068
+    },
+    "SLANT": {
+      "total_turn_deg": -55.103792281030415,
+      "break_depth_yd": 3.520000000000003
+    }
+  },
+  "prototype_comparison": {
+    "OUT": {
+      "total_turn_deg": 65.45042322031486,
+      "reference_turn_deg": 65,
+      "difference_deg": 0.4504232203148604,
+      "break_depth_yd": 8.25,
+      "reference_break_depth_yd": 7.3
+    },
+    "IN": {
+      "total_turn_deg": -81.25538606068915,
+      "reference_turn_deg": -81,
+      "difference_deg": -0.2553860606891476,
+      "break_depth_yd": 9.740000000000002,
+      "reference_break_depth_yd": 9.7
+    },
+    "SLANT": {
+      "total_turn_deg": -55.103792281030415,
+      "reference_turn_deg": -55,
+      "difference_deg": -0.10379228103041527,
+      "break_depth_yd": 3.520000000000003,
+      "reference_break_depth_yd": 3.6
+    },
+    "POST": {
+      "total_turn_deg": -59.35431560293543,
+      "reference_turn_deg": -59,
+      "difference_deg": -0.3543156029354293,
+      "break_depth_yd": 12.090000000000003,
+      "reference_break_depth_yd": 13.7
+    },
+    "CORNER": {
+      "total_turn_deg": 73.24600026467773,
+      "reference_turn_deg": 73,
+      "difference_deg": 0.24600026467773262,
+      "break_depth_yd": 13.810000000000002,
+      "reference_break_depth_yd": 13.8
+    },
+    "GO": {
+      "total_turn_deg": 6.389095001439671,
+      "reference_turn_deg": 6,
+      "difference_deg": 0.3890950014396708,
+      "break_depth_yd": 2.715,
+      "reference_break_depth_yd": null
+    }
+  },
+  "amendment": "2026-10-25: downfield-stem sign gates, lateral endpoint checks, 35-degree cuts",
+  "break_threshold_deg": 35,
+  "endpoint_checks": {
+    "FLAT": {
+      "n": 43,
+      "outward_endpoint_share": 0.9767441860465116,
+      "hard_minimum": 0.8,
+      "observed": true
+    },
+    "SCREEN": {
+      "n": 3,
+      "outward_endpoint_share": 0.6666666666666666,
+      "hard_minimum": null,
+      "observed": true
+    },
+    "ANGLE": {
+      "n": 9,
+      "outward_endpoint_share": 0.6666666666666666,
+      "hard_minimum": null,
+      "observed": true
+    },
+    "WHEEL": {
+      "n": 0,
+      "outward_endpoint_share": null,
+      "hard_minimum": 0.8,
+      "observed": false
+    }
+  },
+  "threshold_sensitivity": {
+    "30": {
+      "ANGLE": 0.8888888888888888,
+      "CORNER": 1.0,
+      "CROSS": 0.5185185185185185,
+      "FLAT": 0.4418604651162791,
+      "GO": 0.15789473684210525,
+      "HITCH": 0.717391304347826,
+      "IN": 0.9130434782608695,
+      "OUT": 0.972972972972973,
+      "POST": 0.7272727272727273,
+      "SCREEN": 0.6666666666666666,
+      "SLANT": 0.9375
+    },
+    "35": {
+      "ANGLE": 0.8888888888888888,
+      "CORNER": 1.0,
+      "CROSS": 0.3333333333333333,
+      "FLAT": 0.3953488372093023,
+      "GO": 0.10526315789473684,
+      "HITCH": 0.5652173913043478,
+      "IN": 0.9130434782608695,
+      "OUT": 0.918918918918919,
+      "POST": 0.7272727272727273,
+      "SCREEN": 0.3333333333333333,
+      "SLANT": 0.8125
+    },
+    "40": {
+      "ANGLE": 0.8888888888888888,
+      "CORNER": 1.0,
+      "CROSS": 0.25925925925925924,
+      "FLAT": 0.3488372093023256,
+      "GO": 0.10526315789473684,
+      "HITCH": 0.5217391304347826,
+      "IN": 0.9130434782608695,
+      "OUT": 0.8648648648648649,
+      "POST": 0.5454545454545454,
+      "SCREEN": 0.3333333333333333,
+      "SLANT": 0.625
+    }
+  },
+  "has_break_share_by_label": {
+    "ANGLE": 0.8888888888888888,
+    "CORNER": 1.0,
+    "CROSS": 0.3333333333333333,
+    "FLAT": 0.3953488372093023,
+    "GO": 0.10526315789473684,
+    "HITCH": 0.5652173913043478,
+    "IN": 0.9130434782608695,
+    "OUT": 0.918918918918919,
+    "POST": 0.7272727272727273,
+    "SCREEN": 0.3333333333333333,
+    "SLANT": 0.8125
+  },
+  "go_diagnostic": {
+    "hard_gate": false,
+    "shares": {
+      "GO": 0.10526315789473684,
+      "IN": 0.9130434782608695,
+      "OUT": 0.918918918918919,
+      "SLANT": 0.8125
+    },
+    "go_below_all_three": true,
+    "difference_vs_go": {
+      "OUT": 0.8136557610241821,
+      "IN": 0.8077803203661327,
+      "SLANT": 0.7072368421052632
+    }
+  },
+  "break_class_counts": {
+    "ANGLE": {
+      "bend": 0,
+      "cut": 8,
+      "straight": 1
+    },
+    "CORNER": {
+      "bend": 0,
+      "cut": 8,
+      "straight": 0
+    },
+    "CROSS": {
+      "bend": 10,
+      "cut": 9,
+      "straight": 8
+    },
+    "FLAT": {
+      "bend": 10,
+      "cut": 17,
+      "straight": 16
+    },
+    "GO": {
+      "bend": 8,
+      "cut": 2,
+      "straight": 9
+    },
+    "HITCH": {
+      "bend": 10,
+      "cut": 26,
+      "straight": 10
+    },
+    "IN": {
+      "bend": 1,
+      "cut": 21,
+      "straight": 1
+    },
+    "OUT": {
+      "bend": 3,
+      "cut": 34,
+      "straight": 0
+    },
+    "POST": {
+      "bend": 1,
+      "cut": 8,
+      "straight": 2
+    },
+    "SCREEN": {
+      "bend": 2,
+      "cut": 1,
+      "straight": 0
+    },
+    "SLANT": {
+      "bend": 3,
+      "cut": 13,
+      "straight": 0
+    }
+  },
+  "flipped_by_label": {
+    "ANGLE": 2,
+    "CORNER": 0,
+    "CROSS": 0,
+    "FLAT": 3,
+    "GO": 0,
+    "HITCH": 0,
+    "IN": 0,
+    "OUT": 0,
+    "POST": 0,
+    "SCREEN": 0,
+    "SLANT": 0
+  },
+  "flipped_by_position": {
+    "RB": 5,
+    "TE": 0,
+    "WR": 0
+  },
+  "uncertain_routes": 19,
+  "inside_arrivals": {
+    "FLAT": {
+      "n": 43,
+      "before": 0.09302325581395349,
+      "after": 0.023255813953488372
+    },
+    "OUT": {
+      "n": 37,
+      "before": 0.08108108108108109,
+      "after": 0.08108108108108109
+    }
+  },
+  "input_sha256": {
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\data\\routes.csv": "fc389919befdb8ecd98e71507d7d19fc8458777dc5a409fb64133e9c0993e99c",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\data\\target_full_paths.csv": "51da6764995d41425821d81b9bd44dfe38e204bc7e38397139d26f2e37bbefdb",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\data\\target_separation_summary.csv": "3aaef6cc30fc4d9f242f765373f8b22e8c09a6a4907e6dfef7ed2dbf04170274"
+  },
+  "inputs_unchanged": true,
+  "no_infinite_values": true,
+  "no_break_attributes_missing": true,
+  "notes": [
+    "All 14,108 targets included in season feature table; 14,105 labeled targets used downstream.",
+    "GO cut share is diagnostic only; report its difference from OUT, IN and SLANT.",
+    "FLAT and WHEEL require >=80% outward endpoints; absent subset labels are not tested.",
+    "Break coordinates and stop-return depths use observed positions; headings and speeds use smoothed positions."
+  ]
+}

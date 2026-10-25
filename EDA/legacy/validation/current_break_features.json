@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "failures": [],
+  "seed": 20261025,
+  "scope": "full_season",
+  "targeted_routes": 14108,
+  "legacy_tables_required": false,
+  "classification_and_missingness_verified": true,
+  "maximum_absolute_errors": {
+    "side_corrected": 0.0,
+    "stem_heading_deg": 0.0,
+    "total_turn_deg": 0.0,
+    "catch_y_corrected": 0.0,
+    "max_depth_yd": 0.0,
+    "retreat_yd": 0.0,
+    "time_at_max_depth_s": 0.0,
+    "break_depth_yd": 0.0,
+    "break_lateral_yd": 0.0,
+    "speed_before": 0.0,
+    "speed_min": 0.0,
+    "speed_after": 0.0,
+    "speed_retention": 0.0
+  },
+  "source_hashes_unchanged": true
+}

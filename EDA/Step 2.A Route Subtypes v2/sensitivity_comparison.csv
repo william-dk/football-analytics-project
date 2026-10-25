@@ -1,0 +1,13 @@
+label,main_k,sensitivity_k,assignment_ari,sensitivity_stability_ari,survives,mainly_pass_depth,geometry_columns
+ANGLE,1,1,1.0,1.0,True,False,"['total_turn_deg', 'retreat_yd', 'break_depth_yd']"
+CORNER,1,1,1.0,1.0,True,False,"['total_turn_deg', 'retreat_yd', 'break_depth_yd']"
+CROSS,3,2,0.4996136086012476,0.9965321579472055,False,False,"['total_turn_deg', 'retreat_yd']"
+FLAT,3,3,0.4169560930051385,0.7545516931199573,False,False,"['total_turn_deg', 'retreat_yd']"
+GO,1,1,1.0,1.0,True,False,"['total_turn_deg', 'retreat_yd']"
+HITCH,4,4,0.5405341229933514,0.5084138190614846,False,False,"['total_turn_deg', 'retreat_yd', 'break_depth_yd']"
+IN,4,4,0.3630073705008972,0.6116113397441074,False,False,"['total_turn_deg', 'retreat_yd', 'break_depth_yd']"
+OUT,4,3,0.23376102205421767,0.8802776149066206,False,False,"['total_turn_deg', 'retreat_yd', 'break_depth_yd']"
+POST,2,1,0.0,1.0,False,True,"['total_turn_deg', 'retreat_yd', 'break_depth_yd']"
+SCREEN,2,2,0.5314385304111956,0.8898153806098468,False,False,"['total_turn_deg', 'retreat_yd', 'break_depth_yd']"
+SLANT,1,1,1.0,1.0,True,False,"['total_turn_deg', 'retreat_yd', 'break_depth_yd']"
+WHEEL,1,1,1.0,1.0,True,False,"['total_turn_deg', 'retreat_yd']"

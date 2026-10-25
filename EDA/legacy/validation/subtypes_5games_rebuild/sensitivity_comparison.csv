@@ -1,0 +1,12 @@
+label,main_k,sensitivity_k,assignment_ari,sensitivity_stability_ari,survives,mainly_pass_depth,geometry_columns
+ANGLE,1,1,1.0,1.0,True,False,"['total_turn_deg', 'retreat_yd', 'break_depth_yd']"
+CORNER,1,1,1.0,1.0,True,False,"['total_turn_deg', 'retreat_yd', 'break_depth_yd']"
+CROSS,1,1,1.0,1.0,True,False,"['total_turn_deg', 'retreat_yd']"
+FLAT,1,1,1.0,1.0,True,False,"['total_turn_deg', 'retreat_yd']"
+GO,1,1,1.0,1.0,True,False,"['total_turn_deg', 'retreat_yd']"
+HITCH,1,1,1.0,1.0,True,False,"['total_turn_deg', 'retreat_yd', 'break_depth_yd']"
+IN,1,1,1.0,1.0,True,False,"['total_turn_deg', 'retreat_yd', 'break_depth_yd']"
+OUT,1,1,1.0,1.0,True,False,"['total_turn_deg', 'retreat_yd', 'break_depth_yd']"
+POST,1,1,1.0,1.0,True,False,"['total_turn_deg', 'retreat_yd', 'break_depth_yd']"
+SCREEN,1,1,1.0,1.0,True,False,"['total_turn_deg', 'retreat_yd']"
+SLANT,1,1,1.0,1.0,True,False,"['total_turn_deg', 'retreat_yd', 'break_depth_yd']"

@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "failures": [],
+  "seed": 20261025,
+  "validation_records": {
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\break_features_v2_35deg\\validation_5games\\break_features_validation.json": {
+      "status": "passed",
+      "failures": []
+    },
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\break_features_v2_35deg\\full_season\\break_features_validation.json": {
+      "status": "passed",
+      "failures": []
+    },
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\break_features_v2_35deg\\full_season\\verification.json": {
+      "status": "passed",
+      "failures": []
+    },
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes v2\\validation_5games\\validation.json": {
+      "status": "passed",
+      "failures": []
+    },
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes v2\\validation_5games\\verification.json": {
+      "status": "passed",
+      "failures": []
+    },
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes v2\\validation.json": {
+      "status": "passed",
+      "failures": []
+    },
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes v2\\verification.json": {
+      "status": "passed",
+      "failures": []
+    },
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v3\\validation_5games_layout_v2\\checks.json": {
+      "status": "passed",
+      "failures": []
+    },
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v3\\validation_5games_layout_v2\\verification.json": {
+      "status": "passed",
+      "failures": []
+    },
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v3\\full_season\\checks.json": {
+      "status": "passed",
+      "failures": []
+    },
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v3\\full_season\\verification.json": {
+      "status": "passed",
+      "failures": []
+    }
+  },
+  "geometry_unit_tests": 6,
+  "subtype_unit_tests": 5,
+  "visual_unit_tests": 2,
+  "source_tables_and_prior_versions_unchanged": true,
+  "final_gallery": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v3\\full_season\\index.html",
+  "break_features": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\break_features_v2_35deg\\full_season\\target_break_features.csv",
+  "subtype_report": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes v2\\summary.md",
+  "sensitivity_caveat": "All six accepted main-run splits fail the assignment-robustness sensitivity criterion; POST collapses to k=1 without catch/depth geometry."
+}

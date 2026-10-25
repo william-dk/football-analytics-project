@@ -1,0 +1,58 @@
+{
+  "status": "review_required",
+  "failures": [
+    "Full-season FLAT median total_turn_deg must be >0; observed -1.3875235819598402"
+  ],
+  "independent_reconstruction_passed": true,
+  "max_total_turn_error_deg": 2.842170943040401e-14,
+  "max_tls_angle_error_deg": 5.684341886080802e-14,
+  "seed": 20261025,
+  "groups": {
+    "FLAT": {
+      "n": 1983,
+      "valid_turn_n": 1983,
+      "median_total_turn_deg": -1.3875235819598402,
+      "median_stem_heading_deg": 72.7157014825716,
+      "median_final_heading_deg": 73.63567353459102,
+      "positive_turn_share_of_valid": 0.4790721129601614,
+      "has_break_share": 0.5052950075642966,
+      "median_abs_fit_angle_deg": 20.204567081504024,
+      "turn_by_position": {
+        "CB": 0.48370561455601546,
+        "DT": 16.37163179161908,
+        "FB": 2.2880142579956413,
+        "QB": 11.116505605859885,
+        "RB": -9.844843755631587,
+        "TE": 3.1525282022669785,
+        "WR": 14.657566992668137
+      },
+      "turn_by_side_flag": {
+        "False": 8.688379824820856,
+        "True": -9.241749246710128
+      }
+    },
+    "GO": {
+      "n": 1397,
+      "valid_turn_n": 1397,
+      "median_total_turn_deg": -4.932264286404006,
+      "median_stem_heading_deg": 18.411850344224558,
+      "median_final_heading_deg": 14.457130489035524,
+      "positive_turn_share_of_valid": 0.4352183249821045,
+      "has_break_share": 0.5268432355046528,
+      "median_abs_fit_angle_deg": 21.01022194600796,
+      "turn_by_position": {
+        "FB": -58.678370444672076,
+        "QB": -10.509578236726725,
+        "RB": -1.6617661915653628,
+        "TE": -16.857540671120603,
+        "WR": -2.369125258290552
+      },
+      "turn_by_side_flag": {
+        "False": -4.870692456404242,
+        "True": -7.3810936769172315
+      }
+    }
+  },
+  "conclusion": "The independent reconstruction agrees with the feature table. The required FLAT sign gate fails under the prescribed definition. GO detection is 52.68%, above the expected 15%. No downstream results have been produced.",
+  "next_action": "Review the sign requirement and TLS break definition before authorizing any change or downstream run."
+}

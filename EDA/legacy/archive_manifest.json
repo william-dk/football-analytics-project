@@ -1,0 +1,1008 @@
+{
+  "workspace": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project",
+  "protected_files": [
+    {
+      "path": "EDA\\NFLPlayerData.ipynb",
+      "sha256": "f0c76f6471a677a96c17b25b11ac874b54933932f715957a99da37e6c773aab9"
+    },
+    {
+      "path": "EDA\\PlayAnimator.ipynb",
+      "sha256": "a2e1ca44a7272bf22ba05ef258ba48c949760b4c3c8b514ae0c818b2b6eeb55c"
+    },
+    {
+      "path": "EDA\\README.md",
+      "sha256": "90a61b378324ab7f2dbe66f3e155e4d526ea720f565e02b2b0175687a463b352"
+    },
+    {
+      "path": "EDA\\phase1_first_game_eda.ipynb",
+      "sha256": "fb789d1fb1843f3d087ecc33b3a4756c03fade9d22faa7f24cc1f71d7e56e9e1"
+    },
+    {
+      "path": "EDA\\tracking_5_games.csv",
+      "sha256": "c0abfa546a86e9be5fdca00a1cde5611f8d800616d2527255a620e922807fe86"
+    }
+  ],
+  "entries": [
+    {
+      "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes",
+      "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes",
+      "files": [
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\.gitignore",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\.gitignore",
+          "bytes": 13,
+          "sha256": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\bic_diagnostics.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\bic_diagnostics.csv",
+          "bytes": 2533,
+          "sha256": "78df6859b3e991a8eba327ec0f3ccfe0a9b1d9f623b977bcfd4113b76158f269"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\build_route_subtypes.py",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\build_route_subtypes.py",
+          "bytes": 29653,
+          "sha256": "5bff8974ab798cd44ce6d8f22fc99685be7285272c1842f2cee34c2349d8ab09"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\clustering_diagnostics.json",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\clustering_diagnostics.json",
+          "bytes": 18930,
+          "sha256": "870fba6a5f5f321fa7f9ba461a21c36c7cc0dd26635db9b16eb40adae91d5e9b"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\outlier_review.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\outlier_review.csv",
+          "bytes": 22265,
+          "sha256": "a347beaf3b3e4230a823b13d4b3a94c72c5e330059c58194abfc6979cb725b3e"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\README.md",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\README.md",
+          "bytes": 4833,
+          "sha256": "9b0d6b4756c8980d5283d303ac84324ebfb64eccd12d384adeb3e3ca634780f9"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\requirements.txt",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\requirements.txt",
+          "bytes": 101,
+          "sha256": "f076c6ec659da08e66dd6bf76e4a32ac3bd5a4d6aa263acf93c305f4728772d2"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\route_descriptors.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\route_descriptors.csv",
+          "bytes": 1591376,
+          "sha256": "75a45224a2c249f6ea78c9a88755035a6d3dc469dc46e214124506294ecbbd76"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\route_subtypes.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\route_subtypes.csv",
+          "bytes": 763147,
+          "sha256": "14d8c4835101acdc3a5c9e801223eccddc1d1264a7a357f6cb45ab477ae87c19"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\separation_comparisons.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\separation_comparisons.csv",
+          "bytes": 1408,
+          "sha256": "af138788dbe9103f391d1baf01dd77bb2bb02e4e559bca640913b17825f2f6d7"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\subtype_summary.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\subtype_summary.csv",
+          "bytes": 13660,
+          "sha256": "8290d64eace0b7afc619eb2fa321c7bd74840b38460f34c17d64a85d2bf73ca4"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\summary.md",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\summary.md",
+          "bytes": 3821,
+          "sha256": "febbb3e5cca8ab16c9aa6caff1150caf150b451b0d4b94b905a4c9890dd71ae2"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\test_route_subtypes.py",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\test_route_subtypes.py",
+          "bytes": 2764,
+          "sha256": "a9631621fc99f811facde867e96695f680ff90268c50c3e99e0da0f7b807d81f"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\validation.json",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\validation.json",
+          "bytes": 4054,
+          "sha256": "36a735238a985de7c39b75ab6b0eaae61e5a79e720f65b4dde976adb997f9198"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\ANGLE_overview.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\ANGLE_overview.png",
+          "bytes": 114243,
+          "sha256": "bfefc3bcd96fbab6343cee6e956ccc1547922151a1d0427bb3fc96f664746470"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\ANGLE.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\ANGLE.png",
+          "bytes": 186138,
+          "sha256": "63d46424a3b191c3c5d9b4c942f2acd07d911012dc063b0075ceb1b02c7e9316"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\CORNER_overview.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\CORNER_overview.png",
+          "bytes": 237291,
+          "sha256": "d7bc80739ff32fe00e6c16662fa4eb5871e8ef15f2baffb229a13863fb3af0ca"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\CORNER.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\CORNER.png",
+          "bytes": 377053,
+          "sha256": "93340a24af1de6646e058d077c6acc393e8a32a7772272f288d1f81b6ecd1324"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\CROSS_overview.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\CROSS_overview.png",
+          "bytes": 194803,
+          "sha256": "8d8a364c0551d5a430947c172b6ba9261aa2c22300a9fede82cc81576bc5f21c"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\CROSS.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\CROSS.png",
+          "bytes": 327175,
+          "sha256": "b54884dbfec9de48f472827c934a8182a9391d986fe51a726394289e0929ae74"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\FLAT_overview.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\FLAT_overview.png",
+          "bytes": 107344,
+          "sha256": "2f7b7a903eb01c9e1b38ef6bdb2cadaf8f69e51cd1dc6801b64ab18ff99fb0c6"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\FLAT.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\FLAT.png",
+          "bytes": 154878,
+          "sha256": "4559b72b8214cb0da2e1c34b24e077230111118981709b63c352d4cc3eae5b48"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\GO_overview.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\GO_overview.png",
+          "bytes": 204961,
+          "sha256": "0f9748087b2c9abc3f34fd70a1062a1d24973a9233567efaf13b036f75a2987b"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\GO.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\GO.png",
+          "bytes": 339730,
+          "sha256": "dc23226da21903a0068704123ee027ba959703490c0c1d5b3ecee18f834f5bc7"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\HITCH_intermediate_2.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\HITCH_intermediate_2.png",
+          "bytes": 206410,
+          "sha256": "86adadd5046fef6541b4b52b14da872c303a5e5c93c85b5a83f1877aaf5b0b61"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\HITCH_intermediate.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\HITCH_intermediate.png",
+          "bytes": 238408,
+          "sha256": "b44ab06a830daa271261ce3c6967ae823aeaf172b0b60bffb37a40cb296472f7"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\HITCH_overview.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\HITCH_overview.png",
+          "bytes": 189879,
+          "sha256": "2e50eb6bde31a77e5de8ea23bfbe4dadbc6f2ec84338661ba8382773f939bc39"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\HITCH_short.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\HITCH_short.png",
+          "bytes": 203343,
+          "sha256": "346f2d08100df12ee90246ce64855a3f839389addd97789ce1a1421e085f8ce3"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\HITCH.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\HITCH.png",
+          "bytes": 61755,
+          "sha256": "0a873110f111d533a9d743e8021ee46549636fd060cb2aa59f27e0bc5ce2b7da"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\IN_intermediate.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\IN_intermediate.png",
+          "bytes": 224333,
+          "sha256": "afcb85349c8df9b0a9f09c4720f04861a740d748b7e7aab44d2d69bf87a361c1"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\IN_overview.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\IN_overview.png",
+          "bytes": 176637,
+          "sha256": "dd910a8331eaff17cc0cb3a618c91cd13419276bc885bf1baff8eb0910c0b4ec"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\IN_short.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\IN_short.png",
+          "bytes": 193839,
+          "sha256": "8f764709a934c4853c0bc4d2d6859f1d188725a2bf86c5628de0b35a17d49721"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\OUT_overview.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\OUT_overview.png",
+          "bytes": 146223,
+          "sha256": "20522d424471f045183fd29508798fd8aea4ecb3b48a61a468dd10150213f02e"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\OUT.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\OUT.png",
+          "bytes": 213597,
+          "sha256": "dc720573ca8323a18c9a03c5f942b787d0b507ac2527a0034dce2dbb7f21e483"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\POST_deep.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\POST_deep.png",
+          "bytes": 285877,
+          "sha256": "4eaca771ea59f1d282a65f5465aaaaaeebd280ed492815ad285b494454769c77"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\POST_intermediate.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\POST_intermediate.png",
+          "bytes": 320807,
+          "sha256": "b3de35e6e9597f02c30472a88967f3ee576ae5e8111c694afac217fcddb80f12"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\POST_overview.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\POST_overview.png",
+          "bytes": 218456,
+          "sha256": "d456229381ce8ce7cea315ac1b3ab604953f693ae980a5d048d35afd2c06274b"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\SCREEN_overview.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\SCREEN_overview.png",
+          "bytes": 102024,
+          "sha256": "f4a959ad6fc62da279d8d76302648da07ceda0d3befedac37b59c73bd9ed6fac"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\SCREEN.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\SCREEN.png",
+          "bytes": 151971,
+          "sha256": "91bd6627f5da5bbe465f75f55aea9fb710332cd9dc18ea5b2c9d0262fe27c62d"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\SLANT_overview.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\SLANT_overview.png",
+          "bytes": 185565,
+          "sha256": "de36d8f4869feb71738179a5fd118c2cbcf428a22131effa8db67ddaef479713"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\SLANT.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\SLANT.png",
+          "bytes": 176803,
+          "sha256": "03cfab9fc9f6fd0ecfbec25161c882877a5d81694d9a8ba9cb25ebf964115c67"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\WHEEL_overview.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\WHEEL_overview.png",
+          "bytes": 147442,
+          "sha256": "680d88bf6a79c0840e349e0185d5ff7c0fe7b24a8819ec3419edf2114e5cd684"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\WHEEL.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.A Route Subtypes\\cluster_cards\\WHEEL.png",
+          "bytes": 152584,
+          "sha256": "330153980315e019dd5809e3d298a71535e32e0a45102597f1c3d20bbec9eed1"
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2",
+      "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2",
+      "files": [
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\build_route_visuals_v2.py",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\build_route_visuals_v2.py",
+          "bytes": 38724,
+          "sha256": "b66fe0cdfe6fe27c802e47cc41303c998dc2529516c428f979439a77efc11e6e"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\checks.json",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\checks.json",
+          "bytes": 11263,
+          "sha256": "d8ec01dd52ba4bb82573d4eb1c012df1192b639e9f66a5510f6c91b107377fa4"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\index.html",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\index.html",
+          "bytes": 6976,
+          "sha256": "43e0184bf4534ba19d9f9a96d41f5746172b12fa318ba4a5ec28aa097b0387c7"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\label_summary.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\label_summary.csv",
+          "bytes": 2549,
+          "sha256": "84419b51be8d9d3e4b91210a9099d9b6a4e502c358086e7538596975201166e4"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\median_path_support.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\median_path_support.csv",
+          "bytes": 66261,
+          "sha256": "a560f84cb52e428c138d3cd686937121c70d06bbe5eacbc9e6b28ac41a15627f"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\README.md",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\README.md",
+          "bytes": 7088,
+          "sha256": "5b3783e2ec0f59682c8de9aaf6f0bacf35b30298aaa36940c3bf111a90bf04d1"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative_plays.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\representative_plays.csv",
+          "bytes": 2343,
+          "sha256": "2972ced01ba10a7d5b599ff59ea4269781368792281fea639dba7e71dd373849"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\sampled_routes.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\sampled_routes.csv",
+          "bytes": 111352,
+          "sha256": "f349fb9ed010aa74bd1603182329c0078ad0d4bef6c150cbdba18f6613b86bb2"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\verification.json",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\verification.json",
+          "bytes": 530,
+          "sha256": "65ddc07ec847260f63a1ebaa850b2dfea945f24d073ab214947b395c34e657f2"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\VISUALIZATION_READING_GUIDE.md",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\VISUALIZATION_READING_GUIDE.md",
+          "bytes": 16822,
+          "sha256": "895136ac02ee4b19745661ae4e62a9700aa0a41498d5e7d03b7d5b5e225cccb7"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_ANGLE_2023101505_360.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_ANGLE_2023101505_360.png",
+          "bytes": 253774,
+          "sha256": "9ddf3dbf5d87044be43a907b328a8de9cb6daa2acf30f6520e68c4e2028b1f09"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_CORNER_2023111903_1152.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_CORNER_2023111903_1152.png",
+          "bytes": 260156,
+          "sha256": "bddb6dddbbf2624ff00e7a9e52da1ccc23b4dfd8ecd7bb8b05157e69b7097b3b"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_CROSS_2024010703_2460.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_CROSS_2024010703_2460.png",
+          "bytes": 261977,
+          "sha256": "072c25a4420bed943616c46168fbce445dde1012042f884874c5a7171260c252"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_FLAT_2023111910_3177.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_FLAT_2023111910_3177.png",
+          "bytes": 249237,
+          "sha256": "5475f64f6044278a8735310dfc8f9d1ef5af92ad3bcbd21c1b99a3d252679812"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_GO_2023102911_2321.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_GO_2023102911_2321.png",
+          "bytes": 290349,
+          "sha256": "fb5591d136ef261d25426caaeb6fa808186c4da867ee64790230cfcea0c65215"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_HITCH_2023102913_1975.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_HITCH_2023102913_1975.png",
+          "bytes": 240361,
+          "sha256": "daaec5d92e3b95c0d935d3007cb5ad90874411c7b9f375ef438b638fbe3ea806"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_IN_2023091400_3836.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_IN_2023091400_3836.png",
+          "bytes": 253242,
+          "sha256": "128141be1c6aab1808c6c14eaa81016302db3497015288001112b761c59954c7"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_OUT_2023122300_601.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_OUT_2023122300_601.png",
+          "bytes": 255006,
+          "sha256": "30ebbc0235e4f113607f603e88457c325f592116f4cb540afc05e546f4e54edc"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_POST_2023112601_55.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_POST_2023112601_55.png",
+          "bytes": 274198,
+          "sha256": "2bda4b7028685e24da3595b3f787604dd37a1a0e6426ebcc41c8f708adf80e8b"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_SCREEN_2023091012_3382.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_SCREEN_2023091012_3382.png",
+          "bytes": 257720,
+          "sha256": "5e674b137e5a24a1e911eb446dd3ea51a3daf1c7e1f9bfb647684ccf8fdd165f"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_SLANT_2024010700_2202.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_SLANT_2024010700_2202.png",
+          "bytes": 252695,
+          "sha256": "3097a8960899481ac9e6e033f0a1c81a74398d4e3057eb0d7cf59874cf45651b"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_WHEEL_2023100113_1796.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_WHEEL_2023100113_1796.png",
+          "bytes": 289560,
+          "sha256": "35ab849b2d96d63fa2303e4cdaab508c34ba72bcd4bec8f155ceedf518ebba65"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\all_routes_overview.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\all_routes_overview.png",
+          "bytes": 687543,
+          "sha256": "ebdaea03012492ef0bdc8612a9dfa821e5c0af2986f94acf18b986f7317bd8ba"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_ANGLE.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_ANGLE.png",
+          "bytes": 375315,
+          "sha256": "085e2f368f75333e49963d0f9c03916729c7b52e2d01e9d476c7833a9e32b170"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_CORNER.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_CORNER.png",
+          "bytes": 599947,
+          "sha256": "b8863466d7101a04dff23291713f09bedc8b9ab1b87628119cab7a957cc4fd97"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_CROSS.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_CROSS.png",
+          "bytes": 594004,
+          "sha256": "063fe25f8c5d61f11e44595f655addb39d3811130fc32783f13cd016e25d0c61"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_FLAT.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_FLAT.png",
+          "bytes": 458704,
+          "sha256": "3648745e9486f9a6ad235b50f1f8b694f62a9de6b56bc0318da4c771be5c221a"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_GO.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_GO.png",
+          "bytes": 580381,
+          "sha256": "96d7828b7e03c342f0a2b71f7e3c64aa98c2bf31595283b70737d490a661ad9f"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_HITCH.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_HITCH.png",
+          "bytes": 464064,
+          "sha256": "888fb697ba5e3b3507fccb00693afaaa91d9f5c790b1501c07a270ec64528849"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_IN.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_IN.png",
+          "bytes": 450826,
+          "sha256": "6efdd26d695a36db922e1cfe982fb47539760fe461f9028d929e831f031852c1"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_OUT.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_OUT.png",
+          "bytes": 450090,
+          "sha256": "0a1eac9c11b6b5aec8cbe128a4e8d74cec7ea0d4c85f411811800bb0b16dfefd"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_POST.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_POST.png",
+          "bytes": 540276,
+          "sha256": "88473b381778477a75c6b1660a86a3bc42cf6005775c25faac60b434a75b4a69"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_SCREEN.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_SCREEN.png",
+          "bytes": 394735,
+          "sha256": "141886acbcbd8b1c3ab137a8e3f9fa030bed840782d8963d5b47b8f7ad7ff4a6"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_SLANT.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_SLANT.png",
+          "bytes": 405291,
+          "sha256": "2dbf73aeccd33642af085729e01910129511d257e3d65edd67a34842872fcb37"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_WHEEL.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_WHEEL.png",
+          "bytes": 439117,
+          "sha256": "90a4f4ae7659d57577bf318068b01910fd0e9a3c27753b0106bd5ae0590e267e"
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\build_route_analysis.py",
+      "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\build_route_analysis.py",
+      "files": [
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\build_route_analysis.py",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\build_route_analysis.py",
+          "bytes": 34762,
+          "sha256": "f4f9f86f04dcf2cfc09bdabe10ec1ad5626fc20a65a26fde8709a3de57078641"
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\verify_route_analysis.py",
+      "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\verify_route_analysis.py",
+      "files": [
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\verify_route_analysis.py",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\verify_route_analysis.py",
+          "bytes": 4436,
+          "sha256": "da697c4cc645eccd1e64f9dfcb1ca450d3be3b9801759036c66f1f2c869e7add"
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations",
+      "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations",
+      "files": [
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\all_12_routes.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\all_12_routes.png",
+          "bytes": 1038173,
+          "sha256": "530135deefc953ff4e8d258a39a6342d65ebaeb67cddc752e300e34e538af1aa"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\analysis_manifest.json",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\analysis_manifest.json",
+          "bytes": 3087,
+          "sha256": "699849846296693ce16636572bb37d055ffba403f000475962dada0389e9809c"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\animation_examples.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\animation_examples.csv",
+          "bytes": 2377,
+          "sha256": "b78ed7b4711b0dcfb1a50a5ec2e9fa313e37077eaa68f5b504b4eabd4dc70ec5"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\animation_high_2023102208_1903.gif",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\animation_high_2023102208_1903.gif",
+          "bytes": 403534,
+          "sha256": "ac7fa139e535014e2f05f046ada958f5108e124dc35b22b35e9c24592945c8f7"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\animation_high_2023111204_3537.gif",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\animation_high_2023111204_3537.gif",
+          "bytes": 465977,
+          "sha256": "4504d35cec244c40c5b0b8256808362c144fe6b9dc3334cc26f3adece18d4db2"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\animation_high_2023121001_872.gif",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\animation_high_2023121001_872.gif",
+          "bytes": 248807,
+          "sha256": "e6aaa2a6651e73e6018e4e2918076b1691bcab08bb2df6aeff5bdef5742e66c3"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\animation_low_2023092100_2016.gif",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\animation_low_2023092100_2016.gif",
+          "bytes": 187937,
+          "sha256": "ffb6b04d4daa49145f4b91d2c2234e15d5626ab86197431ef1517eef07feff24"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\animation_low_2023100900_228.gif",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\animation_low_2023100900_228.gif",
+          "bytes": 208812,
+          "sha256": "f286e194c2fff51b1fdf687a4052b97e6b9ba8dea65437e6221434e6e55be655"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\animation_low_2023120301_2146.gif",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\animation_low_2023120301_2146.gif",
+          "bytes": 352099,
+          "sha256": "5f8bbbc6de965b4d2d5b993cd6f1cf71deb902870859f43859216087ea16275e"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\confusable_routes.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\confusable_routes.png",
+          "bytes": 772015,
+          "sha256": "4fe041882018f6b11cb2f891cdee97ad2cbae89f2ea3734fb74fdaf474f59498"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\context_alignment_proxy.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\context_alignment_proxy.png",
+          "bytes": 639437,
+          "sha256": "a2a88ce4afbf97c6fcbfd5f29e7398460df7b76a6587ee078da7b84612d6f4aa"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\context_coverage.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\context_coverage.png",
+          "bytes": 635881,
+          "sha256": "1d698cac27ceaba6bdfbbdab8563043bf90d8c70210b393dd712e34f50c44e9d"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\context_position.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\context_position.png",
+          "bytes": 678134,
+          "sha256": "8064e1fa619b3203e184c8edf976ad663c2b31e925f21625b49574c537242b76"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\context_statistics.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\context_statistics.csv",
+          "bytes": 16216,
+          "sha256": "ca879b30680eedd31f18f72f2d2a350d6cdff7219be678829baef6c34c237b77"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\depth_density_peaks.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\depth_density_peaks.csv",
+          "bytes": 194,
+          "sha256": "743f2ee55184d2fe3c203c901af3a092415f3da289bf61b0ff06db2a824e41b9"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\depth_subtype_bands.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\depth_subtype_bands.csv",
+          "bytes": 1878,
+          "sha256": "aeac26bc60db1b73cf880cce46d85321a994591e64ad96ed56ac2f94287221fe"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\depth_subtypes.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\depth_subtypes.png",
+          "bytes": 322584,
+          "sha256": "e41d6ac65e300e483aff5d3753f84cda62c4428f869d59ddbb434ed8ea964392"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\descriptive_statistics.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\descriptive_statistics.csv",
+          "bytes": 4051,
+          "sha256": "ecd0772b06737ab215cab9597f9d5826801c3088977aa92bc09d6010095aa304"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\excluded_target_audit.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\excluded_target_audit.csv",
+          "bytes": 23,
+          "sha256": "419709cce2d4fd7ab6827f6f062bff04339a1efea8346c897e84b4d801ca7a83"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\feature_overlap.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\feature_overlap.png",
+          "bytes": 745591,
+          "sha256": "c6df40b12cdbd1f8c0e8c32ebfb09244c599780399841ca881b857724ca4e01a"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\median_time_support.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\median_time_support.csv",
+          "bytes": 885369,
+          "sha256": "e1e9f976cd20d997fe89039d0b967af90ac7acf539126c493441c1fc4661ea7d"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\median_time_support.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\median_time_support.png",
+          "bytes": 410058,
+          "sha256": "4690be782caee533096fad85fc12e54225648277991965aff35d64f8bb03731c"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\methodology.txt",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\methodology.txt",
+          "bytes": 2451,
+          "sha256": "917478dd4c53343897aeb017726cd69572152d69cca6155de9b87094e080d0be"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\one_page_summary.txt",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\one_page_summary.txt",
+          "bytes": 3415,
+          "sha256": "cabf1ae4979a2b3b5bc00d16f5766b9c54720b1fc0c9ca5699dd352b7747c248"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\orientation_audit.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\orientation_audit.csv",
+          "bytes": 1733,
+          "sha256": "c894467bdfa32155b32b3f331aa9947f6f4165a5af2bd40e2fa871a6ef0c4beb"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\orientation_check.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\orientation_check.png",
+          "bytes": 573516,
+          "sha256": "4d2a7576856228700e6164b6632b07efbd7d9bc11592c6be2f85fa78f0d16fc2"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\quality_flags.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\quality_flags.csv",
+          "bytes": 465,
+          "sha256": "40ff84543d8bd945092108f2dfc0624d461237804d2d3e1f14b3d359c0aab935"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_analysis.html",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_analysis.html",
+          "bytes": 10417346,
+          "sha256": "7fa63a79624024ba5c74516260c00ef29cb68d8d96e945525b36227f0aa538f5"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_angle.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_angle.png",
+          "bytes": 194858,
+          "sha256": "b547b05b3e9aa14e6fad901b60720ce1575895cd4b9df811a589f5a35f1586a2"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_corner.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_corner.png",
+          "bytes": 431698,
+          "sha256": "b94f43db9b4e0ee7ec81fb7179588781d68d4cd000cfa925c151c09abeeb64fe"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_counts.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_counts.csv",
+          "bytes": 274,
+          "sha256": "3433b2eb9e40b9fe94919ec686666425a3868f6d8b8d137c7432bab60056af6f"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_cross.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_cross.png",
+          "bytes": 285027,
+          "sha256": "7a13a806853b88b518c4900397d984cf1352788803253596b3ba278451d2b461"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_features.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_features.csv",
+          "bytes": 4216982,
+          "sha256": "162385fa2f6902ec2a89a565859a791e765413e2e7cda5abd1956eb80dc6f449"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_flat.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_flat.png",
+          "bytes": 167820,
+          "sha256": "88e7667770abce9514a72ee62fc031db638ff14f8d7a10aa4a65fdc128c56e4b"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_go.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_go.png",
+          "bytes": 293475,
+          "sha256": "0efc259ae8dcbbd9d6f1eb28076305f5a23284d00b0455b18b008cc1e18fd519"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_hitch.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_hitch.png",
+          "bytes": 243930,
+          "sha256": "f66c12acbd85a4a0bc208ac76c3b385f9a81efaf1d4dda5860dad945cf09b180"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_in.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_in.png",
+          "bytes": 271957,
+          "sha256": "2124cdca455a948ac5b1eb2048680254c139b5645fbc9d8ab54f488a42542916"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_out.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_out.png",
+          "bytes": 295548,
+          "sha256": "5317a955f745c3d398032c87076bf8a87e8ed102cc82d9a17a611bd40ddb0567"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_post.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_post.png",
+          "bytes": 288776,
+          "sha256": "6cabc16b9c816bc1fc873e1c48ad9e9cc013e3e58a2f4e65ff87abe15586b245"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_screen.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_screen.png",
+          "bytes": 143637,
+          "sha256": "810031a23ad65f2396ec72c1e833f8bb6632f9b522d6fb1593f2ae946a1d672e"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_slant.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_slant.png",
+          "bytes": 269446,
+          "sha256": "b669f11757dd5493403609885b21eac02fbc85bd7efcaa326036d744afbcbb21"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_wheel.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\route_wheel.png",
+          "bytes": 146409,
+          "sha256": "87bdfada4f8a876e1b4e3ca1686c2f7c0ee9c0adda6d8e71434ac8fe2b8bc43a"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\routes_for_review.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\routes_for_review.csv",
+          "bytes": 106511,
+          "sha256": "8d82623f535de70e307c443e193e05c64fc4bf65e9eb95c4653134c3d5924867"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\season_scope_audit.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\season_scope_audit.csv",
+          "bytes": 548,
+          "sha256": "c7f6ac64538acb0237af1154028cc0dc8efe88b73c376c9dad80c5c34168cd7b"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\separation_boxplots.png",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\separation_boxplots.png",
+          "bytes": 120006,
+          "sha256": "160010499e9204dcb86456d7da15feb5687d992da6f245bdb480d0b59004268b"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\snap_proxy_first_frame_audit.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\snap_proxy_first_frame_audit.csv",
+          "bytes": 8592580,
+          "sha256": "797e791b2c0095e297f3476e50d2d372b49b767e149a6b6cc93a8cb21d3050ac"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\snap_proxy_validation.json",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\snap_proxy_validation.json",
+          "bytes": 565,
+          "sha256": "13defbbc9447035ec741e46017435c4ed66493af83cf259d35cf7283147f69d1"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\supplementary_play_match_audit.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\supplementary_play_match_audit.csv",
+          "bytes": 483627,
+          "sha256": "fbbdd416bd024c4c7a8e7bcba7fa20f153914e10189b7fbce7937104fed05f42"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\VISUALIZATION_FILE_GUIDE.md",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Supplementary Data Analysis\\CodexOuput_route_visualizations\\VISUALIZATION_FILE_GUIDE.md",
+          "bytes": 13075,
+          "sha256": "7033e9343751a7fc88c77ac0e7c93b77202843258344c595f21309a010ccc99d"
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\separation_baseline\\scripts\\build_route_layer.py",
+      "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\separation_baseline\\scripts\\build_route_layer.py",
+      "files": [
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\separation_baseline\\scripts\\build_route_layer.py",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\separation_baseline\\scripts\\build_route_layer.py",
+          "bytes": 3340,
+          "sha256": "dabf687280f8426858bfd127b7eb73555b7f4eaf9a80a7e4b51b6608d0f60afc"
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\separation_baseline\\football_network\\routes.py",
+      "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\separation_baseline\\football_network\\routes.py",
+      "files": [
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\separation_baseline\\football_network\\routes.py",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\separation_baseline\\football_network\\routes.py",
+          "bytes": 5067,
+          "sha256": "d60c967b7129c2748647e2336c2c4e0d27bea3d620a433f693be51a2f0de6779"
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\separation_baseline\\outputs\\route_layer_sample",
+      "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\separation_baseline\\outputs\\route_layer_sample",
+      "files": [
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\separation_baseline\\outputs\\route_layer_sample\\checks.json",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\separation_baseline\\outputs\\route_layer_sample\\checks.json",
+          "bytes": 706,
+          "sha256": "06d2c4d15f4600acf516e395625fb305d1bc30a955a2f5d945e728e6639a99d1"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\separation_baseline\\outputs\\route_layer_sample\\route_frames.csv.gz",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\separation_baseline\\outputs\\route_layer_sample\\route_frames.csv.gz",
+          "bytes": 1052558,
+          "sha256": "4cf66c9bfdf94a00a7248d7ae57668da10a6a26dbbb4c5b791acd40ba9b2fdd1"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\separation_baseline\\outputs\\route_layer_sample\\routes.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\separation_baseline\\outputs\\route_layer_sample\\routes.csv",
+          "bytes": 271094,
+          "sha256": "0f1fbee64e02284c2be53b8499fea2b84f197337902a79ad9426b547e2fcf4d6"
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\audit_break_gate.py",
+      "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.0 Route Dataset\\audit_break_gate.py",
+      "files": [
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\audit_break_gate.py",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.0 Route Dataset\\audit_break_gate.py",
+          "bytes": 5301,
+          "sha256": "159da2a985421cebf1556f3e27ead003584119128921b9198c2f7128a8af9184"
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\verify_break_features_v2.py",
+      "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.0 Route Dataset\\verify_break_features_v2.py",
+      "files": [
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\verify_break_features_v2.py",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.0 Route Dataset\\verify_break_features_v2.py",
+          "bytes": 3473,
+          "sha256": "82d7d874af1223403ef4d1d627ca3479f9a1c7e8418b3f66562be6c12c05294a"
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\BREAK_FEATURES_REVIEW.md",
+      "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.0 Route Dataset\\BREAK_FEATURES_REVIEW.md",
+      "files": [
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\BREAK_FEATURES_REVIEW.md",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.0 Route Dataset\\BREAK_FEATURES_REVIEW.md",
+          "bytes": 4348,
+          "sha256": "40f439076559f636737a5dc89d061d8a1a634909be50c116fd67cc10c0d87c1b"
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\break_features_review.json",
+      "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.0 Route Dataset\\break_features_review.json",
+      "files": [
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\break_features_review.json",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.0 Route Dataset\\break_features_review.json",
+          "bytes": 2204,
+          "sha256": "557ae22fc16cca74a57179ac6e4980515194591c709fb1f5514dcf65c50ece69"
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\validation_5games",
+      "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.0 Route Dataset\\validation_5games",
+      "files": [
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\validation_5games\\break_features_validation.json",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.0 Route Dataset\\validation_5games\\break_features_validation.json",
+          "bytes": 6043,
+          "sha256": "e1b86648367fe7aa44a819abd848e9213fa3a8118b60c90cafa410b1e666b1bf"
+        },
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\validation_5games\\target_break_features.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.0 Route Dataset\\validation_5games\\target_break_features.csv",
+          "bytes": 56784,
+          "sha256": "eb5e0a762d5f7462bacfacfa629710008e9b3a01c5825ee9d04bca96a804cdf3"
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\data\\target_break_features.csv",
+      "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.0 Route Dataset\\data\\target_break_features.csv",
+      "files": [
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\data\\target_break_features.csv",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.0 Route Dataset\\data\\target_break_features.csv",
+          "bytes": 3279827,
+          "sha256": "b33347f0a0939a58647fcfde26988df9d2f9fbe532e9c31cd3e9d03e90283043"
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\data\\break_features_validation.json",
+      "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.0 Route Dataset\\data\\break_features_validation.json",
+      "files": [
+        {
+          "source": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\data\\break_features_validation.json",
+          "destination": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\legacy\\Step 2.0 Route Dataset\\data\\break_features_validation.json",
+          "bytes": 11270,
+          "sha256": "f6647692ca60d8b4e0bfe64abc2f525f02dbbfb531121864c39bfc034b324909"
+        }
+      ]
+    }
+  ],
+  "status": "passed",
+  "failures": [],
+  "moved_entry_count": 15,
+  "archived_files_verified": 142,
+  "unit_tests_passed": 25,
+  "post_migration_validation": {
+    "current_break_features.json": {
+      "status": "passed",
+      "failures": []
+    },
+    "current_subtypes.json": {
+      "status": "passed",
+      "failures": []
+    },
+    "current_visuals.json": {
+      "status": "passed",
+      "failures": []
+    },
+    "historical_hashes.json": {
+      "status": "passed",
+      "failures": []
+    },
+    "subtypes_5games_rebuild/validation.json": {
+      "status": "passed",
+      "failures": []
+    }
+  },
+  "additional_preserved_copy": {
+    "original_path": "EDA/Supplementary Data Analysis/README.md",
+    "archive_path": "EDA\\legacy\\Supplementary Data Analysis\\README.md",
+    "sha256": "98ef6f1361af0a8a6b88f8ac1bfc74fc845d89ce76fc356d39cbd223bc5c40fd",
+    "matches_original_git_content": true
+  },
+  "notes": [
+    "The five protected files retain their original paths and SHA-256 values.",
+    "All moved historical files retain their original bytes. Current code resolves old input paths to legacy; saved reports were not rewritten.",
+    "The current break verifier requires no legacy feature table.",
+    "Active separation baseline code and receiver-play metrics remain in place."
+  ]
+}

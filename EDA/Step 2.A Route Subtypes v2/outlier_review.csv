@@ -1,0 +1,147 @@
+game_id,play_id,nfl_id,label,nearest_subtype,log_likelihood,play_description
+2023090700,3324,41325,FLAT,FLAT_short_straight_2,-36.05029556532829,(12:23) (Shotgun) P.Mahomes pass incomplete short right to J.McKinnon [J.Houston]. DET-L.Onwuzurike was injured during the play.
+2023090700,4041,46213,CORNER,CORNER,-59.70885270177358,(2:09) (Shotgun) P.Mahomes pass incomplete deep right to Ju.Watson [J.Cominsky].
+2023091003,4283,52442,POST,POST_intermediate_inward_2,-33.546324234338,"(2:46) (No Huddle, Shotgun) A.Richardson pass short middle to M.Pittman to JAX 28 for 9 yards (A.Cisco)."
+2023091004,3244,47885,FLAT,FLAT_short_straight_2,-30.209463515364646,(15:00) (Shotgun) K.Cousins pass incomplete short right to A.Mattison.
+2023091007,1764,54520,HITCH,HITCH_intermediate_outward,-29.204498590211813,(3:47) J.Dobbs pass short middle to T.McBride pushed ob at ARZ 26 for 10 yards (P.Butler).
+2023091011,3683,47834,IN,IN_intermediate_inward,-74.15024521540732,"(9:32) (Shotgun) J.Hurts pass deep right to A.Brown pushed ob at NE 35 for 48 yards (Jo.Jones). New England challenged the pass completion ruling, and the play was REVERSED. (Shotgun) J.Hurts pass incomplete deep right to A.Brown (Jo.Jones)."
+2023091012,176,47847,SLANT,SLANT,-98.40192096248677,(12:29) (Shotgun) G.Smith pass deep right to D.Metcalf to LA 25 for 28 yards (J.Fuller).
+2023091013,1737,42547,SLANT,SLANT,-98.4107468711595,(4:31) (Shotgun) D.Jones pass short left to D.Waller to DAL 26 for 22 yards (S.Gilmore).
+2023091100,993,48415,GO,GO,-33.37721300276705,(13:12) (Shotgun) J.Allen pass deep middle intended for D.Harty INTERCEPTED by J.Whitehead at NYJ 4. J.Whitehead to NYJ 4 for no gain (D.Harty).
+2023091705,4350,54519,IN,IN_intermediate_inward,-26.180254401278415,"(2:03) (Shotgun) P.Mahomes pass deep right to S.Moore to JAX 12 for 54 yards (Ty.Campbell; T.Herndon). Penalty on KC-T.Kelce, Unnecessary Roughness, offsetting. Penalty on JAX-R.Jenkins, Unnecessary Roughness, offsetting."
+2023091709,2854,53486,OUT,OUT_intermediate_outward,-41.23675031376381,(1:21) M.Stafford pass incomplete deep left to T.Atwell [N.Bosa].
+2023091710,2686,46705,GO,GO,-38.175830941036445,(7:24) (Shotgun) Z.Wilson pass short right to A.Lazard to NYJ 39 for 14 yards (S.Gilmore).
+2023091710,4021,46705,HITCH,HITCH_intermediate_outward,-29.967979702378614,(3:26) (Shotgun) Z.Wilson pass incomplete deep right to A.Lazard.
+2023091711,3920,46109,OUT,OUT_intermediate_outward,-36.70121815112415,(5:51) (Shotgun) R.Wilson pass incomplete short right to C.Sutton (E.Forbes) [D.Payne].
+2023092400,882,52442,IN,IN_intermediate_inward,-58.66147317864071,(:20) (Shotgun) G.Minshew pass short middle to M.Pittman to BLT 49 for 13 yards (G.Stone).
+2023092400,2711,55944,CROSS,CROSS_shallow_inward_2,-31.118285135899697,(5:50) (Shotgun) G.Minshew pass incomplete deep left to J.Downs.
+2023092402,1515,43584,OUT,OUT_intermediate_outward,-41.5732870039111,(5:27) J.Goff pass deep left to K.Raymond to ATL 10 for 22 yards (J.Bates).
+2023092403,1704,55133,POST,POST_intermediate_inward_2,-42.31345203711492,(3:54) D.Carr pass incomplete deep right to R.Shaheed (R.Ford).
+2023092405,2719,43454,OUT,OUT_intermediate_outward,-42.78892145024055,(9:44) T.Tagovailoa pass incomplete deep left to T.Hill.
+2023092408,2449,42489,ANGLE,ANGLE,-67.88714947141453,(6:41) (Shotgun) J.Allen pass incomplete short middle to S.Diggs (J.Davis).
+2023092409,196,40488,HITCH,HITCH_intermediate_outward,-35.33449153128738,"(12:44) (Shotgun) A.Dalton pass deep left to A.Thielen ran ob at CAR 48 for 23 yards. PENALTY on SEA-J.Love, Roughing the Passer, 15 yards, enforced at CAR 48."
+2023092500,943,53439,OUT,OUT_intermediate_outward,-30.23009298240731,(1:05) (Shotgun) J.Hurts pass short right to D.Smith ran ob at PHI 41 for 15 yards.
+2023100100,3134,52708,SLANT,SLANT,-191.05879846812653,(10:49) (Shotgun) T.Lawrence pass incomplete deep right to J.Hasty.
+2023100105,3024,53453,OUT,OUT_short_straight,-45.013964084175555,(2:06) (Shotgun) K.Pickett pass incomplete deep right to N.Harris.
+2023100107,4093,55075,HITCH,HITCH_intermediate_outward,-34.16026348693817,"(3:53) (Shotgun) B.Mayfield pass short right to D.Thompkins for 5 yards, TOUCHDOWN."
+2023100110,1008,55885,CROSS,CROSS_shallow_inward_2,-33.38370559908292,"(15:00) (Shotgun) J.Herbert pass incomplete deep right to Q.Johnston. Los Angeles Chargers challenged the incomplete pass ruling, and the play was REVERSED. (Shotgun) J.Herbert pass deep right to Q.Johnston to LV 48 for 18 yards (M.Peters)."
+2023100110,2045,53506,IN,IN_intermediate_inward,-31.650477911107465,"(1:26) (No Huddle, Shotgun) J.Herbert pass incomplete short right to J.Palmer."
+2023100110,3936,40024,SLANT,SLANT,-359.7854970052239,(3:54) (Shotgun) J.Herbert pass incomplete deep left to K.Allen.
+2023100111,1737,45185,GO,GO,-43.64317238071979,(3:41) (Shotgun) M.Jones pass short left to K.Bourne to NE 35 for 16 yards (D.Bland).
+2023100112,692,39983,FLAT,FLAT_short_inward,-37.114276832893346,(5:04) (Shotgun) J.Dobbs pass short right to Z.Ertz to ARZ 36 for no gain (D.Greenlaw).
+2023100200,1113,45186,FLAT,FLAT_short_straight_2,-33.18740547332299,"(13:56) (No Huddle, Shotgun) D.Jones pass deep left to M.Breida to NYG 38 for 22 yards (D.Witherspoon)."
+2023100802,3033,54835,SCREEN,SCREEN_short_inward,-38.784772574529114,(3:48) J.Goff pass short left to Z.Knight to CAR 22 for 8 yards (V.Bell; C.Wooten). DET-Z.Knight was injured during the play.
+2023100806,1892,55886,GO,GO,-33.228539121383875,"(1:07) (Shotgun) L.Jackson pass deep left to Z.Flowers to PIT 31 for 29 yards (D.Kazee, J.Porter)."
+2023100807,3845,39983,SCREEN,SCREEN_short_inward_2,-63.71964481994669,"(6:09) (No Huddle, Shotgun) J.Dobbs pass short left to Z.Ertz pushed ob at ARZ 25 for 6 yards (M.Hilton)."
+2023100808,3107,53439,POST,POST_intermediate_inward_2,-29.377861324590103,(12:41) (Shotgun) J.Hurts pass incomplete short right to D.Smith (D.Shelley).
+2023100809,709,53536,FLAT,FLAT_short_inward,-33.11329369166511,(5:16) (Shotgun) Z.Wilson pass short right to Mi.Carter to NYJ 40 for -1 yards (D.Mathis).
+2023100809,3216,52423,HITCH,HITCH_intermediate_outward,-30.343233658673086,(11:40) (Shotgun) R.Wilson pass short left to J.Jeudy to DEN 21 for 2 yards (Qu.Williams).
+2023100811,1267,44959,FLAT,FLAT_short_straight_2,-28.551487613539194,"(13:26) (Shotgun) B.Purdy pass deep right to G.Kittle for 38 yards, TOUCHDOWN [O.Odighizuwa]."
+2023101502,3816,55998,GO,GO,-134.08020443528602,(4:48) (Shotgun) T.Bagent pass short left to T.Scott to CHI 41 for 5 yards (A.Evans).
+2023101503,1885,47835,FLAT,FLAT_short_straight_2,-31.86038431129818,(:37) (Shotgun) J.Burrow pass short right to D.Sample to CIN 29 for 4 yards (D.Witherspoon) [J.Adams].
+2023101505,240,45052,GO,GO,-66.05923925733956,(11:28) (Shotgun) C.Stroud pass incomplete deep left to N.Brown [D.Davis].
+2023101510,2644,53486,OUT,OUT_intermediate_outward,-34.637060608341606,(5:59) M.Stafford pass deep right to T.Atwell pushed ob at ARZ 42 for 30 yards (A.Hamilton).
+2023101511,366,47834,IN,IN_intermediate_inward,-26.863797219109607,(10:53) (Shotgun) J.Hurts pass short right to A.Brown ran ob at PHI 32 for 8 yards.
+2023101511,3339,53439,POST,POST_intermediate_inward_2,-42.48889333441922,(:45) (Shotgun) J.Hurts pass deep right to D.Smith ran ob at PHI 47 for 22 yards.
+2023102200,686,42363,OUT,OUT_short_straight,-43.73355233122357,"(3:22) (Shotgun) L.Jackson pass short middle to N.Agholor for 12 yards, TOUCHDOWN."
+2023102203,625,54528,SLANT,SLANT,-120.00073350270829,(5:15) (Shotgun) J.Allen pass deep left to J.Cook to NE 42 for 28 yards (K.Dugger).
+2023102205,3415,54616,FLAT,FLAT_short_straight_2,-47.689901213424804,(12:01) (Shotgun) D.Ridder pass deep right to T.Allgeier to TB 45 for 46 yards (R.Neal).
+2023102208,1194,54499,CROSS,CROSS_shallow_inward_2,-31.01940315029211,(11:20) J.Love pass short left to C.Watson ran ob at GB 37 for -2 yards (R.Perkins).
+2023102209,937,46243,HITCH,HITCH_intermediate_outward,-38.971595882900274,"(14:23) (Shotgun) P.Mahomes pass deep right to M.Valdes-Scantling for 46 yards, TOUCHDOWN."
+2023102210,514,43454,CROSS,CROSS_shallow_inward_2,-31.252642528316652,(6:00) (Shotgun) T.Tagovailoa pass short left to T.Hill pushed ob at MIA 38 for no gain (J.Bradberry).
+2023102300,2995,52625,CROSS,CROSS_shallow_inward_2,-32.7251866911918,(:15) B.Purdy pass short right to J.Jennings pushed ob at SF 41 for 9 yards (D.Wonnum).
+2023102902,1697,46830,OUT,OUT_short_straight,-63.392343520654656,(5:10) (Shotgun) K.Cousins pass incomplete short right to B.Powell (K.Nixon).
+2023102902,4298,54597,OUT,OUT_intermediate_outward,-121.99608319512515,(2:41) (Shotgun) J.Love pass incomplete deep left to R.Doubs.
+2023102903,2086,52494,CROSS,CROSS_intermediate_inward,-30.490330795586704,(2:00) (Shotgun) G.Minshew pass short left to Z.Moss to NO 33 for 8 yards (M.Lattimore).
+2023102908,1365,47834,SLANT,SLANT,-122.05714327110506,(10:05) (Shotgun) J.Hurts pass short left to A.Brown to WAS 22 for 13 yards (B.St-Juste).
+2023110200,285,47849,HITCH,HITCH_intermediate_outward,-32.11251908180823,(11:41) (Shotgun) K.Pickett pass short right to D.Johnson pushed ob at TEN 29 for 13 yards (A.Hooker).
+2023110200,2110,55946,OUT,OUT_intermediate_outward,-30.886606795393767,(:30) (Shotgun) W.Levis pass incomplete deep right to T.Spears.
+2023110502,3343,54506,ANGLE,ANGLE,-82.43843749842716,(13:41) (Shotgun) G.Smith pass short right to K.Walker to BLT 23 for 1 yard (T.Robinson).
+2023110504,3127,53486,IN,IN_intermediate_inward,-33.677329094291814,(:55) B.Rypien pass incomplete deep right to T.Atwell.
+2023110506,1693,46522,CORNER,CORNER,-41.01749825530772,(4:39) (Shotgun) S.Howell pass short right to B.Pringle to WAS 33 for 13 yards (J.Bentley).
+2023110511,769,52441,IN,IN_intermediate_inward,-29.12819302717187,(2:11) (Shotgun) J.Burrow pass short right to T.Higgins pushed ob at BUF 2 for 12 yards (D.Jackson).
+2023110900,1131,52451,FLAT,FLAT_short_straight_2,-28.460021390521753,"(12:52) (Shotgun) T.Bagent pass short right to C.Kmet to CHI 34 for 6 yards (D.Bootle, D.Johnson)."
+2023111200,3498,55944,IN,IN_intermediate_inward,-29.503823303036157,(2:52) (Shotgun) G.Minshew pass deep right to J.Downs to IND 38 for 28 yards (J.Mills).
+2023111201,589,53463,OUT,OUT_intermediate_outward,-35.22729628336697,(8:49) (Shotgun) D.Watson pass short left to E.Moore pushed ob at BLT 36 for 19 yards (K.Hamilton).
+2023111202,3131,53434,CROSS,CROSS_intermediate_inward,-48.655282964636406,"(:21) (Shotgun) J.Burrow pass deep left to J.Chase for 64 yards, TOUCHDOWN."
+2023111203,3310,46116,OUT,OUT_intermediate_outward,-33.23667419775513,(12:40) (Shotgun) T.Lawrence pass incomplete deep left to C.Kirk (T.Gipson).
+2023111208,593,53541,HITCH,HITCH_intermediate_outward,-32.320869846046214,(6:54) J.Goff pass short middle to A.St. Brown to DET 32 for 7 yards (E.Kendricks).
+2023111208,1559,45573,CROSS,CROSS_shallow_inward_2,-30.38404749832869,(6:18) (Shotgun) J.Herbert pass short right to A.Ekeler to LAC 46 for 15 yards (K.Joseph).
+2023111209,1830,52425,GO,GO,-35.62120744295923,(1:54) (Shotgun) D.Prescott pass short right to C.Lamb to NYG 11 for 17 yards (D.Holmes).
+2023111210,4296,42448,HITCH,HITCH_intermediate_outward,-30.643344081593064,(1:55) (Shotgun) S.Howell pass incomplete short right to J.Crowder.
+2023111901,1139,47849,SLANT,SLANT,-105.98740169507502,(11:20) (Shotgun) K.Pickett pass incomplete short left to D.Johnson.
+2023111906,3469,55965,GO,GO,-76.02168590032929,"(9:27) A.O'Connell pass deep right to T.Tucker ran ob at MIA 22 for 22 yards. Miami challenged the pass completion ruling, and the play was REVERSED. A.O'Connell pass incomplete deep right to T.Tucker."
+2023111911,589,46109,GO,GO,-66.24450248865983,(5:18) (Shotgun) R.Wilson pass incomplete short left to C.Sutton.
+2023111911,2094,55887,OUT,OUT_intermediate_outward,-37.9015679016469,(11:57) J.Dobbs pass deep right to J.Addison to DEN 42 for 18 yards (J.Simmons).
+2023112301,2109,44852,CROSS,CROSS_shallow_inward_2,-38.21557669613775,(:26) (Shotgun) S.Howell pass incomplete deep left to C.Samuel.
+2023112600,795,54476,OUT,OUT_intermediate_outward,-29.90320232790857,(3:56) D.Carr pass incomplete short right to C.Olave (D.Alford).
+2023112600,1902,52465,CROSS,CROSS_shallow_inward_2,-28.493158328540378,(3:54) (Shotgun) D.Ridder pass short left to V.Jefferson to ATL 38 for 13 yards (M.Maye).
+2023112601,3510,56071,GO,GO,-35.2795686865001,(2:40) (Shotgun) J.Browning pass incomplete deep left to A.Iosivas (L.Wallace).
+2023112602,3419,53518,SLANT,SLANT,-477.846714314427,(9:29) (Shotgun) C.Stroud pass incomplete deep right to N.Collins.
+2023112604,2983,47954,GO,GO,-63.85496893569098,"(15:00) (Shotgun) T.DeVito pass incomplete deep right to D.Slayton (M.Bryant). Penalty on NYG-J.Pugh, Illegal Use of Hands, declined."
+2023112610,3349,55886,HITCH,HITCH_intermediate_outward,-49.85277729461235,(11:45) (Shotgun) L.Jackson pass incomplete deep right to Z.Flowers (E.Bassey).
+2023112700,1011,52581,HITCH,HITCH_intermediate_outward,-37.760625795931126,(10:46) (Shotgun) J.Fields pass incomplete deep left to D.Mooney. MIN-J.Metellus was injured during the play.
+2023112700,2516,54634,CROSS,CROSS_shallow_inward_2,-33.512933468676735,(3:29) (Shotgun) J.Dobbs pass short left to T.Chandler to CHI 44 for 3 yards (T.Edwards).
+2023120301,4059,53541,OUT,OUT_intermediate_outward,-31.820932765803132,(2:53) (Shotgun) J.Goff pass incomplete short left to A.St. Brown (P.Adebo).
+2023120306,852,53435,POST,POST_intermediate_inward_2,-88.34458789643234,(2:12) (Shotgun) T.Tagovailoa pass incomplete deep middle to J.Waddle.
+2023120306,2465,52474,OUT,OUT_short_straight,-77.97414016443724,(8:56) (Shotgun) S.Howell pass deep right to A.Gibson ran ob at MIA 37 for 32 yards.
+2023120307,1975,54509,HITCH,HITCH_intermediate_outward,-35.89458856904236,"(:35) (No Huddle, Shotgun) C.Stroud pass incomplete deep middle to J.Metchie."
+2023120308,241,54621,FLAT,FLAT_short_straight_2,-32.19377081676297,"(10:26) J.Flacco pass short left to J.Ford for 24 yards, TOUCHDOWN. Penalty on LA-B.Young, Defensive Offside, declined."
+2023120308,3449,44841,FLAT,FLAT_short_straight_2,-31.87265298627404,(:39) J.Flacco pass incomplete deep right to D.Njoku.
+2023120309,3537,53439,OUT,OUT_short_straight,-51.341126036631636,"(5:55) (No Huddle, Shotgun) J.Hurts pass incomplete short right to D.Smith."
+2023120309,3963,46270,FLAT,FLAT_short_straight_2,-35.446936178808876,(3:51) (Shotgun) J.Hurts pass short right to B.Scott pushed ob at SF 28 for 27 yards (J.Brown).
+2023120400,2457,56050,POST,POST_intermediate_inward_2,-31.06221925137875,"(5:33) (Shotgun) T.Lawrence pass short middle to P.Washington for 14 yards, TOUCHDOWN."
+2023120700,943,54905,CROSS,CROSS_intermediate_inward,-29.579202041844056,(1:24) (Shotgun) M.Trubisky pass short left to J.Warren pushed ob at PIT 27 for 8 yards (Ja.Tavai).
+2023121001,2185,55886,HITCH,HITCH_intermediate_outward,-33.79479313349464,(1:12) (Shotgun) L.Jackson pass incomplete short left to Z.Flowers.
+2023121001,4750,41238,SLANT,SLANT,-252.89920683505318,(9:18) (Shotgun) L.Jackson pass incomplete deep middle to O.Beckham.
+2023121006,3644,54509,HITCH,HITCH_intermediate_outward,-29.39234515916523,(6:24) #10 Davis Mills in at QB for Houston for the injured Stroud (Shotgun) D.Mills pass incomplete deep left to J.Metchie.
+2023121007,109,47807,ANGLE,ANGLE,-113.00158372485633,(13:35) (Shotgun) A.O'Connell pass short middle to J.Jacobs to LV 35 for 9 yards (M.Blackmon).
+2023121008,2404,52433,IN,IN_intermediate_inward,-35.72873529009546,(5:58) B.Purdy pass deep left to B.Aiyuk to SEA 30 for 45 yards (J.Love).
+2023121009,1644,46671,CORNER,CORNER,-36.736997500046,(3:46) (Shotgun) J.Allen pass short middle intended for T.Sherfield INTERCEPTED by C.Conner at KC 44. C.Conner to KC 48 for 4 yards (D.Kincaid).
+2023121009,3594,40129,ANGLE,ANGLE,-67.61554611151065,"(10:42) (Shotgun) J.Allen pass deep left to L.Murray to BUF 47 for 21 yards [L.Chenal]. FUMBLES, touched at 50, ball out of bounds at 50. Kansas City challenged the pass completion ruling, and the play was Upheld. The ruling on the field stands. (Timeout #1.)"
+2023121009,4254,55889,IN,IN_intermediate_inward,-27.741638112591296,(2:06) (Shotgun) J.Allen pass short left to D.Kincaid to KC 21 for 1 yard (L.Sneed) [M.Danna].
+2023121010,487,46109,CROSS,CROSS_shallow_inward_2,-30.22314346087923,(7:24) R.Wilson pass short right to C.Sutton to LAC 48 for no gain (A.Samuel) [E.Kendricks].
+2023121101,2528,52470,FLAT,FLAT_short_inward,-38.18370803290671,"(9:58) (Shotgun) J.Love pass short left to A.Dillon to GB 38 for -10 yards (As.Robinson, A.Ojulari)."
+2023121101,2985,52615,POST,POST_intermediate_inward_2,-31.88815749799259,"(1:35) (Shotgun) T.DeVito pass short right to I.Hodgins for 8 yards, TOUCHDOWN."
+2023121600,2136,52430,OUT,OUT_short_straight,-33.884340745848796,(13:42) N.Mullens pass short left to J.Jefferson ran ob at MIN 47 for 12 yards.
+2023121600,4168,52441,HITCH,HITCH_intermediate_outward,-60.257117489360084,(8:41) (Shotgun) J.Browning pass incomplete deep right to T.Higgins (A.Evans).
+2023121602,476,52423,HITCH,HITCH_intermediate_outward,-37.716644907168295,"(8:50) (No Huddle, Shotgun) R.Wilson pass incomplete short left to J.Jeudy."
+2023121602,612,43584,HITCH,HITCH_intermediate_outward,-29.283505289957382,(7:02) J.Goff pass short left to K.Raymond ran ob at DEN 49 for 12 yards.
+2023121700,2443,56220,GO,GO,-59.26057157521137,(6:44) (Shotgun) J.Love pass short right to M.Heath to TB 20 for 15 yards (L.David).
+2023121702,178,46071,FLAT,FLAT_short_straight_2,-29.385750250066756,(12:44) (Shotgun) T.DeVito pass short right to S.Barkley pushed ob at NO 43 for 17 yards (T.Mathieu).
+2023121703,3878,43396,CORNER,CORNER,-38.17271907081816,(:45) (Shotgun) W.Levis pass incomplete deep right to C.Moore (J.Pitre).
+2023121703,4536,47857,ANGLE,ANGLE,-61.248397902887156,(1:43) (Shotgun) C.Keenum pass deep right to D.Singletary pushed ob at TEN 39 for 41 yards (E.Garror).
+2023121704,1547,44959,FLAT,FLAT_short_straight_2,-34.4677056383455,(3:50) 14-S.Darnold at QB. S.Darnold pass incomplete deep right to G.Kittle (V.Dimukeje).
+2023121704,2762,55959,GO,GO,-34.00462755322791,(4:30) (Shotgun) K.Murray pass incomplete short middle to Mi.Wilson.
+2023121708,288,53456,HITCH,HITCH_intermediate_outward,-77.50530035873099,(10:39) (Shotgun) L.Jackson pass short right to R.Bateman to BLT 40 for 9 yards (Dari.Williams) [F.Oluokun].
+2023121708,1479,53456,OUT,OUT_short_straight,-32.70473928896206,(5:00) (Shotgun) L.Jackson pass short right to R.Bateman to JAX 48 for 12 yards (A.Wingard) [K.Chaisson].
+2023121709,1777,53555,GO,GO,-111.30405346726377,(1:15) (Shotgun) B.Young pass short right to C.Hubbard ran ob at ATL 26 for 10 yards.
+2023121710,1976,53463,IN,IN_intermediate_inward,-27.509763887657556,(2:18) (Shotgun) J.Flacco pass short middle to E.Moore to CLV 39 for 11 yards (K.Gordon).
+2023122100,1450,43415,OUT,OUT_intermediate_outward,-38.10151093482426,(6:09) (Shotgun) M.Stafford pass deep right to D.Robinson to NO 36 for 16 yards (P.Adebo).
+2023122100,1920,43415,HITCH,HITCH_intermediate_outward,-33.18676430123862,(:56) (Shotgun) M.Stafford pass deep left to D.Robinson to NO 26 for 32 yards (I.Yiadom).
+2023122300,2557,52441,SLANT,SLANT,-64.52910714605171,(7:33) (Shotgun) J.Browning pass incomplete short middle to T.Higgins (C.Sullivan).
+2023122301,1409,52536,HITCH,HITCH_intermediate_outward,-40.44444040976369,"(9:12) (Shotgun) J.Allen pass deep right to G.Davis for 57 yards, TOUCHDOWN."
+2023122405,3561,47856,FLAT,FLAT_short_inward,-26.880846290039983,(9:52) J.Goff pass short left to D.Montgomery to DET 40 for 5 yards (J.Hicks).
+2023122409,360,52451,POST,POST_intermediate_inward_2,-30.792250407772823,(9:12) (Shotgun) J.Fields pass deep left to C.Kmet to ARZ 21 for 53 yards (J.Thompson).
+2023122411,3192,55928,CROSS,CROSS_intermediate_inward,-33.10006909990535,"(10:28) (Shotgun) R.Wilson pass deep right to M.Mims to NE 12 for 47 yards (J.Bentley). New England challenged the pass completion ruling, and the play was Upheld. The ruling on the field stands. (Timeout #2.)"
+2023122411,3669,52423,SCREEN,SCREEN_short_inward_2,-113.03459953248584,(4:36) (Shotgun) R.Wilson pass incomplete deep right to J.Jeudy (J.Jones).
+2023122500,2016,46213,CORNER,CORNER,-190.84484670209872,(:56) (Shotgun) P.Mahomes pass short right to Ju.Watson to LV 23 for 11 yards (J.Jones).
+2023122500,2463,54885,HITCH,HITCH_intermediate_outward,-29.332603596005267,(10:52) (Shotgun) P.Mahomes pass short right to J.Ross pushed ob at KC 23 for 2 yards (T.Wilson).
+2023122500,3235,53591,OUT,OUT_short_straight,-55.983282408989226,"(13:31) P.Mahomes pass short right intended for N.Gray INTERCEPTED by T.Moehrig [J.Robinson] at LV 42. T.Moehrig to LV 42 for no gain (N.Gray). The Replay Official reviewed the interception ruling, and the play was REVERSED. P.Mahomes pass incomplete short right to N.Gray (T.Moehrig) [J.Robinson]."
+2023122502,186,40078,SLANT,SLANT,-54.09277368558723,(13:21) (Shotgun) B.Purdy pass incomplete short middle to K.Juszczyk (B.Stephens).
+2023122502,1531,44959,HITCH,HITCH_intermediate_outward,-40.84502389536101,"(8:08) (Shotgun) B.Purdy pass short middle intended for G.Kittle INTERCEPTED by K.Hamilton (M.Humphrey) at SF 32. K.Hamilton to SF 35 for -3 yards (C.McCaffrey). PENALTY on SF-C.McCaffrey, Chop Block, 15 yards, enforced at SF 35."
+2023122502,2766,40078,CROSS,CROSS_shallow_inward_2,-41.13346723677335,(10:59) (Shotgun) B.Purdy pass short left to K.Juszczyk pushed ob at SF 41 for 5 yards (B.Stephens).
+2023122800,2211,46226,FLAT,FLAT_short_straight_2,-27.000573838272267,"(:33) (No Huddle, Shotgun) T.Siemian pass deep left to T.Conklin to CLV 32 for 20 yards (Da.Bell)."
+2023123105,1453,55965,CORNER,CORNER,-43.36589101699546,(7:18) A.O'Connell pass incomplete deep middle to T.Tucker.
+2023123108,2624,44917,ANGLE,ANGLE,-60.19774759291937,"(2:10) (Shotgun) K.Murray pass short left to J.Conner for 5 yards, TOUCHDOWN [M.Williams]."
+2023123110,2678,40078,HITCH,HITCH_intermediate_outward,-30.07254545501874,(13:35) (Shotgun) B.Purdy pass short left to K.Juszczyk pushed ob at SF 33 for 7 yards (D.Mayo; K.Hudson).
+2023123110,2893,52433,HITCH,HITCH_intermediate_outward,-30.910049345625133,"(9:30) (Shotgun) B.Purdy pass deep left to B.Aiyuk for 17 yards, TOUCHDOWN."
+2023123114,514,56220,HITCH,HITCH_intermediate_outward,-30.741618661524136,(6:53) (Shotgun) J.Love pass incomplete deep left to M.Heath [P.Jones].
+2024010600,1137,47896,WHEEL,WHEEL,-61.20635390611228,(11:02) (Shotgun) T.Huntley pass incomplete short left to J.Hill.
+2024010600,1989,43312,IN,IN_intermediate_inward,-35.869620876112066,(13:35) (Shotgun) T.Huntley pass incomplete short middle to L.Treadwell.
+2024010701,1678,56071,OUT,OUT_short_straight,-30.358889446879857,(3:14) (Shotgun) J.Browning pass incomplete short right to A.Iosivas (V.Gray) [S.Ika].
+2024010702,2102,54628,HITCH,HITCH_intermediate_outward,-41.00260420723638,(:38) (Shotgun) R.Tannehill pass incomplete deep right to K.Philips (T.Herndon).
+2024010704,1593,45339,FLAT,FLAT_short_straight_2,-27.226918987837003,(4:57) (Shotgun) B.Zappe pass incomplete short right to P.Brown (A.Davis) [B.Huff]. NE-P.Brown was injured during the play.
+2024010710,3357,46256,HITCH,HITCH_intermediate_outward,-39.99536535011771,(4:56) (Shotgun) S.Darnold pass incomplete deep left to R.McCloud (R.Yeast).
+2024010711,1089,46071,FLAT,FLAT_short_straight_2,-36.16114089777027,(14:06) 2-T.Taylor back in at QB. (Shotgun) T.Taylor pass short left to S.Barkley pushed ob at PHI 43 for 5 yards (Z.Cunningham).
+2024010711,2852,46270,FLAT,FLAT_short_straight_2,-48.146421554495475,(4:21) (Shotgun) M.Mariota pass incomplete deep left to B.Scott (M.McFadden).
