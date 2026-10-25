@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "png_count": 25,
+  "png_dpi_verified": 160,
+  "cohort_total": 14105,
+  "all_label_counts_completion_break_throw_and_arrival_medians_recomputed": true,
+  "all_median_coordinates_and_support_independently_recomputed": true,
+  "exact_sample_keys_reproduced": true,
+  "completion_stratification_verified": true,
+  "representative_eligibility_verified": true,
+  "all_gallery_links_resolve": true,
+  "guide_readme_and_gallery_are_english": true,
+  "six_source_file_sha256_hashes_unchanged": true
+}

@@ -1,0 +1,469 @@
+{
+  "total_labeled_target_routes": 14105,
+  "expected_total": 14105,
+  "route_counts_per_label": {
+    "HITCH": 2660,
+    "OUT": 2214,
+    "FLAT": 1983,
+    "CROSS": 1496,
+    "GO": 1397,
+    "IN": 1107,
+    "SLANT": 1049,
+    "POST": 769,
+    "ANGLE": 544,
+    "CORNER": 509,
+    "SCREEN": 301,
+    "WHEEL": 76
+  },
+  "seed": 20261025,
+  "ball_landing_flip_validation": {
+    "left": {
+      "n_completions": 4817,
+      "median_landing_to_arrival_yd": 0.9972482601698134,
+      "p90_landing_to_arrival_yd": 2.429854684174437
+    },
+    "right": {
+      "n_completions": 4919,
+      "median_landing_to_arrival_yd": 0.9808167335723174,
+      "p90_landing_to_arrival_yd": 2.385152984197953
+    }
+  },
+  "inputs": {
+    "data_dir": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\data",
+    "train_dir": "C:\\Local\\Projects\\Datalab Football Project\\data\\nfl-big-data-bowl-2026-analytics\\114239_nfl_competition_files_published_analytics_final\\train",
+    "supplementary": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\supplementary_data.csv"
+  },
+  "ball_landing_flip_passed": true,
+  "overview_axis_limits": {
+    "lateral_yd": [
+      -50,
+      35
+    ],
+    "depth_from_los_yd": [
+      -20,
+      70
+    ]
+  },
+  "representative_selection": [
+    {
+      "route_label": "HITCH",
+      "candidate_counts": {
+        "none": 798,
+        "IQR": 2469,
+        "IQR;defender": 2515
+      },
+      "throw_time_iqr_s": [
+        1.9,
+        2.9
+      ],
+      "arrival_depth_iqr_yd": [
+        4.439999999999998,
+        9.6425
+      ],
+      "selected_game_id": 2023102913,
+      "selected_play_id": 1975,
+      "relaxed_conditions": "none"
+    },
+    {
+      "route_label": "OUT",
+      "candidate_counts": {
+        "none": 624,
+        "IQR": 1851,
+        "IQR;defender": 1866
+      },
+      "throw_time_iqr_s": [
+        2.0,
+        2.9
+      ],
+      "arrival_depth_iqr_yd": [
+        3.969999999999999,
+        10.650000000000006
+      ],
+      "selected_game_id": 2023122300,
+      "selected_play_id": 601,
+      "relaxed_conditions": "none"
+    },
+    {
+      "route_label": "FLAT",
+      "candidate_counts": {
+        "none": 167,
+        "IQR": 690,
+        "IQR;defender": 824
+      },
+      "throw_time_iqr_s": [
+        2.0,
+        3.2
+      ],
+      "arrival_depth_iqr_yd": [
+        -1.8650000000000002,
+        1.764999999999997
+      ],
+      "selected_game_id": 2023111910,
+      "selected_play_id": 3177,
+      "relaxed_conditions": "none"
+    },
+    {
+      "route_label": "CROSS",
+      "candidate_counts": {
+        "none": 349,
+        "IQR": 1235,
+        "IQR;defender": 1396
+      },
+      "throw_time_iqr_s": [
+        2.6,
+        3.5
+      ],
+      "arrival_depth_iqr_yd": [
+        2.307500000000001,
+        12.472499999999998
+      ],
+      "selected_game_id": 2024010703,
+      "selected_play_id": 2460,
+      "relaxed_conditions": "none"
+    },
+    {
+      "route_label": "GO",
+      "candidate_counts": {
+        "none": 400,
+        "IQR": 1284,
+        "IQR;defender": 1287
+      },
+      "throw_time_iqr_s": [
+        2.3,
+        3.1
+      ],
+      "arrival_depth_iqr_yd": [
+        15.89,
+        30.450000000000003
+      ],
+      "selected_game_id": 2023102911,
+      "selected_play_id": 2321,
+      "relaxed_conditions": "none"
+    },
+    {
+      "route_label": "IN",
+      "candidate_counts": {
+        "none": 311,
+        "IQR": 1022,
+        "IQR;defender": 1031
+      },
+      "throw_time_iqr_s": [
+        2.3,
+        3.4
+      ],
+      "arrival_depth_iqr_yd": [
+        5.884999999999998,
+        14.239999999999998
+      ],
+      "selected_game_id": 2023091400,
+      "selected_play_id": 3836,
+      "relaxed_conditions": "none"
+    },
+    {
+      "route_label": "SLANT",
+      "candidate_counts": {
+        "none": 312,
+        "IQR": 966,
+        "IQR;defender": 985
+      },
+      "throw_time_iqr_s": [
+        1.7,
+        2.1
+      ],
+      "arrival_depth_iqr_yd": [
+        4.510000000000002,
+        7.340000000000003
+      ],
+      "selected_game_id": 2024010700,
+      "selected_play_id": 2202,
+      "relaxed_conditions": "none"
+    },
+    {
+      "route_label": "POST",
+      "candidate_counts": {
+        "none": 233,
+        "IQR": 716,
+        "IQR;defender": 716
+      },
+      "throw_time_iqr_s": [
+        2.3,
+        3.3
+      ],
+      "arrival_depth_iqr_yd": [
+        13.260000000000005,
+        24.540000000000006
+      ],
+      "selected_game_id": 2023112601,
+      "selected_play_id": 55,
+      "relaxed_conditions": "none"
+    },
+    {
+      "route_label": "ANGLE",
+      "candidate_counts": {
+        "none": 6,
+        "IQR": 38,
+        "IQR;defender": 39
+      },
+      "throw_time_iqr_s": [
+        2.5,
+        3.4
+      ],
+      "arrival_depth_iqr_yd": [
+        1.2974999999999994,
+        3.6799999999999997
+      ],
+      "selected_game_id": 2023101505,
+      "selected_play_id": 360,
+      "relaxed_conditions": "none"
+    },
+    {
+      "route_label": "CORNER",
+      "candidate_counts": {
+        "none": 162,
+        "IQR": 485,
+        "IQR;defender": 486
+      },
+      "throw_time_iqr_s": [
+        2.6,
+        3.4
+      ],
+      "arrival_depth_iqr_yd": [
+        16.439999999999998,
+        24.240000000000002
+      ],
+      "selected_game_id": 2023111903,
+      "selected_play_id": 1152,
+      "relaxed_conditions": "none"
+    },
+    {
+      "route_label": "SCREEN",
+      "candidate_counts": {
+        "none": 30,
+        "IQR": 139,
+        "IQR;defender": 215
+      },
+      "throw_time_iqr_s": [
+        1.5,
+        3.1
+      ],
+      "arrival_depth_iqr_yd": [
+        -3.3799999999999955,
+        -0.4799999999999969
+      ],
+      "selected_game_id": 2023091012,
+      "selected_play_id": 3382,
+      "relaxed_conditions": "none"
+    },
+    {
+      "route_label": "WHEEL",
+      "candidate_counts": {
+        "none": 4,
+        "IQR": 12,
+        "IQR;defender": 12
+      },
+      "throw_time_iqr_s": [
+        2.4,
+        3.1
+      ],
+      "arrival_depth_iqr_yd": [
+        11.117500000000003,
+        18.024999999999995
+      ],
+      "selected_game_id": 2023100113,
+      "selected_play_id": 1796,
+      "relaxed_conditions": "none"
+    }
+  ],
+  "landing_points_excluded_from_drawing_per_label": {
+    "HITCH": {
+      "sampled_excluded": 0,
+      "all_routes_over_40yd": 0
+    },
+    "OUT": {
+      "sampled_excluded": 0,
+      "all_routes_over_40yd": 0
+    },
+    "FLAT": {
+      "sampled_excluded": 0,
+      "all_routes_over_40yd": 0
+    },
+    "CROSS": {
+      "sampled_excluded": 0,
+      "all_routes_over_40yd": 0
+    },
+    "GO": {
+      "sampled_excluded": 0,
+      "all_routes_over_40yd": 0
+    },
+    "IN": {
+      "sampled_excluded": 0,
+      "all_routes_over_40yd": 0
+    },
+    "SLANT": {
+      "sampled_excluded": 0,
+      "all_routes_over_40yd": 0
+    },
+    "POST": {
+      "sampled_excluded": 0,
+      "all_routes_over_40yd": 0
+    },
+    "ANGLE": {
+      "sampled_excluded": 0,
+      "all_routes_over_40yd": 0
+    },
+    "CORNER": {
+      "sampled_excluded": 0,
+      "all_routes_over_40yd": 0
+    },
+    "SCREEN": {
+      "sampled_excluded": 1,
+      "all_routes_over_40yd": 1
+    },
+    "WHEEL": {
+      "sampled_excluded": 0,
+      "all_routes_over_40yd": 0
+    }
+  },
+  "selected_play_checks": [
+    {
+      "game_id": 2023102913,
+      "play_id": 1975,
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 54504,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023122300,
+      "play_id": 601,
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 44915,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023111910,
+      "play_id": 3177,
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 52607,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2024010703,
+      "play_id": 2460,
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 42427,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023102911,
+      "play_id": 2321,
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 52546,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023091400,
+      "play_id": 3836,
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 39984,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2024010700,
+      "play_id": 2202,
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 53505,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023112601,
+      "play_id": 55,
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 47855,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023101505,
+      "play_id": 360,
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 47940,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023111903,
+      "play_id": 1152,
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 43404,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023091012,
+      "play_id": 3382,
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 55942,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023100113,
+      "play_id": 1796,
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 52566,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    }
+  ],
+  "number_of_plays_missing_passer": 0,
+  "number_of_plays_missing_passer_at_throw": 0,
+  "selected_official_output_paths_verified": 12,
+  "start_depth_matches_step2_los": true,
+  "status": "complete",
+  "png_dpi": 160,
+  "expected_png_count": 25,
+  "actual_png_count": 25
+}
