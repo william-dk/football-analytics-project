@@ -1,0 +1,28 @@
+{
+  "routes": 1118,
+  "targeted_routes": 242,
+  "plays": 242,
+  "origin_max_abs_yd": 0.0,
+  "share_targets_downfield_after_1s_excl_screen_flat": 0.9693877551020408,
+  "share_toward_sideline_at_throw": {
+    "OUT": 0.8648648648648649,
+    "CORNER": 0.25,
+    "FLAT": 0.9069767441860465,
+    "IN": 0.2608695652173913,
+    "SLANT": 0.25,
+    "POST": 0.45454545454545453
+  },
+  "share_toward_sideline_at_catch": {
+    "OUT": 0.918918918918919,
+    "CORNER": 0.875,
+    "FLAT": 0.9069767441860465,
+    "IN": 0.043478260869565216,
+    "SLANT": 0.0,
+    "POST": 0.0
+  },
+  "qb_depth_behind_los_median_yd_by_direction": {
+    "left": 4.94,
+    "right": 5.08
+  },
+  "share_in_motion_at_snap": 0.044722719141323794
+}
