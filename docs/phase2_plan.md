@@ -49,7 +49,6 @@ A first version is on the `claude/exciting-fermi-worf7f` branch (`EDA/separation
 - **Breaks are not a core feature.** Use positions, headings, and speed at fixed times after the snap (0.5, 1.0, 1.5, 2.0 s), plus heading and speed change in the last 0.3 s before the throw. Record whether a break completed before the throw.
 - **Full paths for targeted receivers.** Store input plus output frames for each targeted receiver to show complete route shapes, validate labels, and measure breaks. Model inputs for classification still use pre-throw frames only, because untargeted receivers have nothing after the throw.
 - **Targeted routes first.** The main analysis uses the 14,105 targeted routes, so the route summary table and the targeted full-path table are the priority. All route runners are still read, because alignment (outside, slot, inline) needs every route runner's position on the play, ranked within each side. A pre-throw frame table for all routes is kept as a lower-priority output for the optional extension.
-- **Build prompt.** The full specification for this step is in `docs/step2_0_prompt.md`.
 
 - One row per route runner per play; the sequence runs from frame 1 to the throw. Output frames for targeted receivers are stored separately and used only in Step 3.
 - Normalization ("less about absolute position on the field, more about what they do from beginning to end"):
