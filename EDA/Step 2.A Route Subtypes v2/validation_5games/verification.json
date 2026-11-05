@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "failures": [],
+  "seed": 20261025,
+  "scope": "week1_first5games",
+  "labeled_targeted_routes": 242,
+  "labels_verified": 11,
+  "short_nearest_catch_assignments_verified": 0,
+  "stability_refits_per_analysis": 50,
+  "accepted_split_labels": [],
+  "all_provisional_splits_surviving_sensitivity": [],
+  "source_hashes_unchanged": true
+}

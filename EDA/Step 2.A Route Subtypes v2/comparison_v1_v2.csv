@@ -1,0 +1,13 @@
+label,v1_k,v1_decision,v2_k,v2_decision,assignment_ari
+ANGLE,1,keep label,1,keep label,
+CORNER,1,keep label,1,keep label,
+CROSS,1,keep label,3,keep label,
+FLAT,1,keep label,3,split,
+GO,1,keep label,1,keep label,
+HITCH,3,split,4,split,0.28257762708734746
+IN,2,keep label,4,split,0.043014677510681186
+OUT,1,keep label,4,split,
+POST,2,keep label,2,split,0.6035556989112709
+SCREEN,1,keep label,2,split,
+SLANT,1,keep label,1,keep label,
+WHEEL,1,keep label,1,keep label,

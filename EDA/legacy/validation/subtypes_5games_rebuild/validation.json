@@ -1,0 +1,175 @@
+{
+  "status": "passed",
+  "failures": [],
+  "seed": 20261025,
+  "scope": "week1_first5games",
+  "labeled_targeted_routes": 242,
+  "every_route_assigned_exactly_once": true,
+  "too_short_total": 0,
+  "short_nearest_catch_assigned": 0,
+  "chosen_k_per_label": {
+    "ANGLE": 1,
+    "CORNER": 1,
+    "CROSS": 1,
+    "FLAT": 1,
+    "GO": 1,
+    "HITCH": 1,
+    "IN": 1,
+    "OUT": 1,
+    "POST": 1,
+    "SCREEN": 1,
+    "SLANT": 1
+  },
+  "decisions": {
+    "ANGLE": {
+      "decision": "keep label",
+      "reason": "insufficient sample (<200 eligible routes)"
+    },
+    "CORNER": {
+      "decision": "keep label",
+      "reason": "insufficient sample (<200 eligible routes)"
+    },
+    "CROSS": {
+      "decision": "keep label",
+      "reason": "insufficient sample (<200 eligible routes)"
+    },
+    "FLAT": {
+      "decision": "keep label",
+      "reason": "insufficient sample (<200 eligible routes)"
+    },
+    "GO": {
+      "decision": "keep label",
+      "reason": "insufficient sample (<200 eligible routes)"
+    },
+    "HITCH": {
+      "decision": "keep label",
+      "reason": "insufficient sample (<200 eligible routes)"
+    },
+    "IN": {
+      "decision": "keep label",
+      "reason": "insufficient sample (<200 eligible routes)"
+    },
+    "OUT": {
+      "decision": "keep label",
+      "reason": "insufficient sample (<200 eligible routes)"
+    },
+    "POST": {
+      "decision": "keep label",
+      "reason": "insufficient sample (<200 eligible routes)"
+    },
+    "SCREEN": {
+      "decision": "keep label",
+      "reason": "insufficient sample (<200 eligible routes)"
+    },
+    "SLANT": {
+      "decision": "keep label",
+      "reason": "insufficient sample (<200 eligible routes)"
+    }
+  },
+  "stability_resamples": 50,
+  "separation_bootstrap_resamples": 1000,
+  "covariance_type": "diag",
+  "n_init": 10,
+  "missing_arrival_separation": 26,
+  "inputs_unchanged": true,
+  "input_sha256": {
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\data\\routes.csv": "fc389919befdb8ecd98e71507d7d19fc8458777dc5a409fb64133e9c0993e99c",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\data\\target_full_paths.csv": "51da6764995d41425821d81b9bd44dfe38e204bc7e38397139d26f2e37bbefdb",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\data\\target_separation_summary.csv": "3aaef6cc30fc4d9f242f765373f8b22e8c09a6a4907e6dfef7ed2dbf04170274",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\break_features_v2_35deg\\validation_5games\\target_break_features.csv": "fc5b3025535d2e63182ece6089818eba0d290f2e6cd5109aa8101c12b7dcd1b5",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\supplementary_data.csv": "862f5d534dabee4071d8498ba46e5c48c27e56fa2fa81c6150ea2419e66ee98d"
+  },
+  "break_threshold_deg": 35,
+  "geometry_columns_per_label": {
+    "ANGLE": [
+      "catch_x",
+      "catch_y",
+      "max_depth_yd",
+      "total_turn_deg",
+      "retreat_yd",
+      "break_depth_yd"
+    ],
+    "CORNER": [
+      "catch_x",
+      "catch_y",
+      "max_depth_yd",
+      "total_turn_deg",
+      "retreat_yd",
+      "break_depth_yd"
+    ],
+    "CROSS": [
+      "catch_x",
+      "catch_y",
+      "max_depth_yd",
+      "total_turn_deg",
+      "retreat_yd"
+    ],
+    "FLAT": [
+      "catch_x",
+      "catch_y",
+      "max_depth_yd",
+      "total_turn_deg",
+      "retreat_yd"
+    ],
+    "GO": [
+      "catch_x",
+      "catch_y",
+      "max_depth_yd",
+      "total_turn_deg",
+      "retreat_yd"
+    ],
+    "HITCH": [
+      "catch_x",
+      "catch_y",
+      "max_depth_yd",
+      "total_turn_deg",
+      "retreat_yd",
+      "break_depth_yd"
+    ],
+    "IN": [
+      "catch_x",
+      "catch_y",
+      "max_depth_yd",
+      "total_turn_deg",
+      "retreat_yd",
+      "break_depth_yd"
+    ],
+    "OUT": [
+      "catch_x",
+      "catch_y",
+      "max_depth_yd",
+      "total_turn_deg",
+      "retreat_yd",
+      "break_depth_yd"
+    ],
+    "POST": [
+      "catch_x",
+      "catch_y",
+      "max_depth_yd",
+      "total_turn_deg",
+      "retreat_yd",
+      "break_depth_yd"
+    ],
+    "SCREEN": [
+      "catch_x",
+      "catch_y",
+      "max_depth_yd",
+      "total_turn_deg",
+      "retreat_yd"
+    ],
+    "SLANT": [
+      "catch_x",
+      "catch_y",
+      "max_depth_yd",
+      "total_turn_deg",
+      "retreat_yd",
+      "break_depth_yd"
+    ]
+  },
+  "versions": {
+    "python": "3.12.13",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "sklearn": "1.7.2"
+  }
+}

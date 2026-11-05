@@ -1,0 +1,12 @@
+game_id,play_id,nfl_id,label,nearest_subtype,log_likelihood,play_description
+2023090700,361,38696,HITCH,HITCH,-37.5341534635004,(10:06) (Shotgun) J.Goff pass short left to M.Jones to DET 17 for 5 yards (J.Reid) [F.Anudike-Uzomah].
+2023090700,4041,46213,CORNER,CORNER,-25.19263370174175,(2:09) (Shotgun) P.Mahomes pass incomplete deep right to Ju.Watson [J.Cominsky].
+2023091000,1240,53488,SLANT,SLANT,-17.872008107453283,"(9:46) (Shotgun) B.Young pass short middle to T.Marshall to ATL 43 for 11 yards (D.Alford, T.Andersen)."
+2023091000,1925,52858,FLAT,FLAT,-33.739983018955634,(15:00) (Shotgun) B.Young pass short right to G.Ricci to CAR 27 for 2 yards (A.Terrell).
+2023091000,2342,47836,ANGLE,ANGLE,-20.446589234859154,(8:17) (Shotgun) B.Young pass short middle to M.Sanders to CAR 39 for 3 yards (K.Elliss).
+2023091000,3078,53488,GO,GO,-22.745095124261926,(12:25) (Shotgun) B.Young pass incomplete deep right to T.Marshall [G.Jarrett].
+2023091001,284,54572,SCREEN,SCREEN,-14.060874301054195,(11:41) (Shotgun) C.Stroud pass short right to D.Pierce to HST 42 for no gain (R.Darby).
+2023091001,3216,39989,IN,IN,-21.89390246444936,(1:51) (Shotgun) C.Stroud pass incomplete deep middle to R.Woods (P.Queen).
+2023091001,4392,45052,CROSS,CROSS,-27.382416888955802,(2:04) (Shotgun) C.Stroud pass incomplete short right to N.Brown.
+2023091002,599,40026,POST,POST,-19.35828117407197,(5:13) (Shotgun) Direct snap to N.Chubb.  D.Watson pass incomplete deep right to M.Goodwin.
+2023091002,819,46104,OUT,OUT,-36.391134656466,(2:09) (Shotgun) D.Watson pass short left to N.Chubb pushed ob at 50 for 7 yards (C.Sample).

@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Large Step 2.0 tables live in the shared OneDrive folder, not in Git.
+# Covers data/ and any separate rebuild output folders; small audit files stay tracked.
+EDA/Step 2.0 Route Dataset/**/*.csv
+EDA/Step 2.0 Route Dataset/**/*.csv.gz
+EDA/Step 2.0 Route Dataset/**/*.parquet
+!EDA/Step 2.0 Route Dataset/**/weekly_audit.csv
+!EDA/Step 2.0 Route Dataset/**/target_count_exceptions.csv
+!EDA/Step 2.0 Route Dataset/**/target_label_missing.csv
+!EDA/Step 2.0 Route Dataset/**/defender_baseline_mismatches.csv

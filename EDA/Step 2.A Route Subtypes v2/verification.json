@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "failures": [],
+  "seed": 20261025,
+  "scope": "full_season",
+  "labeled_targeted_routes": 14105,
+  "labels_verified": 12,
+  "short_nearest_catch_assignments_verified": 13,
+  "stability_refits_per_analysis": 50,
+  "accepted_split_labels": [
+    "FLAT",
+    "HITCH",
+    "IN",
+    "OUT",
+    "POST",
+    "SCREEN"
+  ],
+  "all_provisional_splits_surviving_sensitivity": [],
+  "source_hashes_unchanged": true
+}

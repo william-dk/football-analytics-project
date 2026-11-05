@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "failures": [],
+  "seed": 20261025,
+  "scope": "full_season",
+  "labeled_targeted_routes": 14105,
+  "median_points_verified": 1196,
+  "maximum_median_coordinate_error_yd": 0.0,
+  "maximum_support_count_error": 0,
+  "representative_rankings_verified": 24,
+  "images_verified": 37,
+  "gallery_links_verified": 78,
+  "source_and_prior_version_hashes_unchanged": true,
+  "notes": [
+    "Coordinates rebuilt from source paths and corrected sides. All-label medians and supports independently recalculated.",
+    "Representative eligibility and distance ranking independently recalculated for both result groups.",
+    "Builder separately verifies selected official output paths and nearest-defender distances."
+  ]
+}

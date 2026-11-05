@@ -1,0 +1,1141 @@
+{
+  "total_labeled_target_routes": 242,
+  "expected_total": 242,
+  "seed": 20261025,
+  "scope": "week1_first5games",
+  "break_threshold_deg": 35,
+  "route_counts_per_label": {
+    "HITCH": 46,
+    "FLAT": 43,
+    "OUT": 37,
+    "CROSS": 27,
+    "IN": 23,
+    "GO": 19,
+    "SLANT": 16,
+    "POST": 11,
+    "ANGLE": 9,
+    "CORNER": 8,
+    "SCREEN": 3
+  },
+  "ball_landing_flip_validation": {
+    "left": {
+      "n_completions": 66,
+      "median_landing_to_arrival_yd": 1.2895075806471725,
+      "p90_landing_to_arrival_yd": 2.226229171851051
+    },
+    "right": {
+      "n_completions": 92,
+      "median_landing_to_arrival_yd": 1.399238785503616,
+      "p90_landing_to_arrival_yd": 2.5557605189312955
+    }
+  },
+  "every_route_exactly_once": true,
+  "side_corrected_routes_per_label": {
+    "ANGLE": 2,
+    "CORNER": 0,
+    "CROSS": 0,
+    "FLAT": 3,
+    "GO": 0,
+    "HITCH": 0,
+    "IN": 0,
+    "OUT": 0,
+    "POST": 0,
+    "SCREEN": 0,
+    "SLANT": 0
+  },
+  "side_uncertain_routes_per_label": {
+    "ANGLE": 6,
+    "CORNER": 0,
+    "CROSS": 0,
+    "FLAT": 8,
+    "GO": 0,
+    "HITCH": 0,
+    "IN": 1,
+    "OUT": 3,
+    "POST": 0,
+    "SCREEN": 1,
+    "SLANT": 0
+  },
+  "inside_arrivals": {
+    "FLAT": {
+      "n": 43,
+      "before": 0.09302325581395349,
+      "after": 0.023255813953488372
+    },
+    "OUT": {
+      "n": 37,
+      "before": 0.08108108108108109,
+      "after": 0.08108108108108109
+    }
+  },
+  "subtype_overlays": {
+    "HITCH": [],
+    "OUT": [],
+    "FLAT": [],
+    "CROSS": [],
+    "GO": [],
+    "IN": [],
+    "SLANT": [],
+    "POST": [],
+    "ANGLE": [],
+    "CORNER": [],
+    "SCREEN": []
+  },
+  "ball_landing_flip_passed": true,
+  "overview_axis_limits": {
+    "lateral_yd": [
+      -35,
+      30
+    ],
+    "depth_from_los_yd": [
+      -15,
+      50
+    ]
+  },
+  "representative_selection": [
+    {
+      "route_label": "HITCH",
+      "result_group": "completion",
+      "pass_result": "C",
+      "candidate_counts": {
+        "none": 6,
+        "IQR": 34,
+        "IQR;defender": 34
+      },
+      "throw_time_iqr_s": [
+        1.8,
+        2.875
+      ],
+      "arrival_depth_iqr_yd": [
+        4.3525000000000045,
+        9.892499999999998
+      ],
+      "status": "selected",
+      "selected_game_id": 2023091002,
+      "selected_play_id": 3787,
+      "receiver_nfl_id": 53434,
+      "relaxed_conditions": "none",
+      "selection_distance_yd": 0.8377464477292242
+    },
+    {
+      "route_label": "HITCH",
+      "result_group": "incompletion",
+      "pass_result": "I",
+      "candidate_counts": {
+        "none": 6,
+        "IQR": 12,
+        "IQR;defender": 12
+      },
+      "throw_time_iqr_s": [
+        1.8,
+        2.875
+      ],
+      "arrival_depth_iqr_yd": [
+        4.3525000000000045,
+        9.892499999999998
+      ],
+      "status": "selected",
+      "selected_game_id": 2023091002,
+      "selected_play_id": 3571,
+      "receiver_nfl_id": 52441,
+      "relaxed_conditions": "none",
+      "selection_distance_yd": 1.956915990266883
+    },
+    {
+      "route_label": "OUT",
+      "result_group": "completion",
+      "pass_result": "C",
+      "candidate_counts": {
+        "none": 6,
+        "IQR": 18,
+        "IQR;defender": 18
+      },
+      "throw_time_iqr_s": [
+        2.1,
+        2.7
+      ],
+      "arrival_depth_iqr_yd": [
+        4.469999999999999,
+        11.239999999999995
+      ],
+      "status": "selected",
+      "selected_game_id": 2023091001,
+      "selected_play_id": 3302,
+      "receiver_nfl_id": 41238,
+      "relaxed_conditions": "none",
+      "selection_distance_yd": 1.3352222378794583
+    },
+    {
+      "route_label": "OUT",
+      "result_group": "incompletion",
+      "pass_result": "I",
+      "candidate_counts": {
+        "none": 2,
+        "IQR": 14,
+        "IQR;defender": 14
+      },
+      "throw_time_iqr_s": [
+        2.1,
+        2.7
+      ],
+      "arrival_depth_iqr_yd": [
+        4.469999999999999,
+        11.239999999999995
+      ],
+      "status": "selected",
+      "selected_game_id": 2023091001,
+      "selected_play_id": 3514,
+      "receiver_nfl_id": 46206,
+      "relaxed_conditions": "none",
+      "selection_distance_yd": 0.5509793652209917
+    },
+    {
+      "route_label": "FLAT",
+      "result_group": "completion",
+      "pass_result": "C",
+      "candidate_counts": {
+        "none": 5,
+        "IQR": 13,
+        "IQR;defender": 19
+      },
+      "throw_time_iqr_s": [
+        2.15,
+        3.3
+      ],
+      "arrival_depth_iqr_yd": [
+        -2.1200000000000028,
+        1.6999999999999957
+      ],
+      "status": "selected",
+      "selected_game_id": 2023091001,
+      "selected_play_id": 3383,
+      "receiver_nfl_id": 54635,
+      "relaxed_conditions": "none",
+      "selection_distance_yd": 1.4849825476630683
+    },
+    {
+      "route_label": "FLAT",
+      "result_group": "incompletion",
+      "pass_result": "I",
+      "candidate_counts": {
+        "none": 0,
+        "IQR": 2,
+        "IQR;defender": 2
+      },
+      "throw_time_iqr_s": [
+        2.15,
+        3.3
+      ],
+      "arrival_depth_iqr_yd": [
+        -2.1200000000000028,
+        1.6999999999999957
+      ],
+      "status": "selected",
+      "selected_game_id": 2023091002,
+      "selected_play_id": 444,
+      "receiver_nfl_id": 47833,
+      "relaxed_conditions": "IQR",
+      "selection_distance_yd": 2.3233795677438716
+    },
+    {
+      "route_label": "CROSS",
+      "result_group": "completion",
+      "pass_result": "C",
+      "candidate_counts": {
+        "none": 7,
+        "IQR": 13,
+        "IQR;defender": 15
+      },
+      "throw_time_iqr_s": [
+        2.6,
+        3.6500000000000004
+      ],
+      "arrival_depth_iqr_yd": [
+        2.3399999999999963,
+        11.305
+      ],
+      "status": "selected",
+      "selected_game_id": 2023090700,
+      "selected_play_id": 621,
+      "receiver_nfl_id": 53541,
+      "relaxed_conditions": "none",
+      "selection_distance_yd": 1.1424269228738193
+    },
+    {
+      "route_label": "CROSS",
+      "result_group": "incompletion",
+      "pass_result": "I",
+      "candidate_counts": {
+        "none": 1,
+        "IQR": 9,
+        "IQR;defender": 10
+      },
+      "throw_time_iqr_s": [
+        2.6,
+        3.6500000000000004
+      ],
+      "arrival_depth_iqr_yd": [
+        2.3399999999999963,
+        11.305
+      ],
+      "status": "selected",
+      "selected_game_id": 2023091002,
+      "selected_play_id": 3138,
+      "receiver_nfl_id": 44841,
+      "relaxed_conditions": "none",
+      "selection_distance_yd": 0.818498599234996
+    },
+    {
+      "route_label": "GO",
+      "result_group": "completion",
+      "pass_result": "C",
+      "candidate_counts": {
+        "none": 3,
+        "IQR": 8,
+        "IQR;defender": 8
+      },
+      "throw_time_iqr_s": [
+        2.25,
+        2.8
+      ],
+      "arrival_depth_iqr_yd": [
+        16.005000000000003,
+        23.715000000000003
+      ],
+      "status": "selected",
+      "selected_game_id": 2023091003,
+      "selected_play_id": 2608,
+      "receiver_nfl_id": 44835,
+      "relaxed_conditions": "none",
+      "selection_distance_yd": 0.9532741001707666
+    },
+    {
+      "route_label": "GO",
+      "result_group": "incompletion",
+      "pass_result": "I",
+      "candidate_counts": {
+        "none": 1,
+        "IQR": 10,
+        "IQR;defender": 10
+      },
+      "throw_time_iqr_s": [
+        2.25,
+        2.8
+      ],
+      "arrival_depth_iqr_yd": [
+        16.005000000000003,
+        23.715000000000003
+      ],
+      "status": "selected",
+      "selected_game_id": 2023091002,
+      "selected_play_id": 3812,
+      "receiver_nfl_id": 53434,
+      "relaxed_conditions": "none",
+      "selection_distance_yd": 1.8063555409275913
+    },
+    {
+      "route_label": "IN",
+      "result_group": "completion",
+      "pass_result": "C",
+      "candidate_counts": {
+        "none": 2,
+        "IQR": 12,
+        "IQR;defender": 12
+      },
+      "throw_time_iqr_s": [
+        2.3499999999999996,
+        3.15
+      ],
+      "arrival_depth_iqr_yd": [
+        5.75,
+        15.194999999999997
+      ],
+      "status": "selected",
+      "selected_game_id": 2023091001,
+      "selected_play_id": 1574,
+      "receiver_nfl_id": 53518,
+      "relaxed_conditions": "none",
+      "selection_distance_yd": 0.7909968832261591
+    },
+    {
+      "route_label": "IN",
+      "result_group": "incompletion",
+      "pass_result": "I",
+      "candidate_counts": {
+        "none": 3,
+        "IQR": 8,
+        "IQR;defender": 8
+      },
+      "throw_time_iqr_s": [
+        2.3499999999999996,
+        3.15
+      ],
+      "arrival_depth_iqr_yd": [
+        5.75,
+        15.194999999999997
+      ],
+      "status": "selected",
+      "selected_game_id": 2023091000,
+      "selected_play_id": 1743,
+      "receiver_nfl_id": 55904,
+      "relaxed_conditions": "none",
+      "selection_distance_yd": 1.162056439926027
+    },
+    {
+      "route_label": "SLANT",
+      "result_group": "completion",
+      "pass_result": "C",
+      "candidate_counts": {
+        "none": 2,
+        "IQR": 9,
+        "IQR;defender": 10
+      },
+      "throw_time_iqr_s": [
+        1.675,
+        2.225
+      ],
+      "arrival_depth_iqr_yd": [
+        4.635000000000004,
+        7.237500000000001
+      ],
+      "status": "selected",
+      "selected_game_id": 2023091003,
+      "selected_play_id": 761,
+      "receiver_nfl_id": 55944,
+      "relaxed_conditions": "none",
+      "selection_distance_yd": 0.989388988501482
+    },
+    {
+      "route_label": "SLANT",
+      "result_group": "incompletion",
+      "pass_result": "I",
+      "candidate_counts": {
+        "none": 2,
+        "IQR": 6,
+        "IQR;defender": 6
+      },
+      "throw_time_iqr_s": [
+        1.675,
+        2.225
+      ],
+      "arrival_depth_iqr_yd": [
+        4.635000000000004,
+        7.237500000000001
+      ],
+      "status": "selected",
+      "selected_game_id": 2023091002,
+      "selected_play_id": 975,
+      "receiver_nfl_id": 53463,
+      "relaxed_conditions": "none",
+      "selection_distance_yd": 1.019133141742438
+    },
+    {
+      "route_label": "POST",
+      "result_group": "completion",
+      "pass_result": "C",
+      "candidate_counts": {
+        "none": 1,
+        "IQR": 5,
+        "IQR;defender": 5
+      },
+      "throw_time_iqr_s": [
+        2.45,
+        3.5999999999999996
+      ],
+      "arrival_depth_iqr_yd": [
+        12.594999999999999,
+        37.005
+      ],
+      "status": "selected",
+      "selected_game_id": 2023090700,
+      "selected_play_id": 3089,
+      "receiver_nfl_id": 43584,
+      "relaxed_conditions": "none",
+      "selection_distance_yd": 1.9436543280397154
+    },
+    {
+      "route_label": "POST",
+      "result_group": "incompletion",
+      "pass_result": "I",
+      "candidate_counts": {
+        "none": 2,
+        "IQR": 6,
+        "IQR;defender": 6
+      },
+      "throw_time_iqr_s": [
+        2.45,
+        3.5999999999999996
+      ],
+      "arrival_depth_iqr_yd": [
+        12.594999999999999,
+        37.005
+      ],
+      "status": "selected",
+      "selected_game_id": 2023090700,
+      "selected_play_id": 1588,
+      "receiver_nfl_id": 46309,
+      "relaxed_conditions": "none",
+      "selection_distance_yd": 0.538855603115734
+    },
+    {
+      "route_label": "ANGLE",
+      "result_group": "completion",
+      "pass_result": "C",
+      "candidate_counts": {
+        "none": 0,
+        "IQR": 0,
+        "IQR;defender": 0
+      },
+      "throw_time_iqr_s": [
+        2.7,
+        3.8
+      ],
+      "arrival_depth_iqr_yd": [
+        1.3599999999999994,
+        2.769999999999996
+      ],
+      "status": "no_eligible_completion"
+    },
+    {
+      "route_label": "ANGLE",
+      "result_group": "incompletion",
+      "pass_result": "I",
+      "candidate_counts": {
+        "none": 0,
+        "IQR": 0,
+        "IQR;defender": 0
+      },
+      "throw_time_iqr_s": [
+        2.7,
+        3.8
+      ],
+      "arrival_depth_iqr_yd": [
+        1.3599999999999994,
+        2.769999999999996
+      ],
+      "status": "no_eligible_incompletion"
+    },
+    {
+      "route_label": "CORNER",
+      "result_group": "completion",
+      "pass_result": "C",
+      "candidate_counts": {
+        "none": 0,
+        "IQR": 4,
+        "IQR;defender": 4
+      },
+      "throw_time_iqr_s": [
+        2.575,
+        3.65
+      ],
+      "arrival_depth_iqr_yd": [
+        20.2425,
+        23.884999999999998
+      ],
+      "status": "selected",
+      "selected_game_id": 2023090700,
+      "selected_play_id": 1711,
+      "receiver_nfl_id": 46213,
+      "relaxed_conditions": "IQR",
+      "selection_distance_yd": 1.220563236782892
+    },
+    {
+      "route_label": "CORNER",
+      "result_group": "incompletion",
+      "pass_result": "I",
+      "candidate_counts": {
+        "none": 1,
+        "IQR": 3,
+        "IQR;defender": 3
+      },
+      "throw_time_iqr_s": [
+        2.575,
+        3.65
+      ],
+      "arrival_depth_iqr_yd": [
+        20.2425,
+        23.884999999999998
+      ],
+      "status": "selected",
+      "selected_game_id": 2023090700,
+      "selected_play_id": 1422,
+      "receiver_nfl_id": 53591,
+      "relaxed_conditions": "none",
+      "selection_distance_yd": 1.6267108560801151
+    },
+    {
+      "route_label": "SCREEN",
+      "result_group": "completion",
+      "pass_result": "C",
+      "candidate_counts": {
+        "none": 0,
+        "IQR": 1,
+        "IQR;defender": 1
+      },
+      "throw_time_iqr_s": [
+        1.75,
+        2.3
+      ],
+      "arrival_depth_iqr_yd": [
+        -3.4450000000000003,
+        -1.5300000000000011
+      ],
+      "status": "selected",
+      "selected_game_id": 2023091001,
+      "selected_play_id": 407,
+      "receiver_nfl_id": 55886,
+      "relaxed_conditions": "IQR",
+      "selection_distance_yd": 0.03876471076676684
+    },
+    {
+      "route_label": "SCREEN",
+      "result_group": "incompletion",
+      "pass_result": "I",
+      "candidate_counts": {
+        "none": 0,
+        "IQR": 0,
+        "IQR;defender": 0
+      },
+      "throw_time_iqr_s": [
+        1.75,
+        2.3
+      ],
+      "arrival_depth_iqr_yd": [
+        -3.4450000000000003,
+        -1.5300000000000011
+      ],
+      "status": "no_eligible_incompletion"
+    },
+    {
+      "route_label": "WHEEL",
+      "status": "label_absent_from_subset"
+    }
+  ],
+  "selected_play_checks": [
+    {
+      "game_id": 2023091002,
+      "play_id": 3787,
+      "route_label": "HITCH",
+      "pass_result": "C",
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 53455,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023091002,
+      "play_id": 3571,
+      "route_label": "HITCH",
+      "pass_result": "I",
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 46073,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023091001,
+      "play_id": 3302,
+      "route_label": "OUT",
+      "pass_result": "C",
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 42441,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023091001,
+      "play_id": 3514,
+      "route_label": "OUT",
+      "pass_result": "I",
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 46077,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023091001,
+      "play_id": 3383,
+      "route_label": "FLAT",
+      "pass_result": "C",
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 52436,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023091002,
+      "play_id": 444,
+      "route_label": "FLAT",
+      "pass_result": "I",
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 52452,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023090700,
+      "play_id": 621,
+      "route_label": "CROSS",
+      "pass_result": "C",
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 54527,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023091002,
+      "play_id": 3138,
+      "route_label": "CROSS",
+      "pass_result": "I",
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 52473,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023091003,
+      "play_id": 2608,
+      "route_label": "GO",
+      "pass_result": "C",
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 55137,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023091002,
+      "play_id": 3812,
+      "route_label": "GO",
+      "pass_result": "I",
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 54533,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023091001,
+      "play_id": 1574,
+      "route_label": "IN",
+      "pass_result": "C",
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 42393,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023091000,
+      "play_id": 1743,
+      "route_label": "IN",
+      "pass_result": "I",
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 52424,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023091003,
+      "play_id": 761,
+      "route_label": "SLANT",
+      "pass_result": "C",
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 53494,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023091002,
+      "play_id": 975,
+      "route_label": "SLANT",
+      "pass_result": "I",
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 55925,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023090700,
+      "play_id": 3089,
+      "route_label": "POST",
+      "pass_result": "C",
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 47882,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023090700,
+      "play_id": 1588,
+      "route_label": "POST",
+      "pass_result": "I",
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 53953,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023090700,
+      "play_id": 1711,
+      "route_label": "CORNER",
+      "pass_result": "C",
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 53953,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023090700,
+      "play_id": 1422,
+      "route_label": "CORNER",
+      "pass_result": "I",
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 54562,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    },
+    {
+      "game_id": 2023091001,
+      "play_id": 407,
+      "route_label": "SCREEN",
+      "pass_result": "C",
+      "missing_passer": false,
+      "missing_passer_at_throw": false,
+      "nearest_throw_defender_nfl_id": 54502,
+      "separation_markers_verified": [
+        "throw",
+        "arrival"
+      ]
+    }
+  ],
+  "selected_pass_results": [
+    {
+      "route_label": "HITCH",
+      "game_id": 2023091002,
+      "play_id": 3787,
+      "pass_result": "C",
+      "result_group": "completion"
+    },
+    {
+      "route_label": "HITCH",
+      "game_id": 2023091002,
+      "play_id": 3571,
+      "pass_result": "I",
+      "result_group": "incompletion"
+    },
+    {
+      "route_label": "OUT",
+      "game_id": 2023091001,
+      "play_id": 3302,
+      "pass_result": "C",
+      "result_group": "completion"
+    },
+    {
+      "route_label": "OUT",
+      "game_id": 2023091001,
+      "play_id": 3514,
+      "pass_result": "I",
+      "result_group": "incompletion"
+    },
+    {
+      "route_label": "FLAT",
+      "game_id": 2023091001,
+      "play_id": 3383,
+      "pass_result": "C",
+      "result_group": "completion"
+    },
+    {
+      "route_label": "FLAT",
+      "game_id": 2023091002,
+      "play_id": 444,
+      "pass_result": "I",
+      "result_group": "incompletion"
+    },
+    {
+      "route_label": "CROSS",
+      "game_id": 2023090700,
+      "play_id": 621,
+      "pass_result": "C",
+      "result_group": "completion"
+    },
+    {
+      "route_label": "CROSS",
+      "game_id": 2023091002,
+      "play_id": 3138,
+      "pass_result": "I",
+      "result_group": "incompletion"
+    },
+    {
+      "route_label": "GO",
+      "game_id": 2023091003,
+      "play_id": 2608,
+      "pass_result": "C",
+      "result_group": "completion"
+    },
+    {
+      "route_label": "GO",
+      "game_id": 2023091002,
+      "play_id": 3812,
+      "pass_result": "I",
+      "result_group": "incompletion"
+    },
+    {
+      "route_label": "IN",
+      "game_id": 2023091001,
+      "play_id": 1574,
+      "pass_result": "C",
+      "result_group": "completion"
+    },
+    {
+      "route_label": "IN",
+      "game_id": 2023091000,
+      "play_id": 1743,
+      "pass_result": "I",
+      "result_group": "incompletion"
+    },
+    {
+      "route_label": "SLANT",
+      "game_id": 2023091003,
+      "play_id": 761,
+      "pass_result": "C",
+      "result_group": "completion"
+    },
+    {
+      "route_label": "SLANT",
+      "game_id": 2023091002,
+      "play_id": 975,
+      "pass_result": "I",
+      "result_group": "incompletion"
+    },
+    {
+      "route_label": "POST",
+      "game_id": 2023090700,
+      "play_id": 3089,
+      "pass_result": "C",
+      "result_group": "completion"
+    },
+    {
+      "route_label": "POST",
+      "game_id": 2023090700,
+      "play_id": 1588,
+      "pass_result": "I",
+      "result_group": "incompletion"
+    },
+    {
+      "route_label": "CORNER",
+      "game_id": 2023090700,
+      "play_id": 1711,
+      "pass_result": "C",
+      "result_group": "completion"
+    },
+    {
+      "route_label": "CORNER",
+      "game_id": 2023090700,
+      "play_id": 1422,
+      "pass_result": "I",
+      "result_group": "incompletion"
+    },
+    {
+      "route_label": "SCREEN",
+      "game_id": 2023091001,
+      "play_id": 407,
+      "pass_result": "C",
+      "result_group": "completion"
+    }
+  ],
+  "number_of_plays_missing_passer": 0,
+  "number_of_plays_missing_passer_at_throw": 0,
+  "selected_official_output_paths_verified": 19,
+  "start_depth_matches_step2_los": true,
+  "landing_points_excluded_from_drawing_per_label": {
+    "HITCH": {
+      "sampled_excluded": 0,
+      "all_routes_over_40yd": 0
+    },
+    "OUT": {
+      "sampled_excluded": 0,
+      "all_routes_over_40yd": 0
+    },
+    "FLAT": {
+      "sampled_excluded": 0,
+      "all_routes_over_40yd": 0
+    },
+    "CROSS": {
+      "sampled_excluded": 0,
+      "all_routes_over_40yd": 0
+    },
+    "GO": {
+      "sampled_excluded": 0,
+      "all_routes_over_40yd": 0
+    },
+    "IN": {
+      "sampled_excluded": 0,
+      "all_routes_over_40yd": 0
+    },
+    "SLANT": {
+      "sampled_excluded": 0,
+      "all_routes_over_40yd": 0
+    },
+    "POST": {
+      "sampled_excluded": 0,
+      "all_routes_over_40yd": 0
+    },
+    "ANGLE": {
+      "sampled_excluded": 0,
+      "all_routes_over_40yd": 0
+    },
+    "CORNER": {
+      "sampled_excluded": 0,
+      "all_routes_over_40yd": 0
+    },
+    "SCREEN": {
+      "sampled_excluded": 0,
+      "all_routes_over_40yd": 0
+    }
+  },
+  "png_dpi": 160,
+  "expected_png_count": 31,
+  "actual_png_count": 31,
+  "input_sha256": {
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\data\\routes.csv": "fc389919befdb8ecd98e71507d7d19fc8458777dc5a409fb64133e9c0993e99c",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\data\\target_full_paths.csv": "51da6764995d41425821d81b9bd44dfe38e204bc7e38397139d26f2e37bbefdb",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\data\\target_separation_summary.csv": "3aaef6cc30fc4d9f242f765373f8b22e8c09a6a4907e6dfef7ed2dbf04170274",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\data\\target_defender_frames.csv": "08b3b915a5bead613e869cfef85187021ac96e87eca9b45e474b0bd738de890b",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.0 Route Dataset\\break_features_v2_35deg\\validation_5games\\target_break_features.csv": "fc5b3025535d2e63182ece6089818eba0d290f2e6cd5109aa8101c12b7dcd1b5",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes v2\\validation_5games\\route_subtypes.csv": "2f1d7e29711c9eec36aa8ac9de4392a0268a3809746254c4a767658c0e02c376",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\supplementary_data.csv": "862f5d534dabee4071d8498ba46e5c48c27e56fa2fa81c6150ea2419e66ee98d",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\build_route_visuals_v2.py": "b66fe0cdfe6fe27c802e47cc41303c998dc2529516c428f979439a77efc11e6e",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\checks.json": "d8ec01dd52ba4bb82573d4eb1c012df1192b639e9f66a5510f6c91b107377fa4",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\index.html": "43e0184bf4534ba19d9f9a96d41f5746172b12fa318ba4a5ec28aa097b0387c7",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\label_summary.csv": "84419b51be8d9d3e4b91210a9099d9b6a4e502c358086e7538596975201166e4",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\median_path_support.csv": "a560f84cb52e428c138d3cd686937121c70d06bbe5eacbc9e6b28ac41a15627f",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\README.md": "5b3783e2ec0f59682c8de9aaf6f0bacf35b30298aaa36940c3bf111a90bf04d1",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative_plays.csv": "2972ced01ba10a7d5b599ff59ea4269781368792281fea639dba7e71dd373849",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\sampled_routes.csv": "f349fb9ed010aa74bd1603182329c0078ad0d4bef6c150cbdba18f6613b86bb2",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\verification.json": "65ddc07ec847260f63a1ebaa850b2dfea945f24d073ab214947b395c34e657f2",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\VISUALIZATION_READING_GUIDE.md": "895136ac02ee4b19745661ae4e62a9700aa0a41498d5e7d03b7d5b5e225cccb7",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_ANGLE_2023101505_360.png": "9ddf3dbf5d87044be43a907b328a8de9cb6daa2acf30f6520e68c4e2028b1f09",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_CORNER_2023111903_1152.png": "bddb6dddbbf2624ff00e7a9e52da1ccc23b4dfd8ecd7bb8b05157e69b7097b3b",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_CROSS_2024010703_2460.png": "072c25a4420bed943616c46168fbce445dde1012042f884874c5a7171260c252",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_FLAT_2023111910_3177.png": "5475f64f6044278a8735310dfc8f9d1ef5af92ad3bcbd21c1b99a3d252679812",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_GO_2023102911_2321.png": "fb5591d136ef261d25426caaeb6fa808186c4da867ee64790230cfcea0c65215",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_HITCH_2023102913_1975.png": "daaec5d92e3b95c0d935d3007cb5ad90874411c7b9f375ef438b638fbe3ea806",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_IN_2023091400_3836.png": "128141be1c6aab1808c6c14eaa81016302db3497015288001112b761c59954c7",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_OUT_2023122300_601.png": "30ebbc0235e4f113607f603e88457c325f592116f4cb540afc05e546f4e54edc",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_POST_2023112601_55.png": "2bda4b7028685e24da3595b3f787604dd37a1a0e6426ebcc41c8f708adf80e8b",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_SCREEN_2023091012_3382.png": "5e674b137e5a24a1e911eb446dd3ea51a3daf1c7e1f9bfb647684ccf8fdd165f",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_SLANT_2024010700_2202.png": "3097a8960899481ac9e6e033f0a1c81a74398d4e3057eb0d7cf59874cf45651b",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\representative\\route_WHEEL_2023100113_1796.png": "35ab849b2d96d63fa2303e4cdaab508c34ba72bcd4bec8f155ceedf518ebba65",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\all_routes_overview.png": "ebdaea03012492ef0bdc8612a9dfa821e5c0af2986f94acf18b986f7317bd8ba",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_ANGLE.png": "085e2f368f75333e49963d0f9c03916729c7b52e2d01e9d476c7833a9e32b170",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_CORNER.png": "b8863466d7101a04dff23291713f09bedc8b9ab1b87628119cab7a957cc4fd97",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_CROSS.png": "063fe25f8c5d61f11e44595f655addb39d3811130fc32783f13cd016e25d0c61",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_FLAT.png": "3648745e9486f9a6ad235b50f1f8b694f62a9de6b56bc0318da4c771be5c221a",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_GO.png": "96d7828b7e03c342f0a2b71f7e3c64aa98c2bf31595283b70737d490a661ad9f",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_HITCH.png": "888fb697ba5e3b3507fccb00693afaaa91d9f5c790b1501c07a270ec64528849",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_IN.png": "6efdd26d695a36db922e1cfe982fb47539760fe461f9028d929e831f031852c1",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_OUT.png": "0a1eac9c11b6b5aec8cbe128a4e8d74cec7ea0d4c85f411811800bb0b16dfefd",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_POST.png": "88473b381778477a75c6b1660a86a3bc42cf6005775c25faac60b434a75b4a69",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_SCREEN.png": "141886acbcbd8b1c3ab137a8e3f9fa030bed840782d8963d5b47b8f7ad7ff4a6",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_SLANT.png": "2dbf73aeccd33642af085729e01910129511d257e3d65edd67a34842872fcb37",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Supplementary Data Analysis\\CodexOutput v2\\spaghetti\\route_WHEEL.png": "90a4f4ae7659d57577bf318068b01910fd0e9a3c27753b0106bd5ae0590e267e",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\.gitignore": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\bic_diagnostics.csv": "78df6859b3e991a8eba327ec0f3ccfe0a9b1d9f623b977bcfd4113b76158f269",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\build_route_subtypes.py": "5bff8974ab798cd44ce6d8f22fc99685be7285272c1842f2cee34c2349d8ab09",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\clustering_diagnostics.json": "870fba6a5f5f321fa7f9ba461a21c36c7cc0dd26635db9b16eb40adae91d5e9b",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\outlier_review.csv": "a347beaf3b3e4230a823b13d4b3a94c72c5e330059c58194abfc6979cb725b3e",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\README.md": "9b0d6b4756c8980d5283d303ac84324ebfb64eccd12d384adeb3e3ca634780f9",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\requirements.txt": "f076c6ec659da08e66dd6bf76e4a32ac3bd5a4d6aa263acf93c305f4728772d2",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\route_descriptors.csv": "75a45224a2c249f6ea78c9a88755035a6d3dc469dc46e214124506294ecbbd76",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\route_subtypes.csv": "14d8c4835101acdc3a5c9e801223eccddc1d1264a7a357f6cb45ab477ae87c19",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\separation_comparisons.csv": "af138788dbe9103f391d1baf01dd77bb2bb02e4e559bca640913b17825f2f6d7",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\subtype_summary.csv": "8290d64eace0b7afc619eb2fa321c7bd74840b38460f34c17d64a85d2bf73ca4",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\summary.md": "febbb3e5cca8ab16c9aa6caff1150caf150b451b0d4b94b905a4c9890dd71ae2",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\test_route_subtypes.py": "a9631621fc99f811facde867e96695f680ff90268c50c3e99e0da0f7b807d81f",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\validation.json": "36a735238a985de7c39b75ab6b0eaae61e5a79e720f65b4dde976adb997f9198",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\ANGLE.png": "63d46424a3b191c3c5d9b4c942f2acd07d911012dc063b0075ceb1b02c7e9316",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\ANGLE_overview.png": "bfefc3bcd96fbab6343cee6e956ccc1547922151a1d0427bb3fc96f664746470",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\CORNER.png": "93340a24af1de6646e058d077c6acc393e8a32a7772272f288d1f81b6ecd1324",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\CORNER_overview.png": "d7bc80739ff32fe00e6c16662fa4eb5871e8ef15f2baffb229a13863fb3af0ca",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\CROSS.png": "b54884dbfec9de48f472827c934a8182a9391d986fe51a726394289e0929ae74",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\CROSS_overview.png": "8d8a364c0551d5a430947c172b6ba9261aa2c22300a9fede82cc81576bc5f21c",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\FLAT.png": "4559b72b8214cb0da2e1c34b24e077230111118981709b63c352d4cc3eae5b48",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\FLAT_overview.png": "2f7b7a903eb01c9e1b38ef6bdb2cadaf8f69e51cd1dc6801b64ab18ff99fb0c6",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\GO.png": "dc23226da21903a0068704123ee027ba959703490c0c1d5b3ecee18f834f5bc7",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\GO_overview.png": "0f9748087b2c9abc3f34fd70a1062a1d24973a9233567efaf13b036f75a2987b",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\HITCH.png": "0a873110f111d533a9d743e8021ee46549636fd060cb2aa59f27e0bc5ce2b7da",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\HITCH_intermediate.png": "b44ab06a830daa271261ce3c6967ae823aeaf172b0b60bffb37a40cb296472f7",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\HITCH_intermediate_2.png": "86adadd5046fef6541b4b52b14da872c303a5e5c93c85b5a83f1877aaf5b0b61",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\HITCH_overview.png": "2e50eb6bde31a77e5de8ea23bfbe4dadbc6f2ec84338661ba8382773f939bc39",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\HITCH_short.png": "346f2d08100df12ee90246ce64855a3f839389addd97789ce1a1421e085f8ce3",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\IN_intermediate.png": "afcb85349c8df9b0a9f09c4720f04861a740d748b7e7aab44d2d69bf87a361c1",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\IN_overview.png": "dd910a8331eaff17cc0cb3a618c91cd13419276bc885bf1baff8eb0910c0b4ec",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\IN_short.png": "8f764709a934c4853c0bc4d2d6859f1d188725a2bf86c5628de0b35a17d49721",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\OUT.png": "dc720573ca8323a18c9a03c5f942b787d0b507ac2527a0034dce2dbb7f21e483",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\OUT_overview.png": "20522d424471f045183fd29508798fd8aea4ecb3b48a61a468dd10150213f02e",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\POST_deep.png": "4eaca771ea59f1d282a65f5465aaaaaeebd280ed492815ad285b494454769c77",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\POST_intermediate.png": "b3de35e6e9597f02c30472a88967f3ee576ae5e8111c694afac217fcddb80f12",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\POST_overview.png": "d456229381ce8ce7cea315ac1b3ab604953f693ae980a5d048d35afd2c06274b",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\SCREEN.png": "91bd6627f5da5bbe465f75f55aea9fb710332cd9dc18ea5b2c9d0262fe27c62d",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\SCREEN_overview.png": "f4a959ad6fc62da279d8d76302648da07ceda0d3befedac37b59c73bd9ed6fac",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\SLANT.png": "03cfab9fc9f6fd0ecfbec25161c882877a5d81694d9a8ba9cb25ebf964115c67",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\SLANT_overview.png": "de36d8f4869feb71738179a5fd118c2cbcf428a22131effa8db67ddaef479713",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\WHEEL.png": "330153980315e019dd5809e3d298a71535e32e0a45102597f1c3d20bbec9eed1",
+    "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\football-analytics-project\\EDA\\Step 2.A Route Subtypes\\cluster_cards\\WHEEL_overview.png": "680d88bf6a79c0840e349e0185d5ff7c0fe7b24a8819ec3419edf2114e5cd684"
+  },
+  "inputs_unchanged": true,
+  "status": "passed",
+  "failures": []
+}

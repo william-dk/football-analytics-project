@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "failures": [],
+  "seed": 20261025,
+  "targeted_routes": 14108,
+  "invariant_columns_against_preserved_run": [
+    "total_turn_deg",
+    "fit_angle_deg",
+    "fit_residual_ss",
+    "max_depth_yd",
+    "retreat_yd",
+    "time_at_max_depth_s",
+    "side_corrected",
+    "side_was_flipped",
+    "side_uncertain"
+  ],
+  "cut_strength_columns_unchanged": [
+    "break_t_s",
+    "break_depth_yd",
+    "break_lateral_yd",
+    "speed_before",
+    "speed_min",
+    "speed_after",
+    "speed_retention",
+    "sharpness_s",
+    "break_after_throw"
+  ],
+  "classification_and_missingness_verified": true,
+  "maximum_stem_heading_error_deg": 0.0,
+  "maximum_corrected_endpoint_error_yd": 0.0,
+  "source_hashes_unchanged": true
+}

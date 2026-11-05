@@ -1,0 +1,15 @@
+{
+  "season": 2023,
+  "supplementary_plays": 14108,
+  "plays_matched": 14108,
+  "unlabeled_2023_plays": 3,
+  "excluded_2024_plays": 3901,
+  "excluded_2024_labeled_routes": 3900,
+  "route_runner_frame1_rows": 64752,
+  "runner_speed_median_yd_s": 0.01,
+  "runner_speed_below_1_share": 0.9468433407462318,
+  "qb_frame1_rows": 14105,
+  "qb_behind_los_median_yd": 4.949999999999999,
+  "target_tracks_start_at_frame1": true,
+  "interpretation": "Frame 1 is a supported snap proxy; final input frame remains a pass-release proxy, without event timestamps."
+}
