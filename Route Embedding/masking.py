@@ -3,7 +3,7 @@
 Training knocks out one contiguous window per route. Its width is uniform on [win_min, win_max]
 frames, capped at max_frac of the route. Its first frame is uniform over the route's real
 frames, so a window never falls into padding. Frame 0 is the snap position (always the origin)
-and stays visible.
+and stays visible. A share of the training routes is left whole (training_knockout).
 """
 from __future__ import annotations
 
@@ -20,6 +20,17 @@ def sample_windows(lengths, rng: np.random.Generator, win_min: int = 8, win_max:
     widths = rng.integers(lo, hi + 1)
     starts = rng.integers(1, lengths - widths + 1)
     return starts, widths
+
+
+def training_knockout(lengths, rng: np.random.Generator, steps: int, win_min: int = 8, win_max: int = 15,
+                      max_frac: float = 0.5, whole_prob: float = 0.0) -> np.ndarray:
+    """Boolean (N, steps) knockout mask for one training batch: one random window per route,
+    except that a share whole_prob of the routes is shown whole (an empty row). Later analyses
+    embed complete routes, so the model has to see some in training."""
+    starts, widths = sample_windows(lengths, rng, win_min, win_max, max_frac)
+    mask = window_mask(starts, widths, steps)
+    mask[rng.random(len(mask)) < whole_prob] = False
+    return mask
 
 
 def interior_windows(lengths, width: int, rng: np.random.Generator) -> np.ndarray:

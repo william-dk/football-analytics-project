@@ -1,5 +1,8 @@
 """Can we identify a receiver by how he runs a certain route?
 
+Per-route-type classifier on the targeted routes (full paths, supplementary labels). This is the
+first version's protocol, kept so runs stay comparable; player_style.py is the fuller analysis.
+
 Within each route type (supplementary label), a classifier sees one route and must say which
 receiver ran it. Candidates are receivers with at least --min-per-half routes of that type in
 both odd and even weeks. Two folds: train on odd weeks and test on even weeks, then the reverse,
@@ -14,6 +17,7 @@ Feature sets
   z          16-number route embedding from the autoencoder
   z+speed    z plus the three speed numbers below
   positions  x, y at 0.5, 1.0, ..., 3.0 s after the snap (12 numbers)
+  pca16      16 principal components of the route in absolute time (the linear 16-number code)
   speed      max speed, mean speed, speed at 1.0 s (how fast, not how)
   timing     route length and throw frame (set by the QB and the play, not the receiver)
 
@@ -43,11 +47,11 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
-from evaluate import Runner, fixed_time_positions, load
+from evaluate import RoutePCA, Runner, fixed_time_positions, load
 
 HERE = Path(__file__).resolve().parent
-FEATURE_SETS = ("z", "z+speed", "positions", "speed", "timing")
-MULTI_SETS = ("z", "z+speed", "positions", "speed")
+FEATURE_SETS = ("z", "z+speed", "positions", "pca16", "speed", "timing")
+MULTI_SETS = ("z", "z+speed", "positions", "pca16", "speed")
 TEAM_SETS = ("z", "z+speed", "positions", "speed")
 MULTI_N = (1, 3, 5, 10)
 
@@ -172,9 +176,9 @@ def plot_accuracy(table: pd.DataFrame, path: Path) -> None:
     import matplotlib.pyplot as plt
     labels = table.route_type.tolist()
     x = np.arange(len(labels))
-    colors = {"z": "tab:blue", "z+speed": "tab:purple", "positions": "tab:green", "speed": "tab:orange",
-              "timing": "tab:gray"}
-    width = 0.16
+    colors = {"z": "tab:blue", "z+speed": "tab:purple", "positions": "tab:green", "pca16": "tab:olive",
+              "speed": "tab:orange", "timing": "tab:gray"}
+    width = 0.14
     fig, ax = plt.subplots(figsize=(13, 5))
     for j, name in enumerate(FEATURE_SETS):
         vals = table[f"{name}_balanced_top1"].to_numpy()
@@ -182,12 +186,12 @@ def plot_accuracy(table: pd.DataFrame, path: Path) -> None:
         if name == "z":
             ci = np.array(table["z_balanced_top1_ci"].tolist())
             kwargs = dict(yerr=np.vstack([vals - ci[:, 0], ci[:, 1] - vals]), capsize=3)
-        ax.bar(x + (j - 2) * width, vals, width, label=name, color=colors[name], **kwargs)
+        ax.bar(x + (j - 2.5) * width, vals, width, label=name, color=colors[name], **kwargs)
     ax.scatter(x, table.chance_top1, marker="_", s=1100, color="black", zorder=5, label="chance = 1/K")
     ax.set_xticks(x, [f"{lab}\nK={k}" for lab, k in zip(labels, table.candidates)])
     ax.set_ylabel("balanced top-1 accuracy, held-out half-season")
     ax.set_title("Which receiver ran this route? One route; candidates ran this route type in both halves")
-    ax.legend(ncol=6, fontsize=9)
+    ax.legend(ncol=7, fontsize=9)
     ax.grid(axis="y", alpha=0.3)
     fig.tight_layout()
     fig.savefig(path, dpi=120)
@@ -200,7 +204,7 @@ def plot_multi(table: pd.DataFrame, path: Path) -> None:
     import matplotlib.pyplot as plt
     w = table.routes / table.routes.sum()
     fig, ax = plt.subplots(figsize=(6.5, 4.5))
-    for name, color in zip(MULTI_SETS, ("tab:blue", "tab:purple", "tab:green", "tab:orange")):
+    for name, color in zip(MULTI_SETS, ("tab:blue", "tab:purple", "tab:green", "tab:olive", "tab:orange")):
         ax.plot(MULTI_N, [(table[f"{name}_multi_{n}"] * w).sum() for n in MULTI_N], "o-", color=color, label=name)
     ax.axhline((table.chance_top1 * w).sum(), color="black", ls="--", label="chance")
     ax.set_xlabel("routes of the same type from the unknown receiver")
@@ -217,7 +221,7 @@ def plot_signatures(runner, meta, z, players: pd.DataFrame, label: str, path: Pa
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
-    of_type = np.flatnonzero(meta.route_label.eq(label).to_numpy())
+    of_type = np.flatnonzero((meta.route_label.eq(label) & meta.kind.eq("full")).to_numpy())
     league = decode_mean(runner, z[of_type].mean(0), int(np.median(runner.lengths[of_type])))
     top = players[players.route_type.eq(label)].sort_values("z_recall", ascending=False).head(6)
     fig, axes = plt.subplots(2, 3, figsize=(13, 9), sharex=True, sharey=True)
@@ -253,6 +257,8 @@ def main() -> None:
     z = emb[zcols].to_numpy(float)
 
     X, lengths = data["X"], runner.lengths
+    is_full = data["kind"] == "full"
+    pca = RoutePCA(runner.raw_xy, lengths, np.flatnonzero(is_full & (data["split"] == "train")))
     speed = np.where(np.arange(X.shape[1])[None, :] < lengths[:, None], X[..., 4], np.nan)
     speed_feats = np.c_[np.nanmax(speed, 1), np.nanmean(speed, 1),
                         X[np.arange(len(X)), np.minimum(10, lengths - 1), 4]]
@@ -260,6 +266,7 @@ def main() -> None:
         "z": z,
         "z+speed": np.c_[z, speed_feats],
         "positions": fixed_time_positions(runner.raw_xy, lengths),
+        "pca16": pca.codes(runner.raw_xy, lengths),
         "speed": speed_feats,
         "timing": np.c_[lengths, meta.throw_index.to_numpy()].astype(float),
     }
@@ -274,8 +281,8 @@ def main() -> None:
     rng = np.random.default_rng(args.seed)
 
     results, players, skipped = [], [], {}
-    for label in sorted(pd.unique(route_label[pd.notna(route_label)])):
-        sel = route_label == label
+    for label in sorted(pd.unique(route_label[is_full & pd.notna(route_label)])):
+        sel = is_full & (route_label == label)
         counts = (pd.DataFrame(dict(nfl_id=nfl_id[sel], half=half[sel])).groupby(["nfl_id", "half"]).size()
                   .unstack(fill_value=0).reindex(columns=["odd", "even"], fill_value=0))
         cands = np.sort(counts.index[(counts.odd >= args.min_per_half)
