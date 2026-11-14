@@ -9,8 +9,11 @@ Updated 2026-11-14 at the end of the second session. Results, tables and figures
   run a certain route?" with a self-supervised BERT-style transformer, an embedding of about 16
   dimensions that can rebuild the route, and knocked-out windows. The old plan's steps 2.A, 2.B
   and Step 3 are outdated; plan from the final question directly.
-- **Branch:** `claude/route-embedding-pipeline`, cut from `main` (`b2e1a6e`). The work is
-  committed there. **It is not pushed and has no PR.** Commit and push only when the user asks.
+- **Branch:** `claude/route-embedding-pipeline`, cut from `main` (`b2e1a6e`). The work is in
+  PR #6 (https://github.com/william-dk/football-analytics-project/pull/6), opened 2026-11-14.
+  - Check the PR's state first. Once it is merged, start new work on a fresh branch from an
+    up-to-date `main`.
+  - Commit and push only when the user asks.
 - **Language:** reply to the user in Chinese, keeping technical terms in English.
 
 ## State
@@ -18,7 +21,7 @@ Updated 2026-11-14 at the end of the second session. Results, tables and figures
 - **Everything in the README has been run.** No training or analysis is in progress.
 - **Code** (all in `Route Embedding/`): `run_pipeline.py` runs every stage. See the file table in
   the README. 38 unit tests pass.
-- **In the commit:** the pipeline and analysis code, the rewritten `README.md`, six
+- **In PR #6:** the pipeline and analysis code, the rewritten `README.md`, six
   `figures/v2_*.png` and this file. New files: `compare_runs.py`, `player_model.py`,
   `player_style.py`, `run_pipeline.py`.
 - **Git-ignored outputs, only in this checkout:**
@@ -87,7 +90,7 @@ python compare_runs.py                                 # table over all runs
 
 ## Open (the user has not chosen)
 
-1. Push the branch and open a PR.
+1. Review and merge PR #6.
 2. Next analyses, in the README's "Next steps": profiles across seasons and team changes; role
    against habit (condition on alignment and coverage together); relate the receiver metrics to
    separation and catches; sharper reconstruction.
