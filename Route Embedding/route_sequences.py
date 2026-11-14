@@ -16,6 +16,23 @@ KERNEL = np.array([1, 4, 6, 4, 1], dtype=float) / 16   # same smoother as route_
 CHANNELS = ("x", "y", "vx", "vy", "s", "a")
 ROUTE_POSITIONS = ("WR", "TE", "RB", "FB")
 SPLITS = ("train", "val", "test")
+# Sequence kinds. "full": a targeted route from the snap to ball arrival. "pre": any route
+# runner's path from the snap to the throw (the only frames that exist for untargeted runners).
+KINDS = ("full", "pre")
+
+
+def correct_side(t, y_field, side: int, side_flag: bool) -> tuple[int, bool, bool]:
+    """Corrected lateral sign, the same rule as route_geometry.correct_side (break features v2).
+
+    Flagged runners (RB/FB, or within 2 yards of the ball) take the side they release toward in
+    the first 1.0 s when that release is at least 1 yard. Returns (corrected, flipped, uncertain).
+    """
+    t = np.asarray(t, dtype=float)
+    y_field = np.asarray(y_field, dtype=float)
+    early = np.flatnonzero(t <= 1.0 + 1e-8)
+    release = (y_field[early[-1]] - y_field[0]) * side if len(early) else 0.0
+    corrected = int(side * np.sign(release)) if side_flag and abs(release) >= 1 else int(side)
+    return corrected, corrected != side, bool(side_flag and abs(release) < 1)
 
 
 def smooth_positions(xy: np.ndarray) -> np.ndarray:
