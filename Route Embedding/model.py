@@ -81,15 +81,22 @@ class RouteAutoencoder(nn.Module):
                 nn.init.zeros_(self.dec_mlp[-1].weight)       # start as the plain linear decoder
                 nn.init.zeros_(self.dec_mlp[-1].bias)
 
-    def encode(self, x: torch.Tensor, valid: torch.Tensor, knocked_out: torch.Tensor) -> torch.Tensor:
-        """x (B, T, n_in) scaled features; valid and knocked_out (B, T) bool. Returns z (B, z_dim)."""
+    def hidden_states(self, x: torch.Tensor, valid: torch.Tensor, knocked_out: torch.Tensor) -> torch.Tensor:
+        """Encoder output for [CLS] and every frame, (B, T + 1, d_model), before the final norm.
+        x (B, T, n_in) scaled features; valid and knocked_out (B, T) bool. States at padded
+        frames are meaningless."""
         batch, steps, _ = x.shape
         tokens = self.in_proj(x)
         tokens = torch.where(knocked_out.unsqueeze(-1), self.mask_token.expand_as(tokens), tokens)
         tokens = tokens + self.enc_time.weight[:steps].unsqueeze(0)
         tokens = torch.cat([self.cls_token.expand(batch, 1, -1), tokens], dim=1)
         padding = torch.cat([torch.zeros(batch, 1, dtype=torch.bool, device=x.device), ~valid], dim=1)
-        hidden = self.encoder(tokens, src_key_padding_mask=padding)
+        return self.encoder(tokens, src_key_padding_mask=padding)
+
+    def encode(self, x: torch.Tensor, valid: torch.Tensor, knocked_out: torch.Tensor) -> torch.Tensor:
+        """x (B, T, n_in) scaled features; valid and knocked_out (B, T) bool. Returns z (B, z_dim)."""
+        steps = x.shape[1]
+        hidden = self.hidden_states(x, valid, knocked_out)
         z = self.to_z(self.enc_norm(hidden[:, 0]))
         if self.readout == "frames":
             frames = hidden[:, 1:] * valid.unsqueeze(-1)          # padded frames contribute nothing

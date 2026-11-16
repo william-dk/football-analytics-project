@@ -12,6 +12,8 @@ Stages
   identify        identify_receivers.py  runs/<name>/identification/   (targeted routes, per route type)
   style-targeted  player_style.py      runs/<name>/style/targeted/     (targeted routes, labeled types)
   style-all       player_style.py      runs/<name>/style/all/          (all routes run, assigned types)
+  supervised      supervised_ceiling.py  runs/<name>/supervised/all/   (classifier on z trained on receiver
+                                       labels; the other classifiers need --models, see that script)
   summary         headline numbers     runs/<name>/pipeline_summary.json
 
 A stage is skipped when its output already exists, unless it is at or after --from, or --force.
@@ -26,7 +28,8 @@ import time
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-STAGES = ("build", "test", "train", "evaluate", "identify", "style-targeted", "style-all", "summary")
+STAGES = ("build", "test", "train", "evaluate", "identify", "style-targeted", "style-all", "supervised",
+          "summary")
 
 
 def parse_args() -> tuple[argparse.Namespace, list[str]]:
@@ -60,6 +63,7 @@ def main() -> None:
         "identify": run_dir / "identification" / "identification_report.json",
         "style-targeted": run_dir / "style" / "targeted" / "identification.json",
         "style-all": run_dir / "style" / "all" / "identification.json",
+        "supervised": run_dir / "supervised" / "all" / "supervised.json",
     }
     commands = {
         "build": lambda: run("build_sequences.py", "--out-dir", str(args.data_dir), "--overwrite"),
@@ -69,6 +73,7 @@ def main() -> None:
         "identify": lambda: run("identify_receivers.py", *target),
         "style-targeted": lambda: run("player_style.py", *target, "--population", "targeted"),
         "style-all": lambda: run("player_style.py", *target, "--population", "all"),
+        "supervised": lambda: run("supervised_ceiling.py", *target, "--population", "all", "--models", "mlp_z"),
     }
     redo_from = STAGES.index(args.start) if args.start else len(STAGES)
     started = time.time()

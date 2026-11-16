@@ -17,6 +17,8 @@ try:
     from identify_receivers import balanced, multi_route, topk_hits, within_team
     from model import RouteAutoencoder, masked_mse, run_batches, velocity_mse
     from player_style import half_season_products
+    from supervised_ceiling import (FeatureClassifier, RouteClassifier, choose_rule, combine, log_prior,
+                                    train_model, tuning_split)
     from train import eigen_routes, epoch_batches
     HAVE_TORCH = True
 except Exception:  # noqa: BLE001 - ImportError, or OSError when a DLL is blocked
@@ -385,6 +387,94 @@ class VarianceSplitTests(unittest.TestCase):
         same, mate = half_season_products(f - f.mean(0), player, team, half, n_players)
         self.assertAlmostEqual(mate / d, effect.reshape(teams, per_team, d).mean(1).var(0).mean(), delta=0.08)
         self.assertAlmostEqual((same - mate) / d, 0.2, delta=0.06)
+
+
+@unittest.skipUnless(HAVE_TORCH, "PyTorch is not importable in this environment")
+class SupervisedCeilingTests(unittest.TestCase):
+    def test_log_prior_is_a_distribution_over_receivers_per_route_type(self):
+        prior = log_prior(np.array([0, 0, 0, 1]), np.array([0, 0, 1, 2]), n_types=2, n_classes=3).exp()
+        torch.testing.assert_close(prior.sum(1), torch.ones(2))
+        self.assertGreater(float(prior[0, 0]), float(prior[0, 1]))       # two routes against one
+        self.assertAlmostEqual(float(prior[1, 0]), float(prior[1, 1]))   # both unseen for this type
+
+    def test_logit_adjustment_keeps_usage_out_of_the_scores(self):
+        """Features carry no information; receivers differ only in how often they run each route
+        type. The raw logits must then stay flat, although the adjusted model follows usage."""
+        rng = np.random.default_rng(0)
+        type_id = np.repeat([0, 1], 300)
+        usage = np.array([[0.7, 0.2, 0.1], [0.1, 0.2, 0.7]])
+        y = np.array([rng.choice(3, p=usage[t]) for t in type_id])
+
+        class Data:
+            F = torch.from_numpy(rng.normal(size=(600, 4)).astype(np.float32))
+
+            def batches(self, rows, rng, batch_size=600):
+                return [rows]
+
+            def logits(self, model, rows, types, rng=None):
+                idx = torch.from_numpy(rows)
+                return model(self.F[idx], types[idx])
+
+        types = torch.from_numpy(type_id)
+
+        def average_raw_logits(prior):
+            """Mean raw logit of each receiver over the routes of type 0, after a short training."""
+            torch.manual_seed(0)
+            model = FeatureClassifier(4, 2, 3, hidden=16, dropout=0.0)
+            train_model(model, Data(), torch.from_numpy(y), types, prior, np.arange(600), 60,
+                        [dict(params=model.parameters(), lr=1e-2, weight_decay=0.0)], seed=0)
+            with torch.no_grad():
+                raw = model.eval()(Data.F, types)
+            return raw, raw[:300].mean(0)
+
+        prior = log_prior(type_id, y, 2, 3)
+        raw, adjusted = average_raw_logits(prior)
+        self.assertLess(float(adjusted.max() - adjusted.min()), 0.4)      # flat: usage is not in the scores
+        named = (raw + prior[types]).argmax(1)
+        self.assertGreater(float((named[:300] == 0).float().mean()), 0.9)  # the trained model still follows usage
+        _, plain = average_raw_logits(torch.zeros(2, 3))
+        self.assertGreater(float(plain.max() - plain.min()), 1.2)         # without adjustment: about log(7) = 1.9
+
+    def test_combining_routes(self):
+        scores = np.array([[2.0, 0.0, 0.0], [0.0, 1.5, 0.0], [0.0, 1.5, 0.0]])
+        np.testing.assert_allclose(combine(scores, "product"), [2.0, 3.0, 0.0])
+        mean = combine(scores, "mean")
+        self.assertAlmostEqual(float(mean.sum()), 1.0)
+        outlier = np.array([[50.0, 0.0], [0.0, 1.0], [0.0, 1.0], [0.0, 1.0]])
+        self.assertEqual(combine(outlier, "product").argmax(), 0)        # one extreme route decides
+        self.assertEqual(combine(outlier, "mean").argmax(), 1)           # the majority decides
+        rule = choose_rule(np.random.default_rng(0).normal(size=(60, 3)), np.repeat([0, 1, 2], 20),
+                           np.random.default_rng(1), n=5, reps=3)
+        self.assertIn(rule["rule"], ("product", "mean"))
+
+    def test_tuning_games_are_held_out_from_the_training_half(self):
+        rng = np.random.default_rng(0)
+        n = 400
+        pop = dict(half=np.where(rng.random(n) < 0.5, "odd", "even"), game=rng.integers(0, 40, size=n))
+        ctx = dict(pop=pop, cand_idx=rng.integers(-1, 5, size=n), type_code=rng.integers(-1, 3, size=n),
+                   keep=rng.random(n) < 0.8)
+        rows, fit, held, _ = tuning_split(ctx, "odd", seed=0, inner_frac=0.25)
+        self.assertTrue(np.all(pop["half"][rows] == "odd"))
+        self.assertTrue(np.all((ctx["cand_idx"][rows] >= 0) & (ctx["type_code"][rows] >= 0) & ctx["keep"][rows]))
+        self.assertEqual(len(np.intersect1d(pop["game"][fit], pop["game"][held])), 0)
+        np.testing.assert_array_equal(np.sort(np.r_[fit, held]), rows)
+
+    def test_route_classifier_ignores_padded_frames(self):
+        torch.manual_seed(0)
+        backbone = RouteAutoencoder(n_in=4, n_out=2, max_len=20, d_model=32, n_heads=4, enc_layers=2,
+                                    dec_layers=1, z_dim=8, dim_ff=64, dropout=0.0, readout="frames", decoder="linear")
+        model = RouteClassifier(backbone, n_types=3, n_classes=7).eval()
+        x = torch.randn(2, 20, 4)
+        valid = torch.arange(20)[None, :] < torch.tensor([20, 12])[:, None]
+        knocked = torch.zeros(2, 20, dtype=torch.bool)
+        types = torch.tensor([0, 2])
+        changed = x.clone()
+        changed[1, 12:] += 100.0
+        with torch.no_grad():
+            logits = model(x, valid, knocked, types)
+            self.assertEqual(tuple(logits.shape), (2, 7))
+            torch.testing.assert_close(logits, model(changed, valid, knocked, types))
+            self.assertEqual(tuple(backbone.hidden_states(x, valid, knocked).shape), (2, 21, 32))
 
 
 @unittest.skipUnless(HAVE_TORCH, "PyTorch is not importable in this environment")
