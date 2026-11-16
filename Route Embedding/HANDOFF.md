@@ -10,8 +10,11 @@ Updated 2026-11-16 at the end of the third session. Results, tables and figures 
   dimensions that can rebuild the route, and knocked-out windows. The old plan's steps 2.A, 2.B
   and Step 3 are outdated; plan from the final question directly.
 - **Branch:** `claude/supervised-ceiling`, cut from `main` at `c98f463` (PR #6, the pipeline, is
-  merged). The third session's work is committed on this branch. **It is not pushed and has no
-  PR.** Commit and push only when the user asks.
+  merged). The third session's work is in PR #7
+  (https://github.com/william-dk/football-analytics-project/pull/7), opened 2026-11-16.
+  - Check the PR's state first. Once it is merged, start new work on a fresh branch from an
+    up-to-date `main`.
+  - Commit and push only when the user asks.
 - **Language:** reply to the user in Chinese, keeping technical terms in English.
 
 ## State
@@ -19,7 +22,7 @@ Updated 2026-11-16 at the end of the third session. Results, tables and figures 
 - **Everything in the README has been run.** No training or analysis is in progress.
 - **Code** (all in `Route Embedding/`): `run_pipeline.py` runs every stage, now including
   `supervised`. 43 unit tests pass.
-- **Third session** (the "supervised ceiling", direction 2 of the brainstorm):
+- **Third session** (the "supervised ceiling", direction 2 of the brainstorm; PR #7):
   - new `supervised_ceiling.py`: classifiers trained on receiver labels, compared with the
     random-effects model on the same task;
   - `model.py`: `hidden_states()` split out of `encode()` (no change in behaviour);
@@ -110,7 +113,7 @@ python compare_runs.py                                 # table over all runs
 
 ## Open (the user has not chosen)
 
-1. Push `claude/supervised-ceiling` and open a PR.
+1. Review and merge PR #7.
 2. Other directions from the brainstorm, also in the README's "Next steps":
    - explain the 86% play-to-play variation with coverage, alignment and game situation, and
      look for receiver × coverage interactions;
