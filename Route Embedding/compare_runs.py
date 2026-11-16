@@ -84,6 +84,13 @@ def collect(run_dir: Path) -> dict:
         var = style.get("variance_route_weighted", {})
         for key in ("between_receiver_share", "game_share", "position_part", "team_part", "individual_part"):
             row[f"{tag}_{key}"] = var.get(key)
+    supervised = read_json(run_dir / "supervised" / "all" / "supervised.json")
+    if supervised:
+        for name in ("re_z", "mlp_z", "mlp_positions", "mlp_pca16", "mlp_speed", "tf_finetune", "tf_scratch"):
+            res = supervised["methods"].get(name)
+            for n in ("1", "10", "50", "all"):
+                if res and n in res["by_routes"]:
+                    row[f"sup_{name}_{n}"] = res["by_routes"][n]["top1"]["value"]
     return row
 
 
